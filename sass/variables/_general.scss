@@ -1,0 +1,38 @@
+// variables/_general.scss
+
+// -- Layout
+$container:			20;
+$padding:			20;
+$margin: 			20;
+$margin-top: 		20;
+$margin-left: 		20;
+$margin-right: 		20;
+$margin-bottom:		20;
+$padding-top:    	20;
+$padding-left:		20;
+$padding-right:		20;
+$padding-bottom: 	20;
+$border-radius: 	3;
+$px-only: 			false;
+
+// font weight
+$font-light: 	300;
+$font-normal: 	400;
+$font-semibold: 500;
+$font-bold: 	700;
+
+// font-sizes:
+$base-font-size:		16;
+
+// -- Folders
+$images :       "../images/";
+//$font-dir:		"/fonts/";
+
+// -- Media Queries
+$small_only: 		max-width 480px; /* use sparingly. when the styles don't apply to any other sizes */
+$medium: 			480px;
+$medium_mid: 		600px;
+$medium_large: 		769px;
+$large: 			1024px;
+$xlarge: 			1200px;
+$xxlarge: 			1700px;

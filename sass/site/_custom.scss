@@ -1,0 +1,278 @@
+// site/_custom.scss
+
+.fancybox {
+	cursor: pointer;
+
+	.fancybox-wrap .buttons, a.fancybox-expand { 
+		display: none !important; 
+	}
+}
+
+.slide_strip_container, .multimedia_teaser.module .grid--1of3 {
+	padding: 0 20px;
+
+	@include breakpoint($medium){
+		padding: 0;
+	}
+}
+
+.hover-item {
+	.hover-container {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.description {
+		background: rgba($color-jpl-white, 0.9); 
+		overflow: hidden;
+		position: absolute; 
+		width: 100%; 
+		height: 100%;
+		top: 0; 
+		padding: 20px;
+			opacity: 0;
+
+		@include transition-property(opacity);
+		@include transition-duration(0.1s);
+		@include transition-timing-function(linear);
+	}
+	
+	@include breakpoint($large){			
+		&:hover {
+			.description {
+					opacity: 1;
+			}
+		}
+	}
+}
+
+.grid {
+	.grid-cell {
+
+		.content_title {
+			padding: .6em 0 0;
+		}
+
+		a {
+			color: $color-jpl-black;
+			text-decoration: none;
+
+			&:hover {
+				color: $color-jpl-hover-blue;
+			}
+		}
+	}
+}
+
+#primary_column .wysiwyg_content {
+
+	.slide_strips {
+		-webkit-user-select: none; /* Chrome/Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+ */
+
+		/* Rules below not implemented in browsers yet */
+		-o-user-select: none;
+		user-select: none;
+		outline-style: none;
+
+		a:focus {
+			outline: 0;
+		}
+		
+		.section_selector, .slide_strip_wrapper {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.article_image_container {
+	// -- luis: fixes IE11 onload slideshow flashing bug	
+	overflow: hidden;
+}
+
+// lightbox
+.grid-lightbox { 
+	max-width: 600px; 
+	width: 100%; 
+	padding: 20px; 
+	background-color: $color-jpl-cool-gray-1;
+	margin: 0 auto; 
+}
+
+.gallery-grid-sizer {
+
+	width: 100%;
+
+	@include breakpoint($medium){
+		width: 50%;
+	}
+
+	@include breakpoint($medium_large){
+	  	width: 25%;
+	}
+
+}
+
+.gallery-grid-item {
+
+	float: left;
+	padding-right: 20px;
+	margin-bottom: 20px;
+
+	&.one-quarter-width {
+
+		width: 100%;
+
+		@include breakpoint($medium){
+			width: 50%;
+		}
+
+		@include breakpoint($medium_large){
+			width: 25%;
+		}
+
+	}
+
+	&.half-width {
+
+		width: 100%;
+
+		@include breakpoint($medium_large){
+			width: 50%;
+		}
+
+	}
+
+	&.three-quarter-width {
+		
+		width: 100%;
+
+		@include breakpoint($medium_large){
+			width: 75%;
+		}
+
+	}
+
+	&.full-width {
+		width: 100%;
+	}
+
+}
+
+// masonry
+.mason-grid-item {
+	float: left; 
+	position: relative; 
+	line-height: 1em; 
+	display: block; 
+	padding: 10px; 
+	text-align: center; 
+	vertical-align: top;
+}	
+
+.grid-sizer, .mason-grid-item { 
+	width: 100%;
+	
+	@include breakpoint($medium){
+		width: 50%;
+	}
+
+	@include breakpoint($medium_large){
+	  	width: 33.33%;
+	}
+}
+
+/* faq */
+.faq-container { 
+	margin: 40px auto; 
+	width: 100%; 
+	max-width: 905px; 
+	color: $color-jpl-dark-gray-1;
+
+  	@include breakpoint($medium){
+    	@include font-size(17);
+	}
+
+	.accordion { 
+		overflow:hidden;
+		border-bottom: 1px solid $color-jpl-cool-gray-3; 
+		display: none; 
+	}
+
+	.accordion-section {
+		border-top: 1px solid $color-jpl-cool-gray-3; 
+
+		&:first-child {
+			border-top: initial;
+		}
+	}
+
+	.faq-list-item {
+		border: 1px solid $color-jpl-cool-gray-3; 
+		border-bottom: initial; 
+	
+		> p { 
+			margin: 0; 
+			padding: 10px; 
+			cursor: pointer; 
+			border-bottom: 1px solid $color-jpl-cool-gray-3; 
+	
+			span { 
+				display: inline; 
+				vertical-align: middle; 
+				font-weight: bold;
+				
+				//up arrow
+				&::after {
+					z-index: 102;
+					content: ""; 
+					margin-left: 10px;
+					vertical-align: middle; 
+					display: inline-block;
+					position: relative;
+			 		border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-top: 5px solid $color-jpl-dark-gray-2;
+					border-bottom: 5px solid transparent;	
+				}
+
+			}
+		}
+	
+		> p:hover, .faq-selected { 
+			@include transition(.2s);
+			background-color: $color-jpl-cool-gray-1; 
+
+		}
+		// down arrow
+		.faq-selected {
+			span { 
+				&::after {
+					margin-top: -10px;
+					border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-top: 5px solid transparent;
+					border-bottom: 5px solid $color-jpl-dark-gray-2;
+				}		
+			}
+		}
+	}
+}
+
+// footer
+#site_footer .sitemap_block {
+	h3 {
+		a {
+			color: $color-jpl-white;
+
+			&:hover {
+				color: $color-jpl-light-gray2;
+			}
+		}
+	}
+
+	@include breakpoint($medium_mid){
+		width: 33%;
+	}
+}

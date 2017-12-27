@@ -1,0 +1,151 @@
+// base/_typography.scss
+a {
+  	@include transition-duration(.2s);
+
+  	&.nav_item {
+  		@include transition-duration(0s);
+
+  		&:hover {
+  			border-bottom: none !important;
+  		}
+  	}
+}
+
+h1, h2 {
+  	@include font-size(16); 
+
+  	@include breakpoint($medium_large) {
+    	@include font-size(30);
+  	}
+
+    small {
+      font-size: 65%;
+    }
+}
+
+
+h3 {
+    @include font-size(16);
+
+    small {
+      font-size: 85%;
+      color: $color-jpl-cool-gray-9;
+    }
+   
+}
+
+h1, h2, h3 {
+    @include breakpoint($medium) {
+      @include font-size(24);
+
+      small {
+        font-size: 65%;
+      }
+    }
+}
+
+
+h4 {
+  	@include font-size(16);
+  
+  	@include breakpoint($medium) {
+    	@include font-size(18);
+  	}
+
+    small {
+      font-size: 75%;
+    }
+}
+
+h5 {
+  	@include font-size(16);
+
+    small {
+      font-size: 75%;
+    }
+}
+
+h6 {
+    @include font-size(16); 
+
+    small {
+      font-size: 75%;
+    }
+}
+
+h4, h5, h6 {
+    @include breakpoint($medium) {
+      small {
+        font-size: 85%;
+      }
+    }
+    
+}
+
+small {
+  	/*@include font-size(14);*/ 
+    font-size: 85%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* misc */
+.slide {
+	.slider-heading {
+		@include font-size(18);
+		letter-spacing: 1px;
+		display: inline-block;
+	}
+
+	.title {
+		display: inline;
+	}
+
+  a {
+      color: $color-jpl-black;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-jpl-hover-blue;
+      }
+  }
+}
+
+.table_header {
+	font-weight: bold;
+}
+
+.image_container {
+
+  font-family: Helvetica, Arial, sans-serif;
+
+  .caption {
+    color: #5a6470;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    margin-top: 0.8em;
+  }
+
+}
+
+.article_image_container .caption {
+  height: auto;
+}
+
+.quote {
+	@include font-size(18);
+	font-weight: bold;
+	font-style: italic;
+	color: $color-nasa-dark-blue;
+
+	small {
+		@include font-size(16);
+		margin-right: 50px;
+	}
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}

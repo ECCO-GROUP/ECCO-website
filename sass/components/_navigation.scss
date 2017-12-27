@@ -1,0 +1,123 @@
+// base/_navigation.scss
+
+.site_header_area, .no-touch .site_header_area.fixed, .touch .site_header_area.fixed {
+	.nav_area {
+		display: inline-block;
+		top: initial;
+		
+		@include breakpoint($medium_mid) {
+			top: 2em;
+		}
+
+		@include breakpoint($large) {
+			top: 2.5em;
+		}
+
+		@include breakpoint($xlarge) {
+			display: none;
+		}
+	}
+
+	.side_nav {
+		position: absolute;
+		right: 20px;
+		bottom: 0;
+
+		ul {
+			list-style: none; 
+			position: relative;
+			
+			li {
+				@include font-size(14);
+				position: relative; 
+				float: left; 
+				vertical-align: middle; 
+				border-top-left-radius: 2px; 
+				border-top-right-radius: 2px; 
+				width: auto;
+
+				&:hover { 
+					background-color: #17283c;
+				}
+
+				a {
+					padding: .5em;
+					color: $color-jpl-white;
+					display: block;
+					//white-space: nowrap; // full width nav item
+
+					@include breakpoint($xlarge) {
+						padding: .5em 1.2em;
+					}
+
+					&:hover {
+						background-color: $color-jpl-slate-blue; 
+						border-radius: 2px;	
+					}
+				}
+			}
+
+			> li {
+				display: none; 
+
+				@include breakpoint($xlarge) {
+					display: inline-block;
+				}
+				
+				&:hover > ul.subnav { 
+					display: block; 
+				}
+
+				ul.subnav {
+					display: none; 
+					width: inherit; 
+					//min-width: 140px; 
+					background-color: #17283c;
+					border-radius: 0px; 
+					padding: 0; 
+					position: absolute; 
+					top: 99%; 
+					left: 0; 
+					text-align: left; 
+					border-bottom-left-radius: 2px; 
+					border-bottom-right-radius: 2px;
+					
+					&.width-2 {
+						width: 125px;
+					}
+
+					li { 
+						width: 100%; 
+						float: none; 
+						position: relative; 
+						padding: 0em; 
+
+						&:last-child:hover { 
+							border-bottom-left-radius: 2px; 
+							border-bottom-right-radius: 2px; 
+						}
+					}
+				}
+
+				&:last-child {
+					ul.subnav {
+						left: auto;
+						right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.fixed_show {
+		background-color: #17283c;
+	}
+}
+
+// hide homepage carousel next/prev and bullet nav elements
+/*.primary_media_feature #masterslider {
+	.ms-bullets, .ms-nav-next, .ms-nav-prev {
+		display: none !important;
+	}
+}*/
+
