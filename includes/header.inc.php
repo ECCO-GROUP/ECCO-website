@@ -2,9 +2,8 @@
   date_default_timezone_set('America/Los_Angeles');
 
   if(!isset($ogImage)) {
-    $ogImage = "https://explorer1.jpl.nasa.gov/assets/images/galleries/explorer_history.jpg";
+    $ogImage = "https://ecco.jpl.nasa.gov/assets/images/logo/ecco_small.jpg";
   }
-
 ?>
 <!DOCTYPE html>
 <!--[if IE 9]> <html class="no-js ie ie9" lang="en"> <![endif]-->
@@ -57,7 +56,7 @@
               </div>
               <div class='separator'></div>
               <div class='other_brand'>
-                <div><a href="/" title="Return to Explorer 1 home page">Explorer 1</a></div>
+                <div><a href="/" title="Return to Explorer 1 home page">Estimating the Circulation<br />and Climate of the Ocean</a></div>
               </div>
               <div class='side_nav'>
                 <ul>

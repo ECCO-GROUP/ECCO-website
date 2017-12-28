@@ -80,7 +80,8 @@
 			}
 
 			div:first-child {
-				@include font-size(40);
+				//@include font-size(40);
+				@include font-size(19.6);
 			}
 
 			a {

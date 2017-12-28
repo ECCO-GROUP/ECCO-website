@@ -2,7 +2,7 @@
 
 	/* define page vars */
 	$include_path = '../';
-	$page_title = "Explorer 1 | News | Lorem Ipsum";
+	$page_title = "ECCO | News | Lorem Ipsum";
 	$page_id = 'news_detail';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = "";

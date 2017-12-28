@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = './';
-	$page_title = "Explorer 1 | Home Page";
+	$page_title = "ECCO | Home Page";
 	$page_id = 'home';
 	$theme = 'dark_background'; //dark_background || light_background 
 	$include_other = <<<EOF

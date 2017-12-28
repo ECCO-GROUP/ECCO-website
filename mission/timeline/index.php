@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = '../../';
-	$page_title = "Explorer 1 | Mission Timeline";
+	$page_title = "ECCO | Mission Timeline";
 	$page_id = 'timeline';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF

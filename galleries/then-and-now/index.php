@@ -2,7 +2,7 @@
 
 	/* define page vars */
 	$include_path = '../../';
-	$page_title = "Explorer 1 | Then &amp; Now";
+	$page_title = "ECCO | Then &amp; Now";
 	$page_id = 'images';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
