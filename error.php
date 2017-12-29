@@ -2,7 +2,7 @@
 
 	/* define page vars */
 	$include_path = '';
-	$page_title = "Explorer 1 - Page Not Found";
+	$page_title = "ECCO - Page Not Found";
 	$page_id = 'error';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = "";

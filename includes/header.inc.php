@@ -56,26 +56,24 @@
               </div>
               <div class='separator'></div>
               <div class='other_brand'>
-                <div><a href="/" title="Return to Explorer 1 home page">Estimating the Circulation<br />and Climate of the Ocean</a></div>
+                <div><a href="/" title="Return to ECCO home page">Estimating the Circulation<br />and Climate of the Ocean</a></div>
               </div>
               <div class='side_nav'>
                 <ul>
-                    <li><a href="/" title="Visit the Explorer 1 Home Page">Home</a></li>
-                    <li><a href="/news/" title="Read news articles about the Explorer 1 Mission by visiting this page.">News</a></li>
-                    <li><a href="javascript:void(0)" title="Learn more about the Explorer 1 Mission by visiting this page.">Mission</a>
+                    <li><a href="/products/" title="Learn more about the ECCO Mission by visiting this page.">Products</a></li>
+                    <li><a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a></li>
+                    <li><a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a></li>
+                    <li><a href="/research/" title="Learn more about ECCO Research by visiting this page.">Research</a>
                       <ul class="subnav">
-                        <li><a href="/mission/" title="Learn more about the Explorer 1 Mission by visiting this page.">Overview</a></li>
-                        <li><a href="/mission/timeline/" title="Learn more about the Explorer 1's mission timeline by visiting this page.">Timeline</a></li>
+                        <li><a href="/research/topics/" title="Learn more about ECCO Research Topics by visiting this page.">Topics</a></li>
+                        <li><a href="/research/teams/" title="ECCO Research Teams">Teams</a></li>
+                        <li><a href="/research/scientists/" title="ECCO Research Scientists">Scientist</a></li>
+                        <li><a href="/research/publications/" title="ECCO Research Publications">Publications</a></li>
+                        <li><a href="/research/presentations/" title="ECCO Research Presentations">Presentations</a></li>
                       </ul>
                     </li>
-                    <li><a href="/galleries/" title="View a list of image and video galleries about Explorer 1.">Galleries</a>
-                      <ul class="subnav width-2">
-                        <li><a href="/galleries/images/" title="View Explorer 1 Images">Images</a></li>
-                        <li><a href="/galleries/videos/" title="View Explorer 1 Videos">Videos</a></li>
-                        <li><a href="/galleries/then-and-now/" title="View Explorer 1 Then and Now Images">Then &amp; Now</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/downloads/" title="Explorer 1 Poster Downloads">Downloads</a></li>
+                    <li><a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">News</a></li>
+                    <li><a href="/events/" title="Learn more about ECCO Events by visiting this page.">Events</a></li>
                 </ul>
               </div>
               <a class='visuallyhidden focusable' href='#main'>Skip Navigation</a>

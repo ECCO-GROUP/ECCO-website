@@ -165,7 +165,7 @@ EOF;
 				<footer>
 				  <a class="outline_button dark" href="mission/" id="slidestrip_more">
 					<span class="button_text">
-					  Learn more about Explorer 1
+					  Learn more about ECCO
 					</span>
 				  </a>
 				</footer>
@@ -361,7 +361,7 @@ EOF;
 					</div>						
 					<div class="grid-cell grid--1of3">
 						<h3>Posters</h3>
-						<p>Download the Explorer 1 Anniversary posters.</p>
+						<p>Download the ECCO Anniversary posters.</p>
 						<p><a href="/downloads/">&rsaquo; Download</a></p>
 					</div>
 				</div>

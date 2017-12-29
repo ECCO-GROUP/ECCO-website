@@ -17,7 +17,7 @@
                 </div>
                 <div class='separator'></div>
                 <div class='other_brand'>
-                  <div><a href="/" title="Return to Explorer 1 home page">Explorer 1</a></div>
+                  <div><a href="/" title="Return to ECCO home page">ECCO</a></div>
                 </div>        
                 <a class='modal_close' id='modal_close' title='close menu'>close menu</a>
                 <div class='nav_area'>
@@ -32,7 +32,7 @@
                   <div class='directory'>
 
                   <div class='nav_item'>
-                      <a href="/" title="Visit the Explorer 1 Home Page">
+                      <a href="/" title="Visit the ECCO Home Page">
                         <h3 class='nav_title' >
                           home
                         </h3>
@@ -41,7 +41,7 @@
 
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
-                      <a href="/news/" title="Read news articles about the Explorer 1 Mission by visiting this page.">
+                      <a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">
                         <h3 class='nav_title'>
                           news
                         </h3>
@@ -54,11 +54,11 @@
                         <span class='arrow_down'></span>
                       </div>
                       <h3 class='nav_title'>
-                        <a href="/mission/" title="Learn more about the Explorer 1 Mission by visiting this page.">mission</a>
+                        <a href="/mission/" title="Learn more about the ECCO Mission by visiting this page.">mission</a>
                       </h3>
                       <ul class='subnav'>
-                        <li><a href="/mission/" title="Learn more about the Explorer 1 Mission by visiting this page.">overview</a></li>
-                        <li><a href="/mission/timeline/" title="Learn more about the Explorer 1's mission timeline by visiting this page.">timeline</a></li>
+                        <li><a href="/mission/" title="Learn more about the ECCO Mission by visiting this page.">overview</a></li>
+                        <li><a href="/mission/timeline/" title="Learn more about the ECCO's mission timeline by visiting this page.">timeline</a></li>
                       </ul>
                     </div>
 
@@ -68,18 +68,18 @@
                         <span class='arrow_down'></span>
                       </div>
                       <h3 class='nav_title'>
-                        <a href="/galleries/" title="View a list of image and video galleries about Explorer 1.">galleries</a>
+                        <a href="/galleries/" title="View a list of image and video galleries about ECCO.">galleries</a>
                       </h3>
                       <ul class="subnav">
-                        <li><a href="/galleries/images/" title="View Explorer 1 Images">images</a></li>
-                        <li><a href="/galleries/videos/" title="View Explorer 1 Videos">videos</a></li>
-                        <li><a href="/galleries/then-and-now/" title="View Explorer 1 Then and Now Images">then &amp; now</a></li>
+                        <li><a href="/galleries/images/" title="View ECCO Images">images</a></li>
+                        <li><a href="/galleries/videos/" title="View ECCO Videos">videos</a></li>
+                        <li><a href="/galleries/then-and-now/" title="View ECCO Then and Now Images">then &amp; now</a></li>
                       </ul>
                     </div>
 
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
-                      <a href="/downloads/" title="Explorer 1 Poster Downloads">
+                      <a href="/downloads/" title="ECCO Poster Downloads">
                         <h3 class='nav_title'>
                           downloads
                         </h3>

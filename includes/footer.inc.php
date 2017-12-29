@@ -38,12 +38,12 @@
                 <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      <a href="/" title="Visit the Explorer 1 Home Page">home</a>
+                      <a href="/" title="Visit the ECCO Home Page">home</a>
                     </h3>
                   </div>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      <a href="/news/" title="Read news articles about the Explorer 1 Mission by visiting this page.">news</a>
+                      <a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">news</a>
                     </h3>
                   </div>
                   <div class='footer_sitemap_item'>
@@ -59,10 +59,10 @@
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/mission/" title="Learn more about the Explorer 1 Mission by visiting this page.">Overview</a>
+                        <a href="/mission/" title="Learn more about the ECCO Mission by visiting this page.">Overview</a>
                       </li>
                       <li>
-                        <a href="/mission/timeline/" title="Learn more about the Explorer 1's mission timeline by visiting this page.">Timeline</a>
+                        <a href="/mission/timeline/" title="Learn more about the ECCO's mission timeline by visiting this page.">Timeline</a>
                       </li>
                     </ul>
                   </div>
@@ -70,17 +70,17 @@
                 <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      <a href="/galleries/" title="View a list of image and video galleries about Explorer 1.">galleries</a>
+                      <a href="/galleries/" title="View a list of image and video galleries about ECCO.">galleries</a>
                     </h3>
                     <ul class='subnav'>
                       <li>
-                        <a href="/galleries/images/" title="View Explorer 1 Images">Images</a>
+                        <a href="/galleries/images/" title="View ECCO Images">Images</a>
                       </li>
                       <li>
-                        <a href="/galleries/videos/" title="View Explorer 1 Videos">Videos</a>
+                        <a href="/galleries/videos/" title="View ECCO Videos">Videos</a>
                       </li>
                       <li>
-                        <a href="/galleries/then-and-now/" title="View Explorer 1 Then and Now Images">Then &amp; Now</a>
+                        <a href="/galleries/then-and-now/" title="View ECCO Then and Now Images">Then &amp; Now</a>
                       </li>
                     </ul>
                   </div>
