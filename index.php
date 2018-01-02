@@ -202,7 +202,7 @@ EOF;
 											<div class='image_and_description_container'>
 												<div class='img'><img alt="Lorem Ipsum" title="Lorem Ipsum" src="https://via.placeholder.com/640x350"></div>
 												<div class='list_text_content'>
-													<div class='content_title'>
+													<div class='content_title no-pad'>
 														ECCO version 4 release 3, covering 1992-2015, now available online
 													</div>
 													<div class='article_teaser_body'>
@@ -217,7 +217,7 @@ EOF;
 											<div class='image_and_description_container'>
 												<div class='img'><img alt="Lorem Ipsum" title="Lorem Ipsum" src="https://via.placeholder.com/640x350"></div>
 												<div class='list_text_content'>
-													<div class='content_title'>
+													<div class='content_title no-pad'>
 														A new 20-yr ECCO climatology is now available online
 													</div>
 													<div class='article_teaser_body'>
