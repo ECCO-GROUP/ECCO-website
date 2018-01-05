@@ -261,18 +261,33 @@
 }
 
 // footer
-#site_footer .sitemap_block {
-	h3 {
-		a {
-			color: $color-jpl-white;
+#site_footer {
+	.upper_footer .share {
+		width: 100%;
+    	float: none;
+    	margin-left: auto;
+    	margin-right: auto;
 
-			&:hover {
-				color: $color-jpl-light-gray2;
-			}
-		}
+    	.social_icons {
+    		img {
+    			width: 32px;
+    		}
+    	}
 	}
 
-	@include breakpoint($medium_mid){
-		width: 33%;
+	.sitemap_block {
+		h3 {
+			a {
+				color: $color-jpl-white;
+
+				&:hover {
+					color: $color-jpl-light-gray2;
+				}
+			}
+		}
+
+		@include breakpoint($medium_mid){
+			width: 33%;
+		}
 	}
 }

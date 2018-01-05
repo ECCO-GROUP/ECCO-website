@@ -1,97 +1,12 @@
 // components/_form.scss
 
-#formLoad { 
-	display: none; 
-
-	img { 
-		width: 32px; 
-		height: 32px; 
-		margin-right: 10px; 
-		display: inline-block; 
-	}
-}
-
-#submitForm { 
-	padding: 5px 20px; 
-}
-
-#campaign_form {
-	@include font-size(16);
-	padding: 20px 40px; 
-	text-align: center; 
-
-	div { 
-		text-align: left; 
-		display: block; 
-		margin-bottom: 10px; 
-
-		&:last-child{ 
-			margin-bottom:0; 
-		}
-	}
-
-	textarea { 
-		height: 50px; 
-	}
-	
-	input[type=text], textarea { 
-		outline: none; 
-		padding: 5px 3px;
-		margin: 5px 0;
-		border: 1px solid $color-jpl-cool-gray-3;
-		width: 100%; 
-		@include font-size(16); 
-	}
-	
-	#user_form img.inline-img { width: 50px; display: none; }
-}
-
-.file_upload_container { 
-	float: left; 
-	width: 90px !important; 
-	height: 30px; 
-	overflow: hidden; 
-	position: relative; 
-	display: block; 
-	cursor: pointer; 
-	margin-right: 12pt; 
-}
-
-.browse_area .control_btn { 
-	position: absolute; 
-	z-index: 1; 
-	top: 0px; 
-	left: 0px; 
-}
-
-input.fileUpload { 
-	position: relative; 
-	float: left; 
+input[type=text], textarea, select { 
+	outline: none; 
+	padding: 5px 3px;
+	margin: 5px 0;
+	border: 1px solid $color-jpl-cool-gray-3;
 	width: 100%; 
-	height: 100%; 
-	padding-top: 25px; 
-	overflow: hidden; 
-	text-align: left; 
-	background: transparent; 
-	opacity: 0; 
-	z-index: 999; 
-	cursor: pointer; 
-	font-size: 100px;
-}
-
-div.control_btn { 
-	cursor: pointer; 
-	@include background(image-url("add-photo.png"));
-	@include background-size(90px 17px);
-	background-repeat: no-repeat; 
-}
-
-.file_upload_remove { 
-	margin-left: 10px; 
-	display: none; 
-	width: 20px; 
-	height: 20px; 
-	cursor: pointer; 
+	@include font-size(16); 
 }
 
 .input_focus {
@@ -101,11 +16,7 @@ div.control_btn {
 	border: 1px solid $color-jpl-aqua; 
 }
 
-.errorMsg, .statusMsg { 
-	height: 40px; 
-	font-weight: bold;
-}
-
-.attachment_container { 
-	min-height: 50px;
+input.datepicker {
+	width: 49%;
+	cursor: pointer;
 }

@@ -7,9 +7,11 @@
 	$include_other = <<<EOF
 	<script src="/assets/javascripts/homepage_slider.js" type="text/javascript"></script>
 	<script src="/assets/javascripts/vendor/fancybox/3.0/jquery.fancybox.min.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/vendor/jquery-ui/1.12.1.custom/jquery-ui.min.js" type="text/javascript"></script>
 	<link href="/assets/stylesheets/vendor/fancybox/3.0/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 	<link href="/assets/stylesheets/vendor/masterslider/style/masterslider.css" rel="stylesheet" type="text/css" />
     <link href="/assets/stylesheets/vendor/masterslider/style/light-3/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/stylesheets/vendor/jquery-ui/1.12.1.custom/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 EOF;
 	include_once($include_path . 'includes/header.inc.php');
 ?>
@@ -121,9 +123,107 @@ EOF;
 			</div>
 		</div><!-- //.module -->
 
+	    <script>
+			// product search form functions
+			$(function() {
+
+				// datepicker init
+				var dateFormat = "mm/dd/yy",
+					from = $("#from")
+						.datepicker({
+							defaultDate: "+1w",
+							changeMonth: true,
+							numberOfMonths: 3
+						}).on("change", function() {
+							to.datepicker("option", "minDate", getDate(this));
+						}),
+					to = $("#to")
+						.datepicker({
+							defaultDate: "+1w",
+							changeMonth: true,
+							numberOfMonths: 3
+						}).on("change", function() {
+							from.datepicker( "option", "maxDate", getDate(this));
+						});
+
+				function getDate( element ) {
+					var date;
+					
+					try {
+						date = $.datepicker.parseDate( dateFormat, element.value );
+					} catch( error ) {
+						date = null;
+					}
+
+					return date;
+				}
+
+				// validate product search form
+				$("#product_search").click(function() {
+					var isValid = true;
+					$(".input_focus").removeClass("input_focus");
+
+					if($("#from").val() == "") {
+						$("#from").addClass("input_focus");
+						isValid = false;	
+					};
+					if($("#to").val() == "") {
+						$("#to").addClass("input_focus");
+						isValid = false;	
+					};
+					if($("#resolution").val() == "") {
+						$("#resolution").addClass("input_focus");
+						isValid = false;
+					};
+					if($("#domain").val() == "") {
+						$("#domain").addClass("input_focus");
+						isValid = false;
+					};
+
+					// add form submit function here
+					if(isValid){
+						console.log("form is valid " + $("form[name='product_search']").serialize());
+					}
+				});
+			});
+	    </script>
 		<div class="multimedia_teaser module">
 			<div class="grid_layout">
 				<h2 class="content_title text-center">Product Search</h2>
+				<br />
+				<form name="product_search">
+					<div class="grid">
+						<div class="grid-cell grid--1of3">
+							Period<br />
+							<input onblur="this.placeholder = 'From'" onfocus="this.placeholder = ''" placeholder="From" name="from" type="text" id="from" class="datepicker">
+							<input onblur="this.placeholder = 'To'" onfocus="this.placeholder = ''" placeholder="To" name="to" type="text" id="to" class="datepicker">
+						</div>
+						<div class="grid-cell grid--1of3">
+							Resolution<br />
+							<select name="resolution" id="resolution">
+								<option value="">Select an option</option>
+								<option value="Lorem">Lorem</option>
+							</select>
+						</div>
+						<div class="grid-cell grid--1of3">
+							Domain<br />
+							<select name="domain" id="domain">
+								<option value="">Select an option</option>
+								<option value="Lorem">Lorem</option>
+							</select>
+						</div>
+					</div>
+				</form>
+				<br />
+				<footer>
+					<span class="button_text outline_button dark" id="product_search">
+					  Submit
+					</span>
+				</footer>
+				<hr />
+				<div class="text-center pad-20">
+					<a href="">View list of all products</a> &nbsp; | &nbsp; <a href="">View featured product</a>
+				</div>
 			</div>
 		</div><!-- //.module -->
 	  
@@ -131,9 +231,9 @@ EOF;
 			<div class="grid_layout">
 				<h2 class="content_title text-center">Explore</h2>
 				<br />
-				<section class="grid text-center">
+				<div class="grid text-center">
 					<div class="grid-cell grid--1of4">
-				 		<a href="">
+				 		<a href="/products/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
 				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u17.jpg">
@@ -146,7 +246,7 @@ EOF;
 				 		</a>
 				 	</div>
 				 	<div class="grid-cell grid--1of4">
-				 		<a href="">
+				 		<a href="/data/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
 				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u10.jpg">
@@ -159,7 +259,7 @@ EOF;
 				 		</a>
 				 	</div>
 				 	<div class="grid-cell grid--1of4">
-				 		<a href="">
+				 		<a href="/knowledge/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
 				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u14.jpg">
@@ -172,7 +272,7 @@ EOF;
 				 		</a>
 				 	</div>
 				 	<div class="grid-cell grid--1of4">
-				 		<a href="">
+				 		<a href="/research/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
 				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u12.jpg">
@@ -184,13 +284,13 @@ EOF;
 				 			</div>
 				 		</a>
 				 	</div>
-				</section>
+				</div>
 			</div>
 		</div><!-- //.module -->
 
 		<div class="module">
 			<div class="grid_layout">
-				<h2 class="content_title text-center">Latest Updates</h2>
+				<h2 class="content_title">Latest Updates</h2>
 				<br />
 				<div class="grid">
 					<div class="grid-cell grid--3of4">
@@ -231,11 +331,13 @@ EOF;
 							</div>
 						</section>
 					</div>
-					<div class="grid-cell grid--1of4 border pad-20">
-						ECCO Demo
-						<p><strong>Dec 29</strong> | <a href="" target="_blank">Add to calendar</a></p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  		tempor incididunt ut labore et dolore magna aliqua.
+					<div class="grid-cell grid--1of4">
+						<div class="border pad-20">
+							ECCO Demo
+							<p><strong>Dec 29</strong> | <a href="" target="_blank">Add to calendar</a></p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  		tempor incididunt ut labore et dolore magna aliqua.
+					  	</div>
 					</div>
 			</div>
 		</div><!-- //.module -->
