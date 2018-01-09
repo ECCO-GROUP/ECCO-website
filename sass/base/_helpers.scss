@@ -85,6 +85,15 @@
 	}	
 }
 
+.img--th {
+	display: inline-block;
+	width: 100%;
+
+	@include breakpoint($medium_large){
+		max-width: 80px;
+	}	
+}
+
 .border {
 	border: 1px solid $color-jpl-cool-gray-6;
 

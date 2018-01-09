@@ -2,6 +2,10 @@
 a {
   	@include transition-duration(.2s);
 
+  	&.no-touch {
+		@include transition-duration(0s);  		
+  	}
+
   	&.nav_item {
   		@include transition-duration(0s);
 
