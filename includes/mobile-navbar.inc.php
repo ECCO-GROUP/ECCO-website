@@ -32,11 +32,45 @@
                   <div class='directory'>
 
                   <div class='nav_item'>
-                      <a href="/" title="Visit the ECCO Home Page">
+                      <a href="/products/" title="Learn more about the ECCO Mission by visiting this page.">
                         <h3 class='nav_title' >
-                          home
+                          products
                         </h3>
                       </a>
+                    </div>
+
+                    <div class='gradient_line'></div>
+                    <div class='nav_item'>
+                      <a href="/data/" title="Learn more about ECCO Data by visiting this page.">
+                        <h3 class='nav_title'>
+                          data
+                        </h3>
+                      </a>
+                    </div>
+
+                    <div class='gradient_line'></div>
+                    <div class='nav_item'>
+                      <a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">
+                        <h3 class='nav_title'>
+                          knowledge
+                        </h3>
+                      </a>
+                    </div>                    
+                    
+                    <div class='gradient_line'></div>
+                    <div class='nav_item'>
+                      <div class='arrow_box'>
+                        <span class='arrow_down'></span>
+                      </div>
+                      <h3 class='nav_title'>
+                        <a href="/research/" title="Learn more about ECCO Research by visiting this page.">Research</a>
+                      </h3>
+                      <ul class='subnav'>
+                        <li><a href="/research/teams/" title="ECCO Research Teams">Teams</a></li>
+                        <li><a href="/research/scientists/" title="ECCO Research Scientists">Scientists</a></li>
+                        <li><a href="/research/publications/" title="ECCO Research Publications">Publications</a></li>
+                        <li><a href="/research/presentations/" title="ECCO Research Presentations">Presentations</a></li>
+                      </ul>
                     </div>
 
                     <div class='gradient_line'></div>
@@ -47,41 +81,12 @@
                         </h3>
                       </a>
                     </div>
-                    
-                    <div class='gradient_line'></div>
-                    <div class='nav_item'>
-                      <div class='arrow_box'>
-                        <span class='arrow_down'></span>
-                      </div>
-                      <h3 class='nav_title'>
-                        <a href="/mission/" title="Learn more about the ECCO Mission by visiting this page.">mission</a>
-                      </h3>
-                      <ul class='subnav'>
-                        <li><a href="/mission/" title="Learn more about the ECCO Mission by visiting this page.">overview</a></li>
-                        <li><a href="/mission/timeline/" title="Learn more about the ECCO's mission timeline by visiting this page.">timeline</a></li>
-                      </ul>
-                    </div>
 
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
-                      <div class='arrow_box'>
-                        <span class='arrow_down'></span>
-                      </div>
-                      <h3 class='nav_title'>
-                        <a href="/galleries/" title="View a list of image and video galleries about ECCO.">galleries</a>
-                      </h3>
-                      <ul class="subnav">
-                        <li><a href="/galleries/images/" title="View ECCO Images">images</a></li>
-                        <li><a href="/galleries/videos/" title="View ECCO Videos">videos</a></li>
-                        <li><a href="/galleries/then-and-now/" title="View ECCO Then and Now Images">then &amp; now</a></li>
-                      </ul>
-                    </div>
-
-                    <div class='gradient_line'></div>
-                    <div class='nav_item'>
-                      <a href="/downloads/" title="ECCO Poster Downloads">
+                      <a href="/events/" title="Learn more about ECCO Events by visiting this page.">
                         <h3 class='nav_title'>
-                          downloads
+                          events
                         </h3>
                       </a>
                     </div>
