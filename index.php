@@ -42,33 +42,32 @@ EOF;
 			  <div class='gradient_container_bottom'></div>
 			</article>
 			<!-- End Slide 1 -->
-			
+
 			<!-- Slide 2 (regular template) -->
-			<article class='dark_background ms-slide slide-1' data-delay='15' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-2' data-delay='15' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide2 background' data-src='/assets/images/home/u4.jpg' src='/assets/images/home/u4.jpg'>
+			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='#'>
-				  <h1 class='media_feature_title'>Lorem Ipsum</h1>
+				  <h1 class='media_feature_title'>Version 4 release 3, covering 1992-2015, now available online</h1>
 				</a>
 				<div class='description'>
-				  <a href='#'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
-				  <a class='detail_link' href='#'>Read more</a>
+					<a href='/products/latest/'>The new release 3 is ECCO's latest state estimate of global ocean
+					circulation combining all modern observations with an ocean
+					circulation model. The release extends the Version 4 product using
+					additional observations and incorporates improvements in modeling and
+					estimation.</a>
+				  <a class='detail_link' href='/products/latest/'>Read more</a>
 				</div>
 			  </div>
 			  <div class='gradient_container_bottom'></div>
 			</article>
 			<!-- End Slide 2 -->
-
+			
 			<!-- Slide 3 (regular template) -->
-			<article class='dark_background ms-slide slide-1' data-delay='15' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-3' data-delay='15' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide3 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
+			  <img alt='slide3 background' data-src='/assets/images/home/u4.jpg' src='/assets/images/home/u4.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='#'>
 				  <h1 class='media_feature_title'>Lorem Ipsum</h1>
@@ -86,6 +85,28 @@ EOF;
 			  <div class='gradient_container_bottom'></div>
 			</article>
 			<!-- End Slide 3 -->
+
+			<!-- Slide 4 (regular template) -->
+			<article class='dark_background ms-slide slide-4' data-delay='15' data-fill-mode='fill'>
+			  <div class='gradient_container_top'></div>
+			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
+			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+				<a class='text_content_link' href='#'>
+				  <h1 class='media_feature_title'>Lorem Ipsum</h1>
+				</a>
+				<div class='description'>
+				  <a href='#'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+				  <a class='detail_link' href='#'>Read more</a>
+				</div>
+			  </div>
+			  <div class='gradient_container_bottom'></div>
+			</article>
+			<!-- End Slide 4 -->
 		  </div>
 		</section>
 	  </section>

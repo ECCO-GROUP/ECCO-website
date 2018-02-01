@@ -5,7 +5,6 @@
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
-	<script src="{$include_path}assets/javascripts/vendor/parallax/1.4.2/parallax.min.js" type="text/javascript"></script>
 EOF;
 
 	include_once($include_path . 'includes/header.inc.php');
@@ -13,10 +12,7 @@ EOF;
 	<!-- START CONTENT -->
 	<div class='header_mask'></div>
 
-	<!-- main parallax image -->
-	<section class="arrow-white transparent-arrow parallax-window" id="jpl_main_banner" data-iosFix="true" data-bleed="0" data-parallax="scroll" data-image-src="https://via.placeholder.com/1200x800" data-naturalWidth="1200" data-naturalHeight="800"></section>
-
-	<section class='content_page module white-bg'>
+	<section class='content_page module'>
 		<div class='grid_layout'>
 			<header id='page_header'>
 				<h1 class='article_title'>Research</h1>
@@ -34,76 +30,36 @@ EOF;
 
 			 	<div class="grid-cell flexit">
 			 		<a href="topics/">
-			 			<div class="hover-item">
-			 				<div class="hover-container">
-			 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-				 				<div class="description">
-				 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 					tempor incididunt ut labore et dolore magna aliqua.
-				 				</div>
-				 			</div>
-			 				<div class="content_title text-center">Research Topics</div>
-			 			</div>
+		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Research Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="teams/">
-			 			<div class="hover-item">
-			 				<div class="hover-container">
-			 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-				 				<div class="description">
-				 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 					tempor incididunt ut labore et dolore magna aliqua.
-				 				</div>
-				 			</div>
-			 				<div class="content_title text-center">Research Teams</div>
-			 			</div>
+	 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Research Teams</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="scientists/">
-			 			<div class="hover-item">
-			 				<div class="hover-container">
-			 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-				 				<div class="description">
-				 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 					tempor incididunt ut labore et dolore magna aliqua.
-				 				</div>
-				 			</div>
-			 				<div class="content_title text-center">Scientists</div>
-			 			</div>
+		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Scientists</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="publications/">
-			 			<div class="hover-item">
-			 				<div class="hover-container">
-			 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-				 				<div class="description">
-				 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 					tempor incididunt ut labore et dolore magna aliqua.
-				 				</div>
-				 			</div>
-			 				<div class="content_title text-center">Publications</div>
-			 			</div>
+		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Publications</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="presentations/">
-			 			<div class="hover-item">
-			 				<div class="hover-container">
-			 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-				 				<div class="description">
-				 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 					tempor incididunt ut labore et dolore magna aliqua.
-				 				</div>
-				 			</div>
-			 				<div class="content_title text-center">Presentations</div>
-			 			</div>
+			 			<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+			 			<div class="content_title text-center">Presentations</div>
 			 		</a>
 			 	</div>
 			</div><!-- //.grid -->
@@ -111,5 +67,5 @@ EOF;
 	</section><!-- //.content_page -->
 
 	<!-- END CONTENT -->
-<?php include_once('../includes/footer.inc.php'); ?>
+<?php include_once($include_path . 'includes/footer.inc.php'); ?>
 </html>

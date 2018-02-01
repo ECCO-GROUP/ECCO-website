@@ -31,7 +31,16 @@
                 <div class='grid_layout'>
                   <div class='directory'>
 
-                  <div class='nav_item'>
+                    <div class='nav_item'>
+                      <a href="/" title="Visit the ECCO home page.">
+                        <h3 class='nav_title' >
+                          home
+                        </h3>
+                      </a>
+                    </div>
+
+                    <div class='gradient_line'></div>
+                    <div class='nav_item'>
                       <a href="/products/" title="Learn more about the ECCO Mission by visiting this page.">
                         <h3 class='nav_title' >
                           products
