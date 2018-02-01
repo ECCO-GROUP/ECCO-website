@@ -243,6 +243,13 @@
 	}
 }
 
+.text-left {
+	text-align: left !important;
+	img {
+		display: inline-block;
+	}
+}
+
 .margin-center {
 	margin: 0 auto;
 }
