@@ -31,6 +31,12 @@
 			}
 		}
 
+		img {
+			&.no-stretch {
+				width: initial;
+			}
+		}
+
 		@include breakpoint($medium) {
 			margin: 10px 1%;
 

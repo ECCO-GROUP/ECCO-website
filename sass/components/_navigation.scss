@@ -54,6 +54,10 @@
 						background-color: $color-jpl-slate-blue; 
 						border-radius: 2px;	
 					}
+
+					&.no-break {
+						white-space: nowrap;
+					}
 				}
 			}
 
@@ -96,6 +100,7 @@
 							border-bottom-left-radius: 2px; 
 							border-bottom-right-radius: 2px; 
 						}
+
 					}
 				}
 
@@ -105,6 +110,7 @@
 						right: 0;
 					}
 				}
+
 			}
 		}
 	}
