@@ -34,6 +34,11 @@
                 <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
+                      <a href="/" title="Visit the ECCO home page.">Home</a>
+                    </h3>
+                  </div>
+                  <div class='footer_sitemap_item'>
+                    <h3 class='sitemap_title'>
                       <a href="/products/all/" title="Learn more about the ECCO Mission by visiting this page.">Products</a>
                     </h3>
                     <ul class='subnav'>

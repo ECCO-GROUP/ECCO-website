@@ -60,6 +60,7 @@
               </div>
               <div class='side_nav'>
                 <ul>
+                    <li><a href="/" title="Visit the ECCO home page.">Home</a></li>
                     <li>
                       <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       <ul class="subnav">
