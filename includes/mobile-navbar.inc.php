@@ -31,12 +31,17 @@
                 <div class='grid_layout'>
                   <div class='directory'>
 
-                  <div class='nav_item'>
-                      <a href="/products/" title="Learn more about the ECCO Mission by visiting this page.">
-                        <h3 class='nav_title' >
-                          products
-                        </h3>
-                      </a>
+                    <div class='nav_item'>
+                      <div class='arrow_box'>
+                        <span class='arrow_down'></span>
+                      </div>
+                      <h3 class='nav_title'>
+                        <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
+                      </h3>
+                      <ul class='subnav'>
+                        <li><a href="/products/all/" title="Learn more about ECCO's products.">All Products</a></li>
+                        <li><a href="/products/latest/" title="Download the latest product">Latest Product</a></li>
+                      </ul>
                     </div>
 
                     <div class='gradient_line'></div>

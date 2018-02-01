@@ -60,7 +60,13 @@
               </div>
               <div class='side_nav'>
                 <ul>
-                    <li><a href="/products/" title="Learn more about the ECCO Mission by visiting this page.">Products</a></li>
+                    <li>
+                      <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
+                      <ul class="subnav">
+                        <li><a href="/products/all/" title="View a list of all products." class="no-break">All Products</a></li>
+                        <li><a href="/products/latest/" title="Downlaod the latest product." class="no-break">Latest Product</a></li>
+                      </ul>
+                    </li>
                     <li><a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a></li>
                     <li><a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a></li>
                     <li><a href="/research/" title="Learn more about ECCO Research by visiting this page.">Research</a>

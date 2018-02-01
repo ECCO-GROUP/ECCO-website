@@ -43,4 +43,25 @@
 	a {
 		color: $color-jpl-link-blue !important;
 	}
+
+	&.gray-striped {
+		tr:nth-child(odd) {
+			background-color: #F3F3F3;
+		}
+		td {
+			background-color: initial;
+		}
+	}
+
+	&.text-left {
+		text-align: left;
+	}
+
+	&.one-quarter-width {
+		td:nth-child(1) {
+			width: 25%;
+		}
+	}
+
+
 }
