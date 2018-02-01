@@ -67,18 +67,13 @@ EOF;
 			<!-- Slide 3 (regular template) -->
 			<article class='dark_background ms-slide slide-3' data-delay='15' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide3 background' data-src='/assets/images/home/u4.jpg' src='/assets/images/home/u4.jpg'>
+			  <img alt='slide3 background' data-src='/assets/images/home/Pie17carousel.jpg' src='/assets/images/home/Pie17carousel.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='#'>
-				  <h1 class='media_feature_title'>Lorem Ipsum</h1>
+				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
 				</a>
 				<div class='description'>
-				  <a href='#'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+				  <a href='#'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades...</a>
 				  <a class='detail_link' href='#'>Read more</a>
 				</div>
 			  </div>
@@ -144,6 +139,7 @@ EOF;
 			</div>
 		</div><!-- //.module -->
 
+	    <?php /*
 	    <script>
 			// product search form functions
 			$(function() {
@@ -248,6 +244,7 @@ EOF;
 			</div>
 		</div><!-- //.module -->
 	  
+	    */ ?>
 		<div class="gray-bg2 module">
 			<div class="grid_layout">
 				<h2 class="content_title text-center">Explore</h2>
@@ -324,25 +321,29 @@ EOF;
 												<div class='img'><img alt="Lorem Ipsum" title="Lorem Ipsum" src="https://via.placeholder.com/640x350"></div>
 												<div class='list_text_content'>
 													<div class='content_title no-pad'>
-														ECCO version 4 release 3, covering 1992-2015, now available online
+														ECCO Tutorial at Ocean Sciences 2018
 													</div>
 													<div class='article_teaser_body'>
-														The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm.. 
+														<p>The ECCO project will hold a workshop during Ocean Sciences 2018 in Portland, OR. More details regarding the workshop's agenda to follow.<br />
+														Title: ECCO Workshop: How to use the latest ECCO Ocean State Estimate <br />
+														Date and Time: Thursday, February 15, 2018: 12:45 PM - 1:45 PM <br />
+														Location: Oregon Convention Center, F152 </p>
 													</div>
 												</div>
 											</div>
 										</a>
 									</li>
+
 									<li class='slide'>
 										<a href=''>
 											<div class='image_and_description_container'>
 												<div class='img'><img alt="Lorem Ipsum" title="Lorem Ipsum" src="https://via.placeholder.com/640x350"></div>
 												<div class='list_text_content'>
 													<div class='content_title no-pad'>
-														A new 20-yr ECCO climatology is now available online
+														ECCO version 4 release 3, covering 1992-2015, now available online
 													</div>
 													<div class='article_teaser_body'>
-														ECCO version 4 has been used to calculate a uniform 20-year climatology as a time-mean over the period 1994-2013. The climatology is readily accessible as Matlab files. Associated pictorial atlas and descriptions are available in the DSpace@MIT ECCO Community Collection long-term archive. The ECCO-Production and ECCO-IcES groups will hold a joint project meeting at MIT from 16-18 May 2016. A preliminary meeting agenda is now available online.
+														The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm.. 
 													</div>
 												</div>
 											</div>
