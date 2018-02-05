@@ -54,9 +54,24 @@
 	}
 
 	&.one-quarter-width {
-		td:nth-child(1) {
+		tbody tr th, td:nth-child(1) {
 			width: 25%;
 		}
+
+	}
+
+	&.one-fifth-width {
+		tbody tr th, td:nth-child(1) {
+			width: 20%;
+		}
+
+	}
+
+	&.one-eighth-width {
+		tbody tr th, td:nth-child(1) {
+			width: 12.5%;
+		}
+
 	}
 
 
