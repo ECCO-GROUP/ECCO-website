@@ -68,7 +68,7 @@ EOF;
 			<article class='dark_background ms-slide slide-3' data-delay='15' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide3 background' data-src='/assets/images/home/Pie17carousel.jpg' src='/assets/images/home/Pie17carousel.jpg'>
-			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='#'>
 				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
 				</a>

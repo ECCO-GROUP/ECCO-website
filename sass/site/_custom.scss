@@ -8,6 +8,20 @@
 	}
 }
 
+.primary_media_feature.homepage_carousel .floating_text_area {
+	&.extended {
+		width: 100%;
+
+		@include breakpoint($medium_large){
+			width: 70%;
+		}
+
+		@include breakpoint($large){
+			width: 800px
+		}
+	}
+}
+
 .slide_strip_container, .multimedia_teaser.module .grid--1of3 {
 	padding: 0 20px;
 
