@@ -1,31 +1,36 @@
           <!-- START FOOTER: "DEFAULT" -->
         </div>
         <footer class='clearfix' id='site_footer'>
-          <section class="upper_footer">
-            <div class="grid_layout">
-              <div class="gradient_line_divider"></div>
-              <div class="share">
-                <h2>Follow Us</h2>
-                <div class="social_icons">
-                  <a href="" target="_blank" title="Follow on Facebook">
-                    <img src="/assets/images/facebook_icon@2x.png" alt="Follow on Facebook">
-                  </a>
-                  &nbsp;
-                  <a href="" target="_blank" title="Follow on Twitter">
-                    <img src="/assets/images/twitter_icon@2x.png" alt="Follow on Twitter">
-                  </a>
-                  &nbsp;
-                  <a href="" target="_blank" title="Follow on Google Plus">
-                    <img src="/assets/images/gplus-64.png" alt="Follow on Google Plus">
-                  </a>
-                  &nbsp;
-                  <a href="" target="_blank" title="Follow on LinkedIn">
-                    <img src="/assets/images/linkedin@2x.png" alt="Follow on LinkedIn">
-                  </a>
+          <section class='upper_footer'>
+            <div class='grid_layout'>
+              <div class='footer_newsletter'>
+                <h2>Get the JPL Newsletter</h2>
+                <form action='//www.jpl.nasa.gov/signup/index.php' class='submit_newsletter' method="post">
+                  <input class='email_field' name='email_field' onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder='enter email address' type='email' value=''>
+                  <input class='email_submit' type='submit' value=''>
+                </form>
+              </div>
+              <div class='gradient_line_divider'></div>
+              <div class='share'>
+                <h2>Follow JPL</h2>
+                <div class='social_icons'>
+                  <!-- AddThis Button BEGIN -->
+                  <div class='addthis_toolbox addthis_default_style addthis_32x32_style'>
+                    <a addthis:userid='NASAJPL' class='addthis_button_facebook_follow icon'></a>
+                    <a addthis:userid='NASAJPL' class='addthis_button_twitter_follow icon'></a>
+                    <a addthis:userid='JPLnews' class='addthis_button_youtube_follow icon'></a>
+                    <a addthis:userid='nasajpl' class='addthis_button_instagram_follow icon'></a>
+                    <a class='icon all_icon' href='//www.jpl.nasa.gov/social'>
+                      <span>All</span>
+                    </a>
+                  </div>
+                  <script>
+                    addthis_loader.init("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5429eeee4e460927", {follow: true})
+                  </script>
                 </div>
               </div>
             </div>
-            <div class="gradient_line"></div>
+            <div class='gradient_line'></div>
           </section>
 
           <section class='sitemap'>
