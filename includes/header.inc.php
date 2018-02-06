@@ -56,7 +56,7 @@
               </div>
               <div class='separator'></div>
               <div class='other_brand'>
-                <div><a href="/" title="Return to ECCO home page">Estimating the Circulation<br />and Climate of the Ocean</a></div>
+                <div><a href="/" title="Return to ECCO home page">ECCO</a></div>
               </div>
               <div class='side_nav'>
                 <ul>
