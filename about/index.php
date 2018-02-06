@@ -76,14 +76,6 @@ EOF;
 					<li><a href="http://yoric.mit.edu/daepack/" target="_blank" rel="noopener noreferrer">DAEPACK</a></li>
 				</ul>
 
-
-
-
-
-
-
-				
-
 			</div><!-- //.wysiwyg_content -->
 			
 			</div><!-- //.grid -->
@@ -91,5 +83,5 @@ EOF;
 	</section><!-- //.content_page -->
 
 	<!-- END CONTENT -->
-<?php include_once('../../includes/footer.inc.php'); ?>
+<?php include_once('../includes/footer.inc.php'); ?>
 </html>

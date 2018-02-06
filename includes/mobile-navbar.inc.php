@@ -41,6 +41,15 @@
 
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
+                      <a href="/about/" title="Learn more about ECCO by visiting this page.">
+                        <h3 class='nav_title'>
+                          about
+                        </h3>
+                      </a>
+                    </div>
+
+                    <div class='gradient_line'></div>
+                    <div class='nav_item'>
                       <div class='arrow_box'>
                         <span class='arrow_down'></span>
                       </div>
@@ -92,15 +101,6 @@
                       <a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">
                         <h3 class='nav_title'>
                           news
-                        </h3>
-                      </a>
-                    </div>
-
-                    <div class='gradient_line'></div>
-                    <div class='nav_item'>
-                      <a href="/about/" title="Learn more about ECCO by visiting this page.">
-                        <h3 class='nav_title'>
-                          about
                         </h3>
                       </a>
                     </div>
