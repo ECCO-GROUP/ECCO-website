@@ -42,12 +42,14 @@ EOF;
 			 		</a>
 			 	</div>
 
+			 	<?php /*
 			 	<div class="grid-cell flexit">
 			 		<a href="scientists/">
 		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
 		 				<div class="content_title text-center">Scientists</div>
 			 		</a>
 			 	</div>
+			 	*/ ?>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="publications/">
