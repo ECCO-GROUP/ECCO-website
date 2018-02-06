@@ -22,15 +22,15 @@ EOF;
         <section class='clearfix main_feature'>
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	<!-- Slide 1 (regular template) -->
-		  	<article class='dark_background ms-slide slide-1' data-delay='6' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-4' data-delay='15' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide1 background' data-src='/assets/images/home/u3.jpg' src='/assets/images/home/u3.jpg'>
-			  <div class='bg_dark bottom_left floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
+			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/about'>
-				  <h1 class='media_feature_title'>Estimating the Circulation & Clikmate of the Ocean(ECCO)</h1>
+				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean(ECCO)</h1>
 				</a>
 				<div class='description'>
-				  <a href=/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
+				  <a href='/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
 				  <a class='detail_link' href='/about'>Learn more</a>
 				</div>
 			  </div>
@@ -76,27 +76,7 @@ EOF;
 			</article>
 			<!-- End Slide 3 -->
 
-			<!-- Slide 4 (regular template) -->
-			<article class='dark_background ms-slide slide-4' data-delay='15' data-fill-mode='fill'>
-			  <div class='gradient_container_top'></div>
-			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
-			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-				<a class='text_content_link' href='#'>
-				  <h1 class='media_feature_title'>Lorem Ipsum</h1>
-				</a>
-				<div class='description'>
-				  <a href='#'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
-				  <a class='detail_link' href='#'>Read more</a>
-				</div>
-			  </div>
-			  <div class='gradient_container_bottom'></div>
-			</article>
-			<!-- End Slide 4 -->
+			
 		  </div>
 		</section>
 	  </section>
@@ -120,15 +100,15 @@ EOF;
 			<div class="grid_layout">
 				<div class="grid vertical-middle">
 					<div class="grid-cell flexit">
-						<a href=""><img alt="ECCO-V4" title="ECCO-V4" src="https://via.placeholder.com/640x350"></a>
+						<a href="/products/latest"><img alt="ECCO-V4" title="ECCO-V4" src="/assets/images/home/v4r3.jpg"></a>
 					</div>						
 					<div class="grid-cell grid--1of3">
 						<h2 class="content_title">Featured Product</h2>
 						
-						<p><a href="">ECCO-V4</a></p>
+						<p><a href="/products/latest">ECCO-V4</a></p>
 						<hr />
 						
-						<p><a href="">&rsaquo; See all products</a></p>
+						<p><a href="/products/all">&rsaquo; See all products</a></p>
 					</div>
 				</div>
 			</div>
@@ -249,9 +229,9 @@ EOF;
 				 		<a href="/products/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u17.jpg">
+				 					<img alt="Products" title="Products" src="/assets/images/home/u17.jpg">
 					 				<div class="description">
-					 					Lorem ipsum dolor sit amet
+					 					Click here to view all products.
 					 				</div>
 					 			</div>
 				 				<div class="content_title">Products</div>
@@ -262,9 +242,9 @@ EOF;
 				 		<a href="/data/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u10.jpg">
+				 					<img alt="Data" title="Data" src="/assets/images/home/u10.jpg">
 					 				<div class="description">
-					 					Lorem ipsum dolor sit amet
+					 					Click here to download data.
 					 				</div>
 					 			</div>
 				 				<div class="content_title">Data</div>
@@ -275,9 +255,9 @@ EOF;
 				 		<a href="/knowledge/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u14.jpg">
+				 					<img alt="Knowledge" title="Knowledge" src="/assets/images/home/u14.jpg">
 					 				<div class="description">
-					 					Lorem ipsum dolor sit amet
+					 					Click here to read our frequently asked questions.
 					 				</div>
 					 			</div>
 				 				<div class="content_title">Knowledge Base</div>
@@ -288,9 +268,9 @@ EOF;
 				 		<a href="/research/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Lorem Ipsum" title="Lorem Ipsum" src="/assets/images/home/u12.jpg">
+				 					<img alt="Reasearch" title="Research" src="/assets/images/home/u12.jpg">
 					 				<div class="description">
-					 					Lorem ipsum dolor sit amet
+					 					Click hereot review publications and presentations.
 					 				</div>
 					 			</div>
 				 				<div class="content_title">Research</div>
