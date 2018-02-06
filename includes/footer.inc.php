@@ -51,13 +51,13 @@
                       <li><a href="/products/latest/" title="View ECCO's Latest Product">Latest Product</a></li>
                     </ul>
                   </div>
+                </div>
+                <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
                       <a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a>
                     </h3>
                   </div>
-                </div>
-                <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
                       <a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a>
@@ -77,7 +77,7 @@
                   </div>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
-                      <a href="/events/" title="Learn more about ECCO Events by visiting this page.">Events</a>
+                      <a href="/about/" title="Learn more about ECCO by visiting this page.">About</a>
                     </h3>
                   </div>
                 </div>

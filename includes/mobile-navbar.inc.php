@@ -98,9 +98,9 @@
 
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
-                      <a href="/events/" title="Learn more about ECCO Events by visiting this page.">
+                      <a href="/about/" title="Learn more about ECCO by visiting this page.">
                         <h3 class='nav_title'>
-                          events
+                          about
                         </h3>
                       </a>
                     </div>

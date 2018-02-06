@@ -80,7 +80,7 @@
                       </ul>
                     </li>
                     <li><a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">News</a></li>
-                    <li><a href="/events/" title="Learn more about ECCO Events by visiting this page.">Events</a></li>
+                    <li><a href="/about/" title="Learn more about ECCO by visiting this page.">About</a></li>
                 </ul>
               </div>
               <a class='visuallyhidden focusable' href='#main'>Skip Navigation</a>
