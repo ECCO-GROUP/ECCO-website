@@ -283,7 +283,7 @@ EOF;
 				<section class="grid_gallery list_view">					
 					<ul class="articles">
 						<li class='slide'>
-							<a href=''>
+							<a href='/news/'>
 								<div class='image_and_description_container'>
 									<div class='img'><img alt="ECCO Tutorial at Ocean Sciences 2018" title="ECCO Tutorial at Ocean Sciences 2018" src="/assets/images/home/workshop.jpg"></div>
 									<div class='list_text_content'>
@@ -300,14 +300,13 @@ EOF;
 								</div>
 							</a>
 						</li>
-
 						<li class='slide'>
-							<a href=''>
+							<a href='/products/latest/'>
 								<div class='image_and_description_container'>
 									<div class='img'><img alt="ECCO version 4 release 3" title="ECCO version 4 release 3" src="/assets/images/home/v4r3.jpg"></div>
 									<div class='list_text_content'>
 										<div class='content_title no-pad'>
-											ECCO version 4 release 3, covering 1992-2015, now available online
+											ECCO version 4 release 3, covering 1992-2015, now available
 										</div>
 										<div class='article_teaser_body'>
 											The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm.. 
