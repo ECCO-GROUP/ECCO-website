@@ -90,7 +90,9 @@
                       </h3>
                       <ul class='subnav'>
                         <li><a href="/research/teams/" title="ECCO Research Teams">Teams</a></li>
+                        <?php /*
                         <li><a href="/research/scientists/" title="ECCO Research Scientists">Scientists</a></li>
+                        */ ?>
                         <li><a href="/research/publications/" title="ECCO Research Publications">Publications</a></li>
                         <li><a href="/research/presentations/" title="ECCO Research Presentations">Presentations</a></li>
                       </ul>

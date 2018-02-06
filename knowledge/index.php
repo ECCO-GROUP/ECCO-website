@@ -113,9 +113,11 @@
               </div><!-- //.wysiwyg_content -->
             </div><!-- //#primary_column -->
             <div id='secondary_column'>
+            <?php /*
             <?php
                 include_once($include_path . 'includes/sidebar/relatedlinks.inc.php'); 
             ?>
+            */ ?>
             </div>
           </article>
         </div>
