@@ -61,6 +61,7 @@
               <div class='side_nav'>
                 <ul>
                     <li><a href="/" title="Visit the ECCO home page.">Home</a></li>
+                    <li><a href="/about/" title="Learn more about ECCO by visiting this page.">About</a></li>
                     <li>
                       <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       <ul class="subnav">
@@ -80,7 +81,6 @@
                       </ul>
                     </li>
                     <li><a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">News</a></li>
-                    <li><a href="/about/" title="Learn more about ECCO by visiting this page.">About</a></li>
                 </ul>
               </div>
               <a class='visuallyhidden focusable' href='#main'>Skip Navigation</a>

@@ -44,6 +44,13 @@
                   </div>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
+                      <a href="/about/" title="Learn more about ECCO by visiting this page.">About</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class='sitemap_block text-center'>
+                  <div class='footer_sitemap_item'>
+                    <h3 class='sitemap_title'>
                       <a href="/products/all/" title="Learn more about the ECCO Mission by visiting this page.">Products</a>
                     </h3>
                     <ul class='subnav'>
@@ -51,13 +58,13 @@
                       <li><a href="/products/latest/" title="View ECCO's Latest Product">Latest Product</a></li>
                     </ul>
                   </div>
-                </div>
-                <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
                       <a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a>
                     </h3>
                   </div>
+                </div>
+                <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
                       <a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a>
@@ -68,16 +75,9 @@
                       <a href="/research/" title="Learn more about ECCO Research by visiting this page.">Research</a>
                     </h3>
                   </div>
-                </div>
-                <div class='sitemap_block text-center'>
                   <div class='footer_sitemap_item'>
                     <h3 class='sitemap_title'>
                       <a href="/news/" title="Read news articles about the ECCO Mission by visiting this page.">News</a>
-                    </h3>
-                  </div>
-                  <div class='footer_sitemap_item'>
-                    <h3 class='sitemap_title'>
-                      <a href="/about/" title="Learn more about ECCO by visiting this page.">About</a>
                     </h3>
                   </div>
                 </div>
