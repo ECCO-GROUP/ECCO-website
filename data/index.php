@@ -29,6 +29,7 @@ EOF;
 	 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 				<?php /*
 	 				<br />
 	 				<div class="grid text-center">
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/1.png"><p>Satellite Altimetry</p></a></div>
@@ -39,6 +40,7 @@ EOF;
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/6.png"><p>Tide Gauges</p></a></div>
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/7.png"><p>XBT</p></a></div>
 	 				</div>
+	 				*/ ?>
 	 			</div><!-- //.wysiwyg_content -->
 			</div><!-- //.grid_layout -->
 		</section>
@@ -65,7 +67,7 @@ EOF;
 				</div>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
-		<section>
+		<section class="white-bg">
 			<div class='grid_layout'>
 				<div class='grid'>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
