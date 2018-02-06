@@ -56,42 +56,51 @@
 		position: absolute;
 		display: none;
 
-		@include breakpoint($medium_large) {
+		@include breakpoint($medium) {
 			display: inline-block;
 		}
 
 	    &.separator {
-		    border-left: 2px solid $color-jpl-white;
-		    height: 45px;
+		    border-left: 1px solid $color-jpl-white;
 		    margin: 0 20px;
-		    bottom: 25%;			    
+	    	height: 34px;
+	    	bottom: 22%;
+		    
+		    @include breakpoint($medium_mid) {
+		    	height: 40px;
+		    	bottom: 22%;
+		    }
+
+		    @include breakpoint($large) {
+				height: 45px;
+		    	bottom: 25%;
+		    }
+
 		}
 	
 		&.other_brand {
 			margin-left: 40px;
+			bottom: 14%;
 
-			@include breakpoint($medium_large) {
-				display: inline-block;
-				bottom: 14%;
-			}
-			
 			@include breakpoint($large){
 				bottom: 20%;
 			}
 
 			div:first-child {
-				//@include font-size(40);
-				@include font-size(19.6);
+				@include font-size(30);
+
+				@include breakpoint($medium_mid) {
+					@include font-size(40);
+				}
 			}
 
 			a {
-			  	color: $color-jpl-white;
+		    	color: $color-jpl-white;
 			  	text-decoration: none;
 			  	@include transition-duration(.2s);
-			  	
 			  	/*
 			  	&:hover {
-			    	color: $color-jpl-slate-blue;
+			  		color: $color-jpl-slate-blue;
 			  	}
 			  	*/
 			}
