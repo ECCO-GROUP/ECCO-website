@@ -67,7 +67,7 @@ EOF;
 				</div>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
-		<section>
+		<section class="white-bg">
 			<div class='grid_layout'>
 				<div class='grid'>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
