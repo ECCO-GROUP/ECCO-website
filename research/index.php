@@ -30,22 +30,22 @@ EOF;
 
 			 	<div class="grid-cell flexit">
 			 		<a href="topics/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-		 				<div class="content_title text-center">Research Topics</div>
+		 				<img alt="Topics" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="teams/">
-	 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-		 				<div class="content_title text-center">Research Teams</div>
+	 					<img alt="Teams" src="https://via.placeholder.com/640x350">
+		 				<div class="content_title text-center">Teams</div>
 			 		</a>
 			 	</div>
 
 			 	<?php /*
 			 	<div class="grid-cell flexit">
 			 		<a href="scientists/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<img alt="Scientists" src="https://via.placeholder.com/640x350">
 		 				<div class="content_title text-center">Scientists</div>
 			 		</a>
 			 	</div>
@@ -53,14 +53,14 @@ EOF;
 
 			 	<div class="grid-cell flexit">
 			 		<a href="publications/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<img alt="Publications" src="https://via.placeholder.com/640x350">
 		 				<div class="content_title text-center">Publications</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="presentations/">
-			 			<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+			 			<img alt="Presentations" src="https://via.placeholder.com/640x350">
 			 			<div class="content_title text-center">Presentations</div>
 			 		</a>
 			 	</div>
