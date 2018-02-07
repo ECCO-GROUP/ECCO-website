@@ -291,7 +291,7 @@ EOF;
 											ECCO Tutorial at Ocean Sciences 2018
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO project will hold a workshop during Ocean Sciences 2018 in Portland, OR. More details regarding the workshop's agenda to follow.<br />
+											<p>The ECCO project will hold a workshop during Ocean Sciences 2018 in Portland, OR.<br />
 											Title: ECCO Workshop: How to use the latest ECCO Ocean State Estimate <br />
 											Date and Time: Thursday, February 15, 2018: 12:45 PM - 1:45 PM <br />
 											Location: Oregon Convention Center, F152 </p>
