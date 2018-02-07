@@ -44,7 +44,7 @@ EOF;
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='#'>
-				  <h1 class='media_feature_title'>Version 4 release 3 is now available</h1>
+				  <h1 class='media_feature_title'>ECCO-V4r3 is now available</h1>
 				</a>
 				<div class='description'>
 					<a href='/products/latest/'>The new release 3 is ECCO's latest state estimate of global ocean
@@ -68,7 +68,7 @@ EOF;
 				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
 				</a>
 				<div class='description'>
-				  <a href='#'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades...</a>
+				  <a href='#'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
 				  <a class='detail_link' href='#'>Read more</a>
 				</div>
 			  </div>
@@ -96,12 +96,12 @@ EOF;
 			<div class="grid_layout">
 				<div class="grid vertical-middle">
 					<div class="grid-cell flexit">
-						<a href="/products/latest"><img alt="ECCO-V4" title="ECCO-V4" src="/assets/images/home/v4r3.jpg"></a>
+						<a href="/products/latest"><img alt="ECCO-V4r3" title="ECCO-V4r3" src="/assets/images/home/v4r3.jpg"></a>
 					</div>						
 					<div class="grid-cell grid--1of3">
 						<h2 class="content_title">Featured Product</h2>
 						
-						<p><a href="/products/latest">ECCO-V4</a></p>
+						<p><a href="/products/latest">ECCO-V4r3</a></p>
 						<hr />
 						
 						<p><a href="/products/all">&rsaquo; See all products</a></p>
@@ -303,10 +303,10 @@ EOF;
 						<li class='slide'>
 							<a href='/products/latest/'>
 								<div class='image_and_description_container'>
-									<div class='img'><img alt="ECCO version 4 release 3" title="ECCO version 4 release 3" src="/assets/images/home/v4r3.jpg"></div>
+									<div class='img'><img alt="ECCO-V4r3" title="ECCO-V4r3" src="/assets/images/home/v4r3.jpg"></div>
 									<div class='list_text_content'>
 										<div class='content_title no-pad'>
-											ECCO version 4 release 3, covering 1992-2015, now available
+											ECCO-V4r3, covering 1992-2015, now available
 										</div>
 										<div class='article_teaser_body'>
 											The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm.. 
