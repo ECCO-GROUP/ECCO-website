@@ -23,12 +23,7 @@ EOF;
 					<h1 class='article_title'>Data</h1>
 				</header>
 				<div class='wysiwyg_content'>
-	 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 				<p>View some of the missions that use the ECCO products.</p>
 	 				<?php /*
 	 				<br />
 	 				<div class="grid text-center">
@@ -58,9 +53,9 @@ EOF;
 						<p>
 							External Links:
 							<ul class="bullet_list">
-								<li><a href="www.aviso.altimetry.fr" target="_blank" rel="noopener noreferrer">www.aviso.altimetry.fr</a></li>
-								<li><a href="www.sealevel.jpl.nasa.gov" target="_blank" rel="noopener noreferrer">www.sealevel.jpl.nasa.gov</a></li>
-								<li><a href="www.earth.esa.int" target="_blank" rel="noopener noreferrer">www.earth.esa.int</a></li>
+								<li><a href="https://www.aviso.altimetry.fr/en/my-aviso.html" target="_blank" rel="noopener noreferrer">aviso.altimetry.fr</a></li>
+								<li><a href="https://sealevel.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">sealevel.jpl.nasa.gov</a></li>
+								<li><a href="https://earth.esa.int/web/guest/home;jsessionid=8C0441F28A350038EEAE41D417A99936.jvm1" target="_blank" rel="noopener noreferrer">earth.esa.int</a></li>
 							</ul>
 						</p>
 					</div>
@@ -75,7 +70,7 @@ EOF;
 						<p>
 							External Links:
 							<ul class="bullet_list">
-								<li><a href="www.argo.ucsd.edu" target="_blank" rel="noopener noreferrer">www.argo.ucsd.edu</a></li>
+								<li><a href="argo.ucsd.edu" target="_blank" rel="noopener noreferrer">argo.ucsd.edu</a></li>
 							</ul>
 						</p>
 					</div>
@@ -93,12 +88,7 @@ EOF;
 				<div class='grid'>
 					<div class="grid-cell flexit">
 						<h2 class="content_title">GRACE</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>GRACE is a collaboration of the US and German space agencies (NASA and DLR). GRACE ground segment operations are currently co-funded by the GFZ German Research Centre for Geosciences and the European Space Agency (ESA). NASA, ESA, GFZ and DLR are supporting the continuation of the measurements of mass redistribution in the Earth system. The key partners in the design, construction and launch of the mission have been the Jet Propulsion Laboratory, the University of Texas Center for Space Research, GFZ German Research Centre for Geosciences, as well as Astrium GmBH, Space Systems Loral (SS/L), Onera and Eurockot GmBH.</p>
 						<p>Products that use GRACE : ECCO V4, GECCO</p>
 					</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
@@ -106,7 +96,7 @@ EOF;
 						<p>
 							External Links:
 							<ul class="bullet_list">
-								<li><a href="" target="_blank" rel="noopener noreferrer">lorem ipsum</a></li>
+								<li><a href="https://grace.jpl.nasa.gov/mission/grace/" target="_blank" rel="noopener noreferrer">grace.jpl.nasa.gov</a></li>
 							</ul>
 						</p>
 					</div>
