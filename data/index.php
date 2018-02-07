@@ -23,7 +23,7 @@ EOF;
 					<h1 class='article_title'>Data</h1>
 				</header>
 				<div class='wysiwyg_content'>
-	 				<p>View some of the missions that use the ECCO products.</p>
+	 				
 	 				<?php /*
 	 				<br />
 	 				<div class="grid text-center">
