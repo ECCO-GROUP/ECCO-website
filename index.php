@@ -69,7 +69,7 @@ EOF;
 				</a>
 				<div class='description'>
 				  <a href='/news'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
-				  <a class='detail_link' href='#'>Read more</a>
+				  <a class='detail_link' href='/news'>Read more</a>
 				</div>
 			  </div>
 			  <div class='gradient_container_bottom'></div>
