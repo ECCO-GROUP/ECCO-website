@@ -20,10 +20,10 @@ EOF;
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO Version 4 Release 3</h2>				
+				<h2>ECCO-V4r3</h2>				
 
 				<div>
-					<p>This <a href="">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
+					<p>This <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
 					<table class="full-width gray-striped text-left one-quarter-width">
 						<thead>
 							<th>Name</th>
@@ -35,32 +35,45 @@ EOF;
 								<td>File containing information</td>
 							</tr>
 							<tr>
+								<td>v4r3_estimation_synopsis.pdf</td>
+								<td>Synopsis of V4r3 estimation</td>
+							</tr>
+							<tr>
+								<td>v4r3_output_fields.pdf</td>
+								<td>Overview of V4r3 files</td>
+							</tr>
+							<tr>
+								<td>v4r3_overview_plots.pdf</td>
+								<td>Plots of V4r3</td>
+							</tr>
+							<tr>
+								<td>v4r3_input_data.pdf</td>
+								<td>Data used in V4r3</td>
+							</tr>
+							<tr>
+								<td>v4r3_budgets_howto.pdf</td>
+								<td>Calculating budgets with V4r3 output</td>
+							</tr>
+							<tr>
+								<td>v4r3_reproduction_howto.pdf</td>
+								<td>Reproducing V4r3 results with MITgcm</td>
+							</tr>
+							<tr>
+								<td>available_diagnostics.log</td>
+								<td> A full list of available diagnostics with a short description.For a slightly more detailed description of diagnostics, check out <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/nctiles_monthly/README">ftp://ecco.jpl.nasa.gov/Version4/Release3/nctiles_monthly/README</a>.
+ </td>
+							</tr>
+							<tr>
 								<td>costfunction0059</td>
-								<td>Costs with the grid size factor (gamma)</td>
+								<td>costs with the grid size factor (gamma, Cf. v4r3_summary.pdf for an explanation of gamma)</td>
 							</tr>
 							<tr>
 								<td>costfunction0059_nogamma</td>
-								<td>Costs without the grid size factor (gamma)</td>
-							</tr>
-							<tr>
-								<td>standardplots.pdf</td>
-								<td>Standard analysis plots</td>
+								<td>costs without the grid size factor (gamma)</td>
 							</tr>
 							<tr>
 								<td>STDOUT.0000</td>
 								<td>Model standard output</td>
-							</tr>
-							<tr>
-								<td>evaluating_budgets_in_eccov4r3.pdf</td>
-								<td>A tutorial for budget calculation</td>
-							</tr>
-							<tr>
-								<td>ECCOv4r3_reproduction.pdf</td>
-								<td>Instructions for reproducing release 3</td>
-							</tr>
-							<tr>
-								<td>v4r3_summary.pdf</td>
-								<td>Release 3 synopsis</td>
 							</tr>
 						</tbody>
 					</table>

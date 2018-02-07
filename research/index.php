@@ -18,34 +18,29 @@ EOF;
 				<h1 class='article_title'>Research</h1>
 			</header>
 			<div class='wysiwyg_content'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Select an option below.</p>
 			</div><!-- //.wysiwyg_content -->
 			<br /><br />
 			<div class="grid">
 
 			 	<div class="grid-cell flexit">
 			 		<a href="topics/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-		 				<div class="content_title text-center">Research Topics</div>
+		 				<img alt="Topics" src="/assets/images/icons/topics.jpg">
+		 				<div class="content_title text-center">Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="teams/">
-	 					<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
-		 				<div class="content_title text-center">Research Teams</div>
+	 					<img alt="Teams" src="/assets/images/icons/teams.jpg">
+		 				<div class="content_title text-center">Teams</div>
 			 		</a>
 			 	</div>
 
 			 	<?php /*
 			 	<div class="grid-cell flexit">
 			 		<a href="scientists/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<img alt="Scientists" src="/assets/images/icons/scientists.jpg">
 		 				<div class="content_title text-center">Scientists</div>
 			 		</a>
 			 	</div>
@@ -53,14 +48,14 @@ EOF;
 
 			 	<div class="grid-cell flexit">
 			 		<a href="publications/">
-		 				<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+		 				<img alt="Publications" src="/assets/images/icons/publications.jpg">
 		 				<div class="content_title text-center">Publications</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="presentations/">
-			 			<img alt="Lorem Ipsum" src="https://via.placeholder.com/640x350">
+			 			<img alt="Presentations" src="/assets/images/icons/presentations.jpg">
 			 			<div class="content_title text-center">Presentations</div>
 			 		</a>
 			 	</div>

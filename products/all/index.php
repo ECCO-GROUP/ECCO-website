@@ -40,7 +40,7 @@ EOF;
 						</thead>
 						<tbody>
 							<tr>
-								<th class="text-left" rowspan="2">ECCO-V4</th>
+								<th class="text-left" rowspan="2">ECCO-V4r3</th>
 								<td><a href="https://dspace.mit.edu/handle/1721.1/110380" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="_blank" rel="noopener noreferrer">Release 3</a></td>
 								<td>1992-2015</td>
@@ -61,7 +61,7 @@ EOF;
 								<td><a href="http://hdl.handle.net/1721.1/107613" target="_blank" rel="noopener noreferrer">Report</a></td>
 							</tr>
 							<tr>
-								<th class="text-left" rowspan="4">ECCO-V4</th>
+								<th class="text-left" rowspan="4">ECCO-V4r2</th>
 								<td><a href="http://hdl.handle.net/1721.1/102062" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/" target="_blank" rel="noopener noreferrer">Release 2</a></td>
 								<td>1992-2011</td>
@@ -103,7 +103,7 @@ EOF;
 								<td> </td>
 							</tr>                  
 							<tr>
-								<th class="text-left">ECCO-V4</th>
+								<th class="text-left">ECCO-V4r1</th>
 								<td><a href="http://dx.doi.org/10.5194/gmd-8-3071-2015" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="ftp://mit.ecco-group.org/ecco_for_las/version_4/release1/" target="_blank" rel="noopener noreferrer">Release 1</a></td>
 								<td>1992-2011</td>

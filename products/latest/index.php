@@ -20,21 +20,31 @@ EOF;
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO Version 4 Release 3</h2>
+				<h2>ECCO-V4r3</h2>
 				<small>Authors: Fukumori, Ichiro; Wang, Ou; Fenty, Ian; Forget, Gael; Heimbach, Patrick; Ponte, Rui M.</small>
 
 				<div class="grid">
 					<div class="grid-cell flexit">
-						<h4>Abstract:</h4>
-						<p>This note provides a brief synopsis of ECCO Version 4 Release 3, an updated edition to the global ocean state estimate described by Forget et al. (2015b, 2016), covering the period 1992-2015.</p>
+						
 						<h4>Description:</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Version 4 Release 3 (V4r3), covering the period 1992-2015, represents
+ECCO's latest ocean state estimate. This product is an updated edition
+to that described by Forget et al. (2015, Geosci. Model Dev.). Version
+4 is the first multi-decadal ECCO estimate that is truly global,
+including the Arctic Ocean. The Release 3 edition includes
+improvements in time-period (1992-2015), model (e.g., sea-ice),
+observations (e.g., GRACE, Aquarius), and constraints (e.g.,
+correlated errors).
+</p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
-						<div><img src="/assets/images/home/v4r3.jpg"></div>
+						<div><img src="/assets/images/home/v4r3b.jpg"></div>
+						<figcaption>Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure
+combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</figcaption>
+
 						<br />
 						<div class="text-center pad-10">
-							<div><strong><a href="" class="button white">Download Product</a></strong></div>
+							<div><strong><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" class="button white">Download Product</a></strong></div>
 						</div>
 					</div>
 				</div>
@@ -97,29 +107,64 @@ EOF;
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2016: ECCO version 4: Second Release, <a href="http://hdl.handle.net/1721.1/102062" target="_blank" rel="noopener noreferrer">http://hdl.handle.net/1721.1/102062</a></p>
 					</i>
 				</div>
-				<p>For more information, see our <a href="">Use and Copyright Web page</a>.</p>
+				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
 
 				<h2>User Guide</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>A detailed description of available files and their content are
+summarized in a "User Guide" in the link below.
+</p>
 				<p><strong><a href="./user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
 				<h2>Technical Reference</h2>
 				<div>
-					<p><strong>A generic treatment of gridded earth variables in Matlab.</strong></p>
+					<p><strong>Synopsis of V4r3 estimation</strong></p>
 					<div class="indent">
 						<p>
-							Forget, G.<br/>
-							Available at <a href="ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf" target="_blank" rel="noopener noreferrer">ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf</a><br/>
-							2017: gcmfaces
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a><br/>
 						</p>
 					</div>
 
-					<p><strong>ECCO V4 R3 Summary</strong></p>
+					<p><strong>Overview of V4r3 files</strong></p>
 					<div class="indent">
 						<p>
-							Fukumori, I.<br />
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_summary.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_summary.pdf</a><br/>
-							2017
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_files.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_files.pdf</a><br/>
+						</p>
+					</div>
+					<p><strong>Plots of V4r3</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_overview_plots.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_overview_plots.pdf</a><br/>
+						</p>
+					</div>
+					<p><strong>Data used in V4r3</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf</a><br/>
+						</p>
+					</div>
+					<p><strong>Calculating budgets with V4r3 output</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf</a><br/>
+						</p>
+					</div>
+					<p><strong>Reproducing V4r3 results with MITgcm</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
+						</p>
+					</div>
+					<p><strong>gcmfaces: A Matlab toolbox for V4r3 and other gridded Earth variables</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf" target="_blank" rel="noopener noreferrer">ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf</a><br/>
 						</p>
 					</div>
 				</div>
@@ -127,14 +172,10 @@ EOF;
 				<h2>Support</h2>
 				<div>
 					<p>No FAQs or How-To's available for this product.</p>
-					<p>Access complete <a href="">Knowledge Base</a></p>
+					<p>Access complete <a href="/knowledge">Knowledge Base</a></p>
 					<p>Questions? Please contact:</p>
-					<div class="indent">
-						The ECCO Group at MIT,<br />
-						# 54-1420, 77 Massachusetts Avenue,<br/>
-						Cambridge, MA 02139
-					</div>
-					<p>Email: <a href="mailto:ecco-support@mit.edu">ecco-support@mit.edu</a></p>
+					
+					<p>Email: <a href="mailto:Ou.Wang@jpl.nasa.gov">Ou.Wang@jpl.nasa.gov</a> or <a href="mailto:mailto:ecco-support@mit.edu">ecco-support@mit.edu</a></p>
 				</div>
 
 			</div><!-- //.wysiwyg_content -->
