@@ -20,7 +20,7 @@ EOF;
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO Version 4 Release 3</h2>
+				<h2>ECCO V4r3</h2>
 				<small>Authors: Fukumori, Ichiro; Wang, Ou; Fenty, Ian; Forget, Gael; Heimbach, Patrick; Ponte, Rui M.</small>
 
 				<div class="grid">
@@ -97,7 +97,7 @@ EOF;
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2016: ECCO version 4: Second Release, <a href="http://hdl.handle.net/1721.1/102062" target="_blank" rel="noopener noreferrer">http://hdl.handle.net/1721.1/102062</a></p>
 					</i>
 				</div>
-				<p>For more information, see our <a href="">Use and Copyright Web page</a>.</p>
+				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
 
 				<h2>User Guide</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -114,7 +114,7 @@ EOF;
 						</p>
 					</div>
 
-					<p><strong>ECCO V4 R3 Summary</strong></p>
+					<p><strong>ECCO V4r3 Summary</strong></p>
 					<div class="indent">
 						<p>
 							Fukumori, I.<br />
@@ -127,7 +127,7 @@ EOF;
 				<h2>Support</h2>
 				<div>
 					<p>No FAQs or How-To's available for this product.</p>
-					<p>Access complete <a href="">Knowledge Base</a></p>
+					<p>Access complete <a href="/knowledge">Knowledge Base</a></p>
 					<p>Questions? Please contact:</p>
 					<div class="indent">
 						The ECCO Group at MIT,<br />
