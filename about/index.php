@@ -28,7 +28,7 @@ EOF;
 				</div>
 				<hr>
 
-				<h3>The Beginning</h3>
+				<h3>ECCO (1998-2004)</h3>
 				<p>ECCO was initiated by a group of scientists at the Jet Propulsion Laboratory (JPL), the Massachusetts Institute of Technology (MIT) and the Scripps Institution of Oceanography (SIO).</p>
 				<p>From its <a href="http://www.ecco-group.org/scienceplans/ecco1_scienceplan.pdf" target="_blank" rel="noopener noreferrer">mission statement</a>:</p>
 				<div class="gray-bg2 pad-20"><i>"... to bring ocean state estimation from its current experimental status to that of a practical and quasi operational tool for studying large-scale ocean dynamics, designing observational strategies, and examining the ocean's role in climate variability."</i></a></div>
