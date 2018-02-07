@@ -225,7 +225,7 @@ EOF;
 				 		<a href="/products/all/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Products" title="Products" src="/assets/images/home/u17.jpg">
+				 					<img alt="Products" title="Products" src="/assets/images/home/products.jpg">
 					 				<div class="description">
 					 					Click here to view all products.
 					 				</div>
@@ -238,7 +238,7 @@ EOF;
 				 		<a href="/data/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Data" title="Data" src="/assets/images/home/u10.jpg">
+				 					<img alt="Data" title="Data" src="/assets/images/home/data.jpg">
 					 				<div class="description">
 					 					Click here to download data.
 					 				</div>
@@ -251,7 +251,7 @@ EOF;
 				 		<a href="/knowledge/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Knowledge" title="Knowledge" src="/assets/images/home/u14.jpg">
+				 					<img alt="Knowledge" title="Knowledge" src="/assets/images/home/knowledge.jpg">
 					 				<div class="description">
 					 					Click here to read our frequently asked questions.
 					 				</div>
@@ -264,7 +264,7 @@ EOF;
 				 		<a href="/research/">
 				 			<div class="hover-item">
 				 				<div class="hover-container">
-				 					<img alt="Reasearch" title="Research" src="/assets/images/home/u12.jpg">
+				 					<img alt="Reasearch" title="Research" src="/assets/images/home/research.jpg">
 					 				<div class="description">
 					 					Click here to review publications and presentations.
 					 				</div>
