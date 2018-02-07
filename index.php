@@ -309,7 +309,7 @@ EOF;
 											ECCO-V4r3, covering 1992-2015, now available
 										</div>
 										<div class='article_teaser_body'>
-											The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm.. 
+											The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm. 
 										</div>
 									</div>
 								</div>
