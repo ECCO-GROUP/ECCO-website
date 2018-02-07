@@ -21,13 +21,13 @@
 
 <h4>November 2017 — ECCO Tutorial at Ocean Sciences 2018</h4>
 
-<p>The ECCO project will hold a workshop during Ocean Sciences 2018 in Portland, OR. More details 					regarding the workshop's agenda to follow.<br /> 
+<p>The ECCO project will hold a workshop during Ocean Sciences 2018 in Portland, OR.<br /> 
 Title: ECCO Workshop: How to use the latest ECCO Ocean State Estimate <br /> 
 Date and Time: Thursday, February 15, 2018: 12:45 PM - 1:45 PM <br /> 
 Location: Oregon Convention Center, F152 </p>
 
 <hr />
-<h4>July 2017 — ECCO version 4 release 3, covering 1992-2015, now available online</h4>
+<h4>July 2017 — ECCO version 4 release 3 (ECCO-V4r3), covering 1992-2015, now available online</h4>
 
 <p>The <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="blank">new release 3</a> extends the 				 Version 4 estimate using additional observations. The product also incorporates improvements in modeling 				and estimation. A <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_summary.pdf" 						target="blank">summary document</a> describes details of the changes. Also available are descriptions of 				<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" 						target="blank">how to evaluate property budgets</a> and <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/ECCOv4r3_reproduction.pdf" target="blank">how to reproduce the results</a> and generate additional fields using MITgcm.</a></p>
 
@@ -45,12 +45,12 @@ Associated pictorial atlas and descriptions are available in the DSpace@MIT ECCO
 <p>The ECCO-Production and ECCO-IcES groups will hold a joint project meeting at MIT from 16-18 May 2016. A <a href="http://www.ecco-group.org/meetings/2016-mit/" target="blank">preliminary meeting agenda is now available online</a></p>
 
 <hr />
-<h4>March 2016 — ECCO version 4, release 2 (ECCO v4-r2) now available online</h4>
+<h4>March 2016 — ECCO version 4, release 2 (ECCO v4r2) now available online</h4>
 
 <p>As compared with the earlier release, ECCO v4-r2 benefits from a few additional corrections as documented in <a href="http://hdl.handle.net/1721.1/102062">this note</a>. ECCO v4-r2 (see <a href="http://www.ecco-group.org/products.htm">products</a>) further includes the full suite of observational inputs and forcing fields, as well as an interpolated version of the state estimate fields (on a half degree lat-lon grid). The ECCO v4 model settings (see <a href="http://www.ecco-group.org/model.htm">model</a>) have also been simplified to facilitate re-runs of the state estimate solution. This capability allows any user to generate model output that may not be available online (see the <a href="http://mitgcm.org/viewvc/*checkout*/MITgcm/MITgcm_contrib/gael/verification/eccov4.pdf">ECCO version 4 user guide</a>)</p>
 
 <hr />
-<h4>May 2015 [UPDATED March 2016] — Paper available describing ECCO version 4, release 1 (ECCO v4-r1) in details</h4>
+<h4>May 2015 [UPDATED March 2016] — Paper available describing ECCO version 4, release 1 (ECCO v4r1) in details</h4>
 
 <p>Following the release in February 2014 (See <a href="http://www.ecco-group.org/products.htm">products</a>) of a new-generaption, global, bi-decadal state estimate (ECCO version 4, release 1), a paper has been published  and highlighted in <a href="http://www.geoscientific-model-development.net/index.html"> Geoscientific Model Development</a> that provides a detailed description of the model and estimation configuration, the observational data streams, and basic properties of the solution:
 Forget, G., J.M. Campin, P. Heimbach, C.N. Hill, R.M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geosci. Model Dev., 8, 3071-3104, <a href="http://www.geosci-model-dev.net/8/3071/2015/">doi:10.5194/gmd-8-3071-2015</a></p>
