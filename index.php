@@ -27,7 +27,7 @@ EOF;
 			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/about'>
-				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean(ECCO)</h1>
+				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
 				</a>
 				<div class='description'>
 				  <a href='/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
