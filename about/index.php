@@ -28,21 +28,21 @@ EOF;
 				</div>
 				<hr>
 
-				<h3>ECCO1</h3>
-				<p>(The orignal ECCO) ECCO1 refers to the initial consortium formed in 1998 by a group of scientists at the Jet Propulsion Laboratory (JPL), the Massachusetts Institute of Technology (MIT) and the Scripps Institution of Oceanography (SIO).</p>
+				<h3>The Beginning</h3>
+				<p>ECCO was initiated by a group of scientists at the Jet Propulsion Laboratory (JPL), the Massachusetts Institute of Technology (MIT) and the Scripps Institution of Oceanography (SIO).</p>
 				<p>From its <a href="http://www.ecco-group.org/scienceplans/ecco1_scienceplan.pdf" target="_blank" rel="noopener noreferrer">mission statement</a>:</p>
 				<div class="gray-bg2 pad-20"><i>"... to bring ocean state estimation from its current experimental status to that of a practical and quasi operational tool for studying large-scale ocean dynamics, designing observational strategies, and examining the ocean's role in climate variability."</i></a></div>
-				<p>Within ECCO1 two formal estimation strategies were pursued for solving the least-squares model vs. data misfit problem.</p>
+				<p>Two formal estimation strategies were pursued for solving the least-squares model vs. data misfit problem.</p>
 				<ol class="numbered_list">
 					<li>ECCO-SIO SIO and MIT have focused on the method of Lagrange multipliers (MLM), also known as the adjoint method (or related, 4DVAR in meteorology). Initial solutions covered the period 1992 to 1997 at 2 degree horizontal resolution (version 0), and have later been extended to 2002 at 1 degree. (version 1). <a href="http://www.ecco-group.org/ecco1/" target="_blank" rel="noopener noreferrer">ECCO-SIO homepage</a>.</li>
-					<li>ECCO-JPL JPL has focused mainly on an extended Kalman filter and RTS smoother approach. Solutions are produced in near real-time covering the period from 1993 to present. Its grid telescopically increases from 1 deg. at mid-latitudes to 1/3 deg. near the equator with 46 vertical levels. <a href="http://ecco.jpl.nasa.gov/external/" target="_blank" rel="noopener noreferrer">ECCO-JPL homepage</a>.</li>
+					<li>ECCO-JPL JPL has focused mainly on an extended Kalman filter and RTS smoother approach. Solutions are produced in near real-time covering the period from 1993 to present. Its grid telescopically increases from 1 deg. at mid-latitudes to 1/3 deg. near the equator with 46 vertical levels. <a href="http://ecco.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">ECCO-JPL homepage</a>.</li>
 				</ol>
 
 				<h3>ECCO-GODAE</h3>
-				<p>ECCO-GODAE is the continuation of ECCO1 beyond 2004 under NOPP sponsorship in support of GODAE and CLIVAR with funding from NSF, NASA and NOAA. Additional partners now include Atmospheric and Environmental Research (AER).</p>
+				<p>ECCO-GODAE is a follow-on to the original effort beyond 2004 under NOPP sponsorship in support of GODAE and CLIVAR with funding from NSF, NASA and NOAA. Additional partners now include Atmospheric and Environmental Research (AER).</p>
 				<p>From its <a href="http://www.ecco-group.org/scienceplans/" target="_blank" rel="noopener noreferrer">mission statement</a>:</p>
 				<div class="gray-bg2 pad-20"><i>"... the sustained production and improvement of on-going best-estimates of the time-dependent, absolute ocean circulation employing as much of the global ocean data sets as is practicable."</i></div>
-				<p>ECCO-GODAE currently maintains the overall ECCO homepage.</p>
+				
 
 				<h3>GECCO</h3>
 				<p>German ECCO (GECCO) is an extension of ECCO-SIO, now based at the University of Hamburg's Institut fuer Meereskunde (IfM). It has shifted its focus to extending the estimation to cover the full 50-year NCEP/NCAR re-analysis period, as well as to regional higher-resolution estimates in the North Atlantic.</p>
@@ -54,7 +54,7 @@ EOF;
 				<div class="gray-bg2 pad-20"><i>"... to produce increasingly accurate syntheses of all available global-scale ocean and sea-ice data at resolutions that start to resolve ocean eddies and other narrow current systems, which transport heat, carbon, and other properties within the ocean."</i></div>
 				<p><a href="http://ecco2.org/" target="_blank" rel="noopener noreferrer">ECCO2 homepage</a>.</p>
 
-				<h3>MITgcm - ECCO'S OCEAN GENERAL CIRCULATION MODEL</h3>
+				<!--<h3>MITgcm - ECCO'S OCEAN GENERAL CIRCULATION MODEL</h3>
 				<p>The ECCO code is based on the <a href="http://mitgcm.org/" target="_blank" rel="noopener noreferrer">MIT general circulation model (MITgcm)</a>. It is freely available for download through the <a href="http://mitgcm.org/public/source_code.html" target="_blank" rel="noopener noreferrer">MITgcm CVS repository</a>. The repository enables web-based access to the model, and distributed code development. Code documentation is available through the <a href="http://mitgcm.org/public/r2_manual/latest/" target="_blank" rel="noopener noreferrer">online manual</a>. ECCO-specific configuration is documented in chapter 8 of the manual. An <a href="http://mitgcm.org/mailman/listinfo/mitgcm-support" target="_blank" rel="noopener noreferrer"'>MITgcm support and discussion group</a> has been set up where you can post your questions or bug reports and browse previous Q's & A's. You can email the group at <a href="mailto:support@mitgcm.org">mitgcm-support@mitgcm.org</a>.</p>
 
 				<h3>MITgcm - THE ECCO VERSION 4 SETUP</h3>
@@ -74,7 +74,7 @@ EOF;
 					<li><a href="http://www-unix.mcs.anl.gov/autodiff/ADIFOR/" target="_blank" rel="noopener noreferrer">ADIFOR</a></li>
 					<li><a href="http://www-fp.mcs.anl.gov/adic/" target="_blank" rel="noopener noreferrer">ADIC</a></li>
 					<li><a href="http://yoric.mit.edu/daepack/" target="_blank" rel="noopener noreferrer">DAEPACK</a></li>
-				</ul>
+				</ul>-->
 
 			</div><!-- //.wysiwyg_content -->
 			
