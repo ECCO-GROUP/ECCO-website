@@ -38,7 +38,10 @@ correlated errors).
 </p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
-						<div><img src="/assets/images/home/v4r3.jpg"></div>
+						<div><img src="/assets/images/home/v4r3b.jpg"></div>
+						<figcaption>Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure
+combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</figcaption>
+
 						<br />
 						<div class="text-center pad-10">
 							<div><strong><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" class="button white">Download Product</a></strong></div>
