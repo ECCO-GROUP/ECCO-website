@@ -68,7 +68,7 @@ EOF;
 				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
 				</a>
 				<div class='description'>
-				  <a href='#'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
+				  <a href='/news'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
 				  <a class='detail_link' href='#'>Read more</a>
 				</div>
 			  </div>
