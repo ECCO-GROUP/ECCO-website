@@ -27,6 +27,12 @@ Date and Time: Thursday, February 15, 2018: 12:45 PM - 1:45 PM <br />
 Location: Oregon Convention Center, F152 </p>
 
 <hr />
+<h4>September 2017 — ECCO Tutorial at Ocean Sciences 2018</h4>
+
+<p>The subpolar North Atlantic (SPNA) exhibits pronounced changes in temperature from one decade to the next [e.g., Schlesinger and Ramankutty, 1994]. These SPNA decadal temperature fluctuations show strong correlation with other components of the climate system, for example, Atlantic hurricane activity, North American and European river flow, and rainfall over the African Sahel and northeast Brazil [Sutton and Hodson, 2005; Knight et al., 2006; Zhang and Delworth, 2006]. Understanding the nature and predictability of decadal variability in SPNA temperatures has been a major goal in climate studies. Different hypotheses have been submitted to explain such decadal variability in climate models and data records, with appeals made variously to surface ocean forcing by local or remote wind stress and heat exchanges, as well as ocean heat transports by the vertical overturning and horizontal gyre circulations [Menary et al., 2015; Buckley and Marshall, 2016].</p>
+<p>For more details: <a href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract"></a>
+
+<hr />
 <h4>July 2017 — ECCO version 4 release 3 (ECCO-V4r3), covering 1992-2015, now available online</h4>
 
 <p>The <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="blank">new release 3</a> extends the 				 Version 4 estimate using additional observations. The product also incorporates improvements in modeling 				and estimation. A <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_summary.pdf" 						target="blank">summary document</a> describes details of the changes. Also available are descriptions of 				<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" 						target="blank">how to evaluate property budgets</a> and <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/ECCOv4r3_reproduction.pdf" target="blank">how to reproduce the results</a> and generate additional fields using MITgcm.</a></p>
