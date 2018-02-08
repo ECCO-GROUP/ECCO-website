@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = '../../';
-	$page_title = "ECCO | Research Presentations";
+	$page_title = "ECCO | Research | Presentations";
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
@@ -15,7 +15,7 @@ EOF;
 	<section class='content_page module'>
 		<div class='grid_layout'>
 			<header id='page_header'>
-				<h1 class='article_title'>Research Presentations</h1>
+				<h1 class='article_title'>Presentations</h1>
 			</header>
 			<div class='wysiwyg_content'>
 				<ul class="bullet_list indent">
