@@ -43,7 +43,7 @@ EOF;
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-				<a class='text_content_link' href='#'>
+				<a class='text_content_link' href='/products/latest/'>
 				  <h1 class='media_feature_title'>ECCO-V4r3 is now available</h1>
 				</a>
 				<div class='description'>
@@ -64,12 +64,12 @@ EOF;
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide3 background' data-src='/assets/images/home/Pie17carousel.jpg' src='/assets/images/home/Pie17carousel.jpg'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-				<a class='text_content_link' href='#'>
+				<a class='text_content_link' href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>
 				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
 				</a>
 				<div class='description'>
-				  <a href='/news'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
-				  <a class='detail_link' href='/news'>Read more</a>
+				  <a href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
+				  <a class='detail_link' href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>Read more</a>
 				</div>
 			  </div>
 			  <div class='gradient_container_bottom'></div>
