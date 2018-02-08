@@ -16,10 +16,16 @@ EOF;
 		<div class='grid_layout'>
 			<header id='page_header'>
 				<h1 class='article_title'>Research Presentations</h1>
-				<a href="#posters">Meeting Posters</a> | <a href="#posters_jpl">ECCO-JPL Group: Meeting Posters</a> | <a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a>
 			</header>
 			<div class='wysiwyg_content'>
-				<h2 class="content_title named-anchor" id="posters">MEETING POSTERS</h2>
+				<ul class="bullet_list indent">
+					<li><a href="#posters">Meeting Posters</a></li>
+					<li><a href="#posters_jpl">ECCO-JPL Group: Meeting Posters</a></li>
+					<li><a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a></li>
+				</ul>
+				<hr />
+
+				<h3 class="content_title named-anchor" id="posters">MEETING POSTERS</h3>
 				<p>ECCO Abstracts submitted to the WOCE Final Conference:</p>
 				<ul class="bullet_list">
 					<li>
@@ -136,7 +142,7 @@ EOF;
 						<a href="pdfs/woce_posters/woce_poster_27.pdf" target="_blank" rel="noopener noreferrer">(PDF of poster) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 					<li>
-						<a href="abstracts/woce_losch2.txt" target="_blank" rel="noopener noreferrer">Bottom Topography as a Control Parameter in an Ocean Circulation Model</a>
+						<a href="abstracts/woce_losch3.txt" target="_blank" rel="noopener noreferrer">Bottom Topography as a Control Parameter in an Ocean Circulation Model</a>
 						<a href="pdfs/woce_posters/woce_poster_28.pdf" target="_blank" rel="noopener noreferrer">(PDF of poster) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 					<li>
@@ -152,8 +158,8 @@ EOF;
 						<a href="pdfs/woce_posters/woce_uwe_poster.pdf" target="_blank" rel="noopener noreferrer">(PDF of poster) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 				</ul>
-
-				<h2 class="content_title named-anchor" id="posters_jpl">JPL GROUP MEETING POSTERS</h2>
+				<hr />
+				<h3 class="content_title named-anchor" id="posters_jpl">JPL GROUP MEETING POSTERS</h3>
 				<section class="grid_gallery list_view">
 					<p><strong>WOCE 2002</strong></p>
 					<ul class="articles">
@@ -558,7 +564,7 @@ EOF;
 					</ul>
 				</section><!-- //.list_view -->
 
-				<h2 class="content_title named-anchor" id="posters_sio">SIO GROUP MEETING POSTERS</h2>
+				<h3 class="content_title named-anchor" id="posters_sio">SIO GROUP MEETING POSTERS</h3>
 				<ul class="bullet_list">
 					<li>
 						<a href="posters/poster_SWT1.pdf" target="_blank" rel="noopener noreferrer">Variations of the large-scale ocean circulation estimated by combining data with a numerical model</a><br />
