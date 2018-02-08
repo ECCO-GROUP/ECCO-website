@@ -44,7 +44,7 @@ EOF;
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/products/latest/'>
-				  <h1 class='media_feature_title'>ECCO-V4r3 is now available</h1>
+				  <h1 class='media_feature_title'>Version 4 release 3, covering 1992-2015, now available</h1>
 				</a>
 				<div class='description'>
 					<a href='/products/latest/'>The new release 3 is ECCO's latest state estimate of global ocean
