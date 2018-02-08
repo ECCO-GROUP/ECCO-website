@@ -22,7 +22,7 @@ EOF;
 				<header id='page_header'>
 					<h1 class='article_title'>Data</h1>
 				</header>
-				<div class='wysiwyg_content'>
+				<!--<div class='wysiwyg_content'>
 	 				
 	 				<?php /*
 	 				<br />
@@ -37,7 +37,7 @@ EOF;
 	 				</div>
 	 				*/ ?>
 	 			</div><!-- //.wysiwyg_content -->
-			</div><!-- //.grid_layout -->
+			</div>--><!-- //.grid_layout -->
 		</section>
 		<section class='gray-bg2'>
 			<div class='grid_layout'>
