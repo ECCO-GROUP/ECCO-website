@@ -27,9 +27,20 @@ Date and Time: Thursday, February 15, 2018: 12:45 PM - 1:45 PM <br />
 Location: Oregon Convention Center, F152 </p>
 
 <hr />
-<h4>September 2017 — ECCO Tutorial at Ocean Sciences 2018</h4>
+<h4>September 2017 — Paper available analyzing subpolar North Atlantic Ocean heat content change</h4>
 
-<p>The subpolar North Atlantic (SPNA) exhibits pronounced changes in temperature from one decade to the next [e.g., Schlesinger and Ramankutty, 1994]. These SPNA decadal temperature fluctuations show strong correlation with other components of the climate system, for example, Atlantic hurricane activity, North American and European river flow, and rainfall over the African Sahel and northeast Brazil [Sutton and Hodson, 2005; Knight et al., 2006; Zhang and Delworth, 2006]. Understanding the nature and predictability of decadal variability in SPNA temperatures has been a major goal in climate studies. Different hypotheses have been submitted to explain such decadal variability in climate models and data records, with appeals made variously to surface ocean forcing by local or remote wind stress and heat exchanges, as well as ocean heat transports by the vertical overturning and horizontal gyre circulations [Menary et al., 2015; Buckley and Marshall, 2016].</p>
+<p>The subpolar North Atlantic (SPNA) reversed trends in ocean heat
+content from warming during 1994–2004 to cooling over 2005–2015. ECCO
+V4r3 reveals that this reversal is the result of anomalous horizontal
+midlatitude gyre circulation acting on the mean temperature gradient,
+rather than changes in overturning circulation. Results have
+implications for decadal predictability.<br /> <br /> 
+
+Piecuch, C. G., R. M. Ponte, C. M. Little, M. W. Buckley, and
+I. Fukumori (2017), Mechanisms underlying recent decadal changes in
+subpolar North Atlantic Ocean heat content, Journal of Geophysical
+Research: Oceans, 122(9), 7181-7197, doi:10.1002/2017JC012845.
+</p>
 <p>For more details: <a href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract"></a></p>
 
 <hr />
