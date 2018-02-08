@@ -21,7 +21,9 @@ EOF;
 				<ul class="bullet_list indent">
 					<li><a href="#posters">Meeting Posters</a></li>
 					<li><a href="#posters_jpl">ECCO-JPL Group: Meeting Posters</a></li>
-					<li><a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a></li>
+					<?php /*
+						<li><a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a></li>
+					*/ ?>
 				</ul>
 				<hr />
 
@@ -423,6 +425,7 @@ EOF;
 						</li>
 					</ul>
 
+					<?php /*
 					<p><strong>AGU 2001</strong></p>
 					<ul class="articles">
 						<li class="slide">
@@ -471,7 +474,6 @@ EOF;
 							</a>
 						</li>
 					</ul>
-
 
 					<p><strong>WOCE/JGOFS 2001</strong></p>
 					<ul class="articles">
@@ -562,8 +564,11 @@ EOF;
 							</a>
 						</li>
 					</ul>
-				</section><!-- //.list_view -->
+					*/ ?>
 
+				</section><!-- //.list_view -->
+				
+				<?php /*
 				<h3 class="content_title named-anchor" id="posters_sio">SIO GROUP MEETING POSTERS</h3>
 				<ul class="bullet_list">
 					<li>
@@ -587,6 +592,7 @@ EOF;
 						Biarritz, France, June 10-12 2002
 					</li>
 				</ul>
+				*/ ?>
 
 			</div><!-- //.wysiwyg_content -->
 		</div><!-- //.grid_layout -->
