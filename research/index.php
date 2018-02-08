@@ -18,9 +18,9 @@ EOF;
 				<h1 class='article_title'>Research</h1>
 			</header>
 			<div class='wysiwyg_content'>
-				<p>Select an option below.</p>
+				<!--<p>Select an option below.</p>-->
 			</div><!-- //.wysiwyg_content -->
-			<br /><br />
+			<!--<br /><br />-->
 			<div class="grid">
 
 			 	<div class="grid-cell flexit">
