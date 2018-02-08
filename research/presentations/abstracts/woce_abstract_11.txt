@@ -1,0 +1,27 @@
+Testing the Mid-depth Circulation in ECCO Ocean Estimates
+
+Russ Davis (rdavis@ucsd.edu), Detlef Stammer (dstammer@ucsd.edu),
+Scripps Institution of Oceanography
+
+Tong Lee (tlee@pacific.jpl.nasa.gov)
+Jet Propulsion Laboratory
+
+Improved model physics, better surface forcing fields and higher numerical resolution 
+have made ocean circulation models more accurate. In addition, data assimilation has 
+improved the agreement of model simulations with observations and provides a rational 
+procedure for model testing using the very data that are assimilated as well as withheld 
+information.  Most data used for assimilation are satellite altimetry and temperature 
+profiles from XBTs, P-ALACE and Argo that are most descriptive of the upper ocean.  
+In this study we use absolute mid-depth velocities from WOCE floats as independent 
+data to test the results from ECCO ocean circulation estimates at depths removed from
+the majority of assimilated data.
+
+The test will be performed at several stages of the assimilation: Comparisons of float 
+data with adjoint and Kalman-filter models having nominal resolution of 1o to 2o generally 
+show mean flows of generally similar shape but with the measured field being significantly 
+stronger.  Some high-resolution simulations show zonal flows that cannot be identified in 
+the float data. Results from runs with and without insitu data will be used to identify 
+their impact on the estimated mean flow field.   Although the float measurement density 
+is marginal for resolving variabili ty of narrow currents, comparisons with annual and 
+specific interannual variability is possible.
+

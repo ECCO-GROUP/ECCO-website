@@ -1,0 +1,29 @@
+Optimal observations for variational data assimilation:
+Determining the overturning in the North Atlantic
+
+Armin Koehl
+
+An important aspect of ocean state estimation is the design of an
+observing system that allows to efficiently study climate aspects 
+in the ocean.  A solution of a design problem is presented
+here in terms of optimal observations that emerge as nondimensionalized
+singular vectors of the data resolution matrix. It is demonstrated 
+that such optimal observations when applied to determining the strength 
+of the overturning stream-function in the North Atlantic at 30 N in 900 m
+perform significantly better than section data in a 1 degree model. 
+Preferred locations for hydrographic observations are primarily located 
+along the western boundary north of 30N and along the eastern boundary 
+south of 30 N and in the Iberian Sea. 
+
+By revealing the main processes that accompany anomalies of the overturning, 
+optimal observations are ideally suited for studying causes and effects of 
+anomalies.  The response on short time-scales is mainly wind driven and 
+accounts for about two thirds of the anomaly, it includes Eckman transport 
+and coastal up- and down-welling.  A small part of the response is buoyancy 
+driven and a slow response to primarily winter time anomalies in the Labrador 
+Sea. Temperature and salinity anomalies in the initial conditions manifests 
+induce alterations of the western boundary currents. The overall picture for
+year 1997 is an east west density contrast that manifests primarily along 
+the boundaries in the upper 1000 m.
+
+

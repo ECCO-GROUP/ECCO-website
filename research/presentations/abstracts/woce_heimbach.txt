@@ -1,0 +1,35 @@
+Poster Title:  An efficient exact adjoint of the parallel MIT general 
+circulation model, generated via automatic differentiation
+
+Authors: Patrick Heimbach(1), Chris Hill(1), Ralf Giering(2)
+Institutions of authors (in author order): (1): Department of Earth, 
+Atmospheric and Planetary Sciences, Massachusetts Institute of 
+Technology, Cambridge, MA 02139, USA
+(2): FastOpt, Martinistr. 21, 20251 Hamburg, Germany
+
+Abstract: We describe computational aspects of automatic differentiation
+applied to global ocean circulation modeling and state estimation.
+The task of minimizing a cost function measuring the ocean simulation
+vs. observation misfit is achieved through efficient calculation of
+the cost gradient w.r.t. a set of controls via the adjoint technique.
+The adjoint code of the parallel MIT general circulation
+model is generated using TAMC or its successor TAF.
+The adjoint can be generated for a variety of configurations, including
+different mixing schemes such as KPP and GM, time-varying surface flux
+or atmospheric state controls, and open boundary controls.
+To achieve a tractable problem in both CPU and memory  requirements, in
+the light of control flow reversal, the adjoint code relies heavily on
+the balancing of storing vs. recomputation via the checkpointing method.
+Further savings are achieved by exploiting self-adjointedness of part
+of the computation. To retain scalability of domain decomposition
+based parallelism, hand-written adjoint routines are provided.
+These complement routines of the parallel support package
+to perform corresponding operations in reverse mode.
+A unique feature of the TAF tool which enables to dump the adjoint
+state and restart the adjoint integration is exploited to overcome
+batch execution limitations on HPC machines for large-scale ocean and
+climate simulations.
+The size of a typical adjoint application is illustrated for the global
+ocean state estimation problem. Results for a sensitivity study and an
+estimation problem are given by way of example.
+

@@ -1,0 +1,22 @@
+Tropical Pacific sea surface and dynamic height anomalies:
+A dynamical view of subsurface seasonal to interannual variability
+
+K. Lorbacher, R.E. Davis and P.P. Niiler, SIO
+
+The variability on seasonal to interannual scales of the sea surface and
+dynamic height in the tropical Pacific should contribute essentially to 
+enlighten the El Nino event, ultimately to identify different El Nino's.
+We analyze TOPEX/Poseidon sea surface height measurements and dynamic
+heights (relative to 500 m) from the TAO/Trition array. They are opposed
+to corresponding parameter of two solutions of the global ECCO ocean
+state
+estimation: with a two and one degree global grid, whereas latter
+includes all WOCE data over the period from 1992 to 2001.
+To illuminate considerable differences in the model-data comparisons
+studies we address two main questions: (1) How does the model represent
+the
+phase and the amplitude of the El Nino cycle (2) and to what
+quantitative
+extend is the different model configuration responsible for the
+deviations from
+the observations?

@@ -1,0 +1,29 @@
+Title: An Eddy-resolving State Estimate of the Ocean Circulation during the Subduction
+Experiment using a North Atlantic Regional Model (ECCO).
+
+Authors:
+Geoffrey Gebbie, MIT-WHOI
+Carl Wunsch, MIT
+Patrick Heimbach, MIT 
+
+An eddy-resolving ocean state estimate during the Subduction Experiment is made
+by bringing a 1/6 degree North Atlantic regional model into consistency with
+data through the adjoint method. A novel aspect of this work is the search for
+an initial eddy field and eddy-scale open boundary conditions by the use of an
+adjoint model. The adjoint model for this region of the ocean is stable and
+yields useful information despite concerns about the chaotic nature of an
+eddy-resolving model. Observations employed in this study are TOPEX/POSEIDON
+satellite altimetry and mooring data from the Subduction Experiment. When
+rigorous, statistical consistency is found between this dataset and the model,
+we not only have a best estimate for the ocean state, but we have also acquired
+a best estimate for the initial eddy field, open boundary conditions, wind
+stresses, and air-sea fluxes. This study quantifies the ability of the data to
+constrain both the large scale circulation and the eddy scale. Individual eddy
+trajectories can also be determined. The final state estimate is dynamically
+consistent with the General Circulation Model. Thus, we can readily diagnose
+subduction rates, heat and other budgets from the result in a physically
+interpretable context. In particular, the state estimate permits improved
+understanding of the impact of eddies on the large scale process of
+subduction. This work is part of the ECCO Consortium effort directed at greatly
+improved estimates of the oceanic general circulation through state estimation
+methods.

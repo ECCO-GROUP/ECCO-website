@@ -1,0 +1,16 @@
+Estimates of Ocean Mixing Coefficients
+
+D. Stammer for the ECCO Consortium.
+
+The global ECCO synthesis procedure is used to estimate horizontal
+and vertical ocean mixing coefficients (viscosity and diffusivity)
+that are consistent with WOCE data sets, the atmospheric forcing fields
+and the model physics.  Those coefficients are estimated as time-constant
+but geographically varying fields and are adjusted along with surface
+momentum and buoyancy forcing so as to bring the model into consistency
+with global data sets over the period 1992 through 2000.  Information 
+is provided about the estimation procedure and and the resulting 
+changes of the mixing coefficients is being described.
+While the estimated coefficients lead to a reduced model drift, their 
+physical interpretation in terms of eddy transfers is not always as 
+expected.

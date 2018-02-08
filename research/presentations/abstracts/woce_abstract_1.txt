@@ -1,0 +1,28 @@
+ECCO 1 degree global WOCE Synthesis:  The Method
+
+E. Remy, A. Koehl, Y. Lu, P. Heimbach, B. Cornuelle, 
+D. Stammer and C. Wunsch for the ECCO Consortium.
+
+A global WOCE data synthesis  describing the three-dimensional 
+oceanic state in the 10-year period 1992 - 2001 now exists.  
+The synthesis results from the combination of  many of the WOCE 
+data sets with a general circulation model.  This combination 
+solves the complete global time-dependent ocean state estimation 
+problem, up to remaining approximations in the model and underlying 
+statistics.  The MIT ocean model used represents the global ocean 
+between +/- 80 degrees with 1 degree horizontal resolution, 23 
+vertical layers,  and includes parameterizations for the surface 
+boundary layer (KPP) and eddy tracer transfers (GM).
+
+At the cost of increased computational load, the estimation 
+(assimilation) method is chosen specifically so that the resulting 
+state estimate is dynamically consistent with the model equations. 
+No   artificial sources or sinks are introduced by the model/data 
+combination, and the resulting time-evolution satisfies the equations 
+of motion. The combination method used is based upon the method of 
+Lagrange multipliers (adjoint method), in which the adjustable parameters 
+(controls) include the initial temperature and salinity conditions, 
+and the time-dependent surface fluxes of momentum, heat and freshwater.
+An important test of the result is passed: adjustments in these control 
+variables are consistent with prior estimates of the expected errors in
+the oceanographic data and the meteorological analyses

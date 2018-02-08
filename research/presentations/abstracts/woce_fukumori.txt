@@ -1,0 +1,31 @@
+"Seasonal-to-Interannual Variability of the Ocean During WOCE
+Estimated by the ECCO Routine Global Ocean Data Assimilation System"
+
+Ichiro Fukumori, Benyang Tang, Tong Lee, Dimitris Menemenlis, Zhangfan
+Xing, Benny Cheng, and Lee-Lueng Fu 
+
+Seasonal-to-interannual variability is analyzed using WOCE
+observations in conjunction with products of a global ocean data
+assimilation system (ECCO, Consortium for "Estimating the Circulation
+and Climate of the Ocean").  The assimilation products help interpret
+the near decade-long WOCE observations placing them in context with  
+seasonal-to-interannual variability, such as those associated with   
+ENSO and the phase transition of PDO.  Particular focus is placed on 
+variability of the upper ocean in the Pacific and Indian Oceans.  The
+model equivalent of WOCE hydrography is compared with that from
+observations.  Seasonal-to-interannual variability is analzyed by
+examining changes in the hydrographic structure and their associated
+variabilities in transport.  The model's coherent fields allow budgets
+of mass, heat, and salt to be analyzed and the origin and fate of
+water masses evaluated. 
+
+The data assimilation system is based on a near-global primitive
+equation model of high resolution (1-deg telescoping to 0.3-deg with
+10m near surface layers).  The assimilation is based on a hierarchy of
+approaches that consists of a Green's function method, approximate
+Kalman filter and smoother, and the adjoint method.  Measurements from
+satellite altimetry (TOPEX/POSEIDON) and in situ hydrography (CTDs and
+XBTs) are assimilated on a routine basis.  Analyses are regularly
+updated and are available via a Live Access Server at
+http://www.ecco-group.org/las.
+

@@ -1,0 +1,22 @@
+The ECCO 1 degree global WOCE Synthesis: Estimates of Surface Fluxes
+
+D. Stammer, K. Uejoshi, W. Large and C. Wunsch for the ECCO Consortium.
+
+Surface fluxes of stress, heat and moisture are included in the control
+vectors of the ECCO global ocean state estimate. As such, the prior
+values (from NCEP)  are adjusted, along with other control variables,
+to bring the model into better agreement with the WOCE observations.
+
+Here we test the adjusted estimates against independent ones derived
+from bulk formula and satellite observations. All ECCO adjustments
+are within the crude prior error bars prescribed for these fields.
+On the large scale, adjustments  are therefore consistent with known 
+deficiencies in the NCEP products.  On the large scales, the inferred 
+adjustments to NCEP winds are consistent also with values obtained from 
+satellite wind measurements.  However, on regional scale wind adjustments
+exhibit features that reflect ocean model inability to resolve intense 
+boundary currents. Further improvements in the surface flux estimates 
+obtained using data assimilation are anticipated as the estimation 
+procedure becomes more complete, and the ocean model more accurate.
+
+

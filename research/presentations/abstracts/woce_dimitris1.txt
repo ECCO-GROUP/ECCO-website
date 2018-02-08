@@ -1,0 +1,13 @@
+Calibrating the ECCO Ocean General Circulation
+Model Using WOCE Data and Model Green's Functions
+
+Dimitris Menemenlis, Ichiro Fukumori, Tong Lee, and Lee-Lueng Fu
+
+Model Green's functions provide a simple, yet effective, method to test and
+calibrate General-Circulation-Model (GCM) parameterizations, to study and
+quantify model and data errors, to correct model biases and trends, and to
+blend estimates from different solutions and data products.  These properties
+are demonstrated within the context of the ECCO (Estimating the Circulation
+and Climate of the Ocean, http://www.ecco-group.org) ocean data assimilation
+project using a subset of WOCE data.
+

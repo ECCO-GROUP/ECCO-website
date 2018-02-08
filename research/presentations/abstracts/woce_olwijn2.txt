@@ -1,0 +1,31 @@
+Surface fluxes and Ocean state estimates in the eastern
+Subtropical North Atlantic.
+
+Olwijn Leeuwenburgh, Patrick Heimbach and Detlef Stammer
+
+A coarse resolution regional ocean model of the eastern
+subtropical North Atlantic is used in a 5-year run to  
+investigate the effects of two different surface forcing
+formulations and of several strategies to minimize a cost
+function in the context of ocean state estimation. 
+The model is a 2 degree resolution application of the
+MITgcm which is forced at the open boundaries by
+temperature, salinity and current velocities obtained
+from a global implementation of the same OGCM. The assimilated
+data consist of T/P and ERS altimetry, a mean sea surface
+estimate, and Reynolds SST, and the results are compared 
+with independent buoy data obtained from the Subduction  
+Experiment.  Different strategies to bring the model
+into consistency with ocean observations are being discussed.
+All of them use the models adjoint to adjust control variables,
+such as the initial state, lateral boundary conditions  and surface
+forcing.  Control terms include either the surface fluxes of momentum,
+net heat and freshwater fluxes, or the atmospheric state as control
+variables. Early results indicate that there are distinct differences
+in magnitude and behavior of the cost function depending on
+the type of forcing and the manner in which control
+variables are included and adjusted. While a bulk-formulae
+type forcing leads to better initial agreement between
+model and data, the optimization is more effective (faster
+decay) with the traditional type of flux forcing.
+

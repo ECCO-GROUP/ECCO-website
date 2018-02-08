@@ -1,0 +1,12 @@
+Estimates of Secular Changes in the ECCO Global WOCE Synthesis
+
+D. Stammer, B. Cornuelle and A. Koehl for the ECCO Consortium.
+
+The ECCO global 1 degree WOCE Synthesis is analyzed with
+respect to large-scale changes on interannual and longer time 
+scales.  Emphasis is being put on deep temperature and salinity 
+changes and their relations to variations in sea surface height.  
+Changes in heat content on basin and global scale are compared to 
+imbalances in net surface heat forcing and the problem of distinguishing
+numerical model drift from long-term changes in the ocean is being 
+discussed.  

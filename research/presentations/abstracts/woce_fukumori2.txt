@@ -1,0 +1,34 @@
+"An Open-Circuit and a Short-Circuit in the Pacific Ocean
+Subtropical-Tropical Exchange"
+
+Ichiro Fukumori, Tong Lee, Benny Cheng, and Dimitris Menemenlis
+
+Water mass exchange between subtropical and tropical regions of the
+Pacific Ocean has been hypothesized as being part of a mechanism
+controlling inter-decadal changes in the nature of ENSO.  The pathway
+of this exchange is analyzed using model estimates from 1980 to 2001 
+of the Consortium for Estimating the Circulation and Climate of the  
+Ocean (ECCO; http://www.ecco-group.org).
+
+A passive tracer and its adjoint are employed, the evolution of which
+describe, respectively, where the tagged water mass goes to and where
+it comes from.  Over ten years, on average, water mass of the Nino3  
+region can be traced back to eastern subtropical thermocline waters of
+the northern (27%) and southern hemispheres (39%).  The Nino3 water 
+subsequently returns to these subtropical latitudes in the upper
+ocean.  But in contrast to the hypothesized "Subtropical Cell" (STC),
+this circulation is an open-circuit with water returning to the
+western regions of the two hemispheres (subtropical gyres) and to the
+Indian Ocean.
+
+Temporal variability causes the tropical circulation inferred from a
+time-mean state to differ significantly from the average circulation.
+In particular, non-seasonal, intra-annual variability significantly  
+enhances the magnitude of the so-called interior pathway relative to 
+that of the circuitous western boundary pathway.  Such short-circuit 
+in the subtropical-tropical exchange may help better explain observed
+tracer distributions.  Significant differences in circulation pathways
+are also identified that are associated with El Nino and La Nina
+events.  The strength of the subtropical-tropical water mass exchange
+is found to have weakened during the 1990s.
+

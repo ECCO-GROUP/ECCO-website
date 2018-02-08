@@ -1,0 +1,13 @@
+The ECCO 1 degree global WOCE Synthesis: Estimated Ocean Variability
+
+B. Cornuelle, A. Koehl, D. Stammer and C. Wunsch for the ECCO Consortium.
+
+The global ECCO ocean state estimate is compared directly to observations 
+from the World Ocean Circulation Experiment's (WOCE) one-time CTD sections. 
+The goal is to determine the goodness of fit and examine the degree to 
+which individual sections are representative of means.   Sections from 
+the WOCE repeated high-resolution expendable bathythermograph (HRXBT) 
+network in the Pacific are used to compare means, seasonal cycles, and 
+interannual variability with that in the model.  HRXBT sections with at 
+least 7 years of data are used to estimate the seasonal march of temperature, 
+heat content, and steric height for comparison with the model.

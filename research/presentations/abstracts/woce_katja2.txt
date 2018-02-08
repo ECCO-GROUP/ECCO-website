@@ -1,0 +1,23 @@
+Ocean mixed layer depth: A subsurface proxy of ocean-atmosphere
+variability
+
+K. Lorbacher, D. Dommenget, P.P. Niiler and R.E. Davis, SIO
+
+The spatial and temporal variability of dominant atmospheric forcing
+mechanisms setting up the structure of the ocean turbulent surface layer
+are well documented. To quantify, understand and ultimately predict
+ocean-atmosphere interactions on climate relevant time scales
+identifying the depth of this layer, in addition to the SST, is cruical.
+However,
+observed ocean mixed layer depths (MLDs) -- in the quality of SST
+observations --
+do not exist yet.
+
+We investigate hydrographic data with high and low vertical resolution
+obtained during the WOCE period to determine the quality of the observed
+ocean MLD applying two criteria for this depth provided by the recent
+literature. Considerable discrepancies in the results motivates us to
+optimize a criterion estimating ocean MLDs. We include a solution of the
+global ECCO state estimation in our analysis to test the sensitivity of
+both observed and diagnosed MLDs and their climate variability to
+different criteria.

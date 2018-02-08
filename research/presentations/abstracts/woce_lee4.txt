@@ -1,0 +1,26 @@
+
+A Global Comparison of Ekman Pumping From Satellite Scatterometers and
+Ocean Data Assimilation Estimates
+
+Paulo Polito^1, Tong Lee^2, and Ichiro Fukumori^2
+1. Inst. Nac. de Pesquisas Espaciais, Sao Paulo, Brazil
+2. Jet Propulsion Laboratory, California Institute of Technology
+
+Ekman pumping, a form of wind-driven upwelling, plays important
+roles in upper-ocean dynamics, thermodynamics, and biology as well as
+in boundary-layer meteorology.  Inverse models, such as those of
+ECCO (Estimation of the Circulation and Climate of the Ocean, 
+http://www.ecco-group.org/), estimate wind forcing through
+ocean data assimilation.  Scatterometer data provide a stringent test
+of the skill of the assimilation in estimating wind.  Ekman pumping  
+obtained from various scaterometers are compared with those 
+derived from ECCO model which assimilate TOPEX-derived sea level
+anomalies using the adjoint and Kalman filter/smoother methods. 
+Differences in Ekman pumping between scatterometer and assimilation
+estimates are quantified in terms of the mean, standard deviation, and
+correlation.  Change in Ekman pumping due to the assimilation is
+analyzed to identify the spectral (frequency-wavelength) space over
+which the assimilation has significant impact.  The comparison also
+highlights aspects where the ECCO model and assimilation schemes need
+improvement.
+

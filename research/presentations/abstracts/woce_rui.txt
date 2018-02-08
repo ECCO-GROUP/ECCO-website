@@ -1,0 +1,24 @@
+Global ocean circulation and mass fields 
+and the Earth's variable rotation
+
+Rui M. Ponte, Detlef Stammer, Carl Wunsch
+
+Advances in modeling and observational capabilities occurring in 
+recent years as part of the WOCE legacy have made possible the
+realistic determination of the ocean circulation and mass fields on a
+global scale.  With the ability to calculate these time varying fields
+came the opportunity to study globally integrated quantities such as
+ocean angular momentum (OAM).  Global estimates of sea level, density,
+and horizontal currents are used to show that improved OAM estimates
+are being obtained from advanced ocean state estimation methods.  
+Comparisons with independent Earth rotation data demonstrate the good 
+quality of OAM estimates and reveal the importance of OAM variability 
+in explaining observed signals in length of day and polar motion.  
+The equatorial components of OAM are particularly relevant for the 
+planet's rotation budget and can account for a major part of the
+Chandler and seasonal wobble excitation, thus providing an answer to a
+long standing unsolved problem in geophysics.  Results point to the
+value of combining satellite altimetry and gravity data, Earth rotation
+data, and ocean models to address various oceanographic and geodetic
+research questions in the future.
+

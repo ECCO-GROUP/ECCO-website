@@ -1,0 +1,32 @@
+Vorticity Balance in the ECCO Global WOCE Synthesis 
+
+Y. Lu and D. Stammer for the ECCO Consortium.
+
+From an ocean model that was constrained by WOCE data sets as 
+part of the NOPP-funded ECCO assimilation project,  we analyze 
+the barotropic vorticity budget of the global ocean. 
+
+For the depth-integrated circulation, it is found that the
+bottom pressure torque (BPT) dominates over the curl of friction
+in the western boundary currents and in the Southern Ocean.
+This important role played by BPT in the dynamics of the western
+boundary currents and the Antarctic Circumpolar Current (ACC),
+as found in this 2 degree-resolution simulation, is consistent
+with the recent theoretical argument and the analyses of
+eddy-resolving simulations.
+
+In the upper layer of the model, the classical Sverdrup balance
+holds only in the eastern sub-tropical basins. The vorticity
+stretching/compressing associated with the vertical velocity
+is important near western boundary currents and in at high latitudes.
+In the intermediate layer, the vorticity stretching/compressing
+associated with vertical motions drive the meridional flow
+in the interior basins.
+
+For the deep ocean, it is the combination of BPT and the vertical
+velocity that balances the advection of planetary vorticity.
+The meridional flow in the abyssal ocean is driven
+by the combined effect of BPT and vertical motions.
+The simulated abyssal circulation in the interior basins bears
+little resemblance with the prediction of the Stommel-Arons theory.
+

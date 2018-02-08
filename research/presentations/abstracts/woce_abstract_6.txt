@@ -1,0 +1,22 @@
+The ECCO 1 degree global WOCE Synthesis: Mass and Property Transports
+
+D. Stammer and C. Wunsch for the ECCO Consortium.
+
+The ECCO global WOCE synthesis is used  to analyze ocean volume, heat 
+and freshwater transports. Time-mean horizontal transports, estimated 
+from this fully time-dependent constrained circulation, are now generally 
+consistent with the time-independent inverse estimates from box inversions, 
+with especially good agrement in the southern hemisphere. 
+
+The estimated mean circulation around Australia involves a net volume 
+transport of 11 Sv through the Indonesian Throughflow and the Mozambique 
+Channel. This flow regime exists on all time scales longer than one 
+month---rendering the variability in the South Pacific strongly coupled 
+to that in the Indian Ocean. 
+
+Dynamically consistent variations in the model show temporal variability 
+of oceanic heat transports, heat storage and atmospheric exchanges that 
+are complex and with a strong dependence upon location, depth, and 
+time-scale. One can now study the dynamics of both the mean and time 
+variability from the model with the reassurance that it is consistent 
+with the great bulk of the WOCE observations.
