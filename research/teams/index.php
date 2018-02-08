@@ -86,7 +86,7 @@ Rui M. Ponte<br />
 						<div class="grid-cell grid--1of3 border">
 							<div class="pad-20">
 								<img src="/assets/images/logo/scripps_logo.jpg" alt="Scripps Logo" title="Scripps Logo">
-								<pLeads development of regional high resolution estimation systems,
+								<p>Leads development of regional high resolution estimation systems,
 including biogeochemistry (Southern Ocean [SOSE], California Current
 System, Equatorial Pacific, Gulf of Mexico).<br /><br />
 
