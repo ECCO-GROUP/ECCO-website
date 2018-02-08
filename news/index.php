@@ -41,7 +41,7 @@ I. Fukumori (2017), Mechanisms underlying recent decadal changes in
 subpolar North Atlantic Ocean heat content, Journal of Geophysical
 Research: Oceans, 122(9), 7181-7197, doi:10.1002/2017JC012845.
 </p>
-<p>For more details: <a href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract"></a></p>
+<p>For more details: <a href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract">http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract</a></p>
 
 <hr />
 <h4>July 2017 — ECCO version 4 release 3 (ECCO-V4r3), covering 1992-2015, now available online</h4>
