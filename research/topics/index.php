@@ -20,14 +20,14 @@ EOF;
 				<header id='page_header'>
 					<h1 class='article_title'>Research Topics</h1>
 				</header>
-				<div class='wysiwyg_content'>
+				<!-- <div class='wysiwyg_content'>
 	 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	 			</div><!-- //.wysiwyg_content -->
+	 			</div>--><!-- //.wysiwyg_content -->
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
 		<section class="gray-bg2">
@@ -62,20 +62,20 @@ EOF;
 					<div class="grid-cell flexit">
 						<h2 class="content_title">Mechanisms of the recent decadal trend of the North Atlantic Ocean heat content</h2>
 						<p><strong>Sept 2017</strong></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>The subpolar North Atlantic (SPNA) reversed trends in ocean heat
+						content from warming during 1994–2004 to cooling over 2005–2015. ECCO
+						V4r3 reveals that this reversal is the result of anomalous horizontal
+						midlatitude gyre circulation acting on the mean temperature gradient,
+						rather than changes in overturning circulation. Results have
+						implications for decadal predictability.</p>
 					</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
-						<p><img src="http://via.placeholder.com/640x360" alt="Lorem Ipsum"></p>
+						<p><img src="/assets/images/topic2.jpg" alt="Graph of ocean model data"></p>
 						<p>
 							External Links:
 							<ul class="bullet_list">
-								<li><a href="" target="_blank" rel="noopener noreferrer">www.google.com</a></li>
-								<li><a href="https://www.jpl.nasa.gov" target="_blank" rel="noopener noreferrer">www.jpl.nasa.gov</a></li>
+								<li><a href="http://onlinelibrary.wiley.com/doi/10.1002/2017JC012845/abstract" target="_blank" rel="noopener noreferrer">Wiley Online Library</a></li>
+								
 							</ul>
 						</p>
 					</div>
