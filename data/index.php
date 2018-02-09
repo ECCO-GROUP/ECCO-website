@@ -16,15 +16,21 @@ EOF;
 	<!-- START CONTENT -->
 	<div class='header_mask'></div>
 
-	<section class='content_page'>
+	<section class='content_page module'>
+		<div class='grid_layout'>
+			<header id='page_header'>
+				<h1 class='article_title'>Data</h1>
+			</header>
+		</div>
+
+		<?php /*
 		<section class='module'>
 			<div class='grid_layout'>
 				<header id='page_header'>
 					<h1 class='article_title'>Data</h1>
 				</header>
-				<!--<div class='wysiwyg_content'>
+				<div class='wysiwyg_content'>
 	 				
-	 				<?php /*
 	 				<br />
 	 				<div class="grid text-center">
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/1.png"><p>Satellite Altimetry</p></a></div>
@@ -35,10 +41,10 @@ EOF;
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/6.png"><p>Tide Gauges</p></a></div>
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/7.png"><p>XBT</p></a></div>
 	 				</div>
-	 				*/ ?>
 	 			</div><!-- //.wysiwyg_content -->
-			</div>--><!-- //.grid_layout -->
+			</div><!-- //.grid_layout -->
 		</section>
+		*/ ?>
 		<section class='gray-bg2'>
 			<div class='grid_layout'>
 				<div class='grid'>
