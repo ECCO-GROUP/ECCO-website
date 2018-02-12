@@ -1,4 +1,3 @@
-
 <?php
 	/* define page vars */
 	$include_path = '../../../';
@@ -9,7 +8,7 @@
 EOF;
 
 	include_once($include_path . 'includes/header.inc.php');
-?>	
+?>
 	<!-- START CONTENT -->
 	<div class='header_mask'></div>
 
@@ -18,20 +17,13 @@ EOF;
 			<header id='page_header'>
 				<h1 class='article_title'>Recent Presentations</h1>
 			</header>
+			<hr />
 			<div class='wysiwyg_content'>
-				<!-- <ul class="bullet_list indent">
-					<li><a href="#posters">Meeting Posters</a></li>
-					<li><a href="#posters_jpl">ECCO-JPL Group: Meeting Posters</a></li>
-					<?php /*
-						<li><a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a></li>
-					*/ ?>
-				</ul> -->
-				<hr />
-
 				<h3 class="content_title named-anchor" id="posters">2017 ECCO Meeting</h3>
 				<p>Download the presentations from the November 6-8 meeting held at Caltech</p>
+
+				<h2 class="content_title named-anchor" id="posters">Latest ECCO Products</h2>
 				<ul class="bullet_list">
-					<h2 class="content_title named-anchor" id="posters">Latest ECCO Products</h2>
 					<li>
 						<a href="../pdfs/06_1030_Campin_ecco_17_jnmc.pdf" target="_blank" rel="noopener noreferrer">Jean-Michel Campin: MITgcm development <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
@@ -41,7 +33,10 @@ EOF;
 					<li>
 						<a href="../pdfs/06_1130_Verdy_ECCO_2017_ariane.pdf" target="_blank" rel="noopener noreferrer">Ariane Verdy: SOSE and regional state estimates <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
-					<h2 class="content_title named-anchor" id="posters">Ocean Circulation</h2>
+				</ul>
+
+				<h2 class="content_title named-anchor" id="posters">Ocean Circulation</h2>
+				<ul class="bullet_list">
 					<li>
 						<a href="../pdfs/06_1210_Liang_ECCO2017.pdf" target="_blank" rel="noopener noreferrer">Xinfeng Liang: The Global Ocean Vertical Velocities from ECCO Version 4 <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
@@ -66,7 +61,11 @@ EOF;
 					<li>
 						<a href="../pdfs/07_1210_Torres_Hector_ECCO_2017.pdf" target="_blank" rel="noopener noreferrer">Hector Torres: submesoscale + internal waves <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
-					<h2 class="content_title named-anchor" id="posters">ECCO Roadmap</h2>
+				</ul>
+
+					
+				<h2 class="content_title named-anchor" id="posters">ECCO Roadmap</h2>
+				<ul class="bullet_list">	
 					<li>
 						<a href="../pdfs/06_1530_ECCO_Sea_Level_Change_20171107.pdf" target="_blank" rel="noopener noreferrer">Ichiro Fukumori: ECCO Sea Level Change <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
@@ -91,7 +90,10 @@ EOF;
 					<li>
 						<a href="../pdfs/08_1050_Ponte_updates.pdf" target="_blank" rel="noopener noreferrer">Rui Ponte/Ichiro Fukumori: Data and solution updating (General Discussion) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
-					<h2 class="content_title named-anchor" id="posters">Coupling with the cryosphere</h2>
+				</ul>
+
+				<h2 class="content_title named-anchor" id="posters">Coupling with the cryosphere</h2>
+				<ul class="bullet_list">
 					<li>
 						<a href="../pdfs/07_0850_Carroll_ECCO_2017.pdf" target="_blank" rel="noopener noreferrer">Dustin Carroll: Ice-sheet-ocean interactions in Greenland fjords <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
@@ -101,36 +103,8 @@ EOF;
 					<li>
 						<a href="../pdfs/08_0910_Manizza_ArcticCCycle_ECCO_CalTechNov2017_v2.pdf" target="_blank" rel="noopener noreferrer">Manfredi Manizza: Arctic carbon cycle <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
-					*/ ?>
-
-				</section><!-- //.list_view -->
-				
-				<?php /*
-				<h3 class="content_title named-anchor" id="posters_sio">SIO GROUP MEETING POSTERS</h3>
-				<ul class="bullet_list">
-					<li>
-						<a href="posters/poster_SWT1.pdf" target="_blank" rel="noopener noreferrer">Variations of the large-scale ocean circulation estimated by combining data with a numerical model</a><br />
-      					JASON-1 SWT Meeting<br />
-      					Biarritz, France, June 10-12 2002 
- 					</li>
- 					<li>
-						<a href="posters/poster_SWT2.pdf" target="_blank" rel="noopener noreferrer">Improving air-sea flux estimates through global ocean data assimilation</a><br />
-						JASON-1 SWT Meeting<br />
-						Biarritz, France, June 10-12 2002 
- 					</li>
- 					<li>
-						<a href="posters/poster_SWT3.pdf" target="_blank" rel="noopener noreferrer">Estimating climate changes of the deep ocean</a><br />
-						JASON-1 SWT Meeting<br />
-						Biarritz, France, June 10-12 2002 
- 					</li>
- 					<li>
-						<a href="posters/poster_SWT4.pdf" target="_blank" rel="noopener noreferrer">Vorticity balance in ECCO 2-degree global ocean simulations constrained by satellite and WOCE data</a><br />
-						JASON-1 SWT Meeting<br />
-						Biarritz, France, June 10-12 2002
-					</li>
 				</ul>
-				*/ ?>
-
+				
 			</div><!-- //.wysiwyg_content -->
 		</div><!-- //.grid_layout -->
 	</section><!-- //.content_page -->
