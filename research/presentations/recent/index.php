@@ -82,7 +82,7 @@ EOF;
 						<a href="../pdfs/07_1410_Ponte_tidalHF.pdf" target="_blank" rel="noopener noreferrer">Rui Ponte/Dimitris Menemenlis: Tidal Variability (General Discussion) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 					<li>
-						<a href="../07_1430_Ponte_nontidalHF.pdf" target="_blank" rel="noopener noreferrer">Rui Ponte: Non-tidal High Frequency Variability (General Discussion) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+						<a href="../pdfs/07_1430_Ponte_nontidalHF.pdf" target="_blank" rel="noopener noreferrer">Rui Ponte: Non-tidal High Frequency Variability (General Discussion) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 					<li>
 						<a href="../pdfs/08_1010_Ponte_newdata.pdf" target="_blank" rel="noopener noreferrer">Rui Ponte: Making use of new data and constraints I (General Discussion) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
