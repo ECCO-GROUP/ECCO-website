@@ -40,7 +40,7 @@ EOF;
 						</thead>
 						<tbody>
 							<tr>
-								<th class="text-left" rowspan="2">ECCO-V4r3</th>
+								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r3</a></th>
 								<td><a href="https://dspace.mit.edu/handle/1721.1/110380" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="_blank" rel="noopener noreferrer">Release 3</a></td>
 								<td>1992-2015</td>

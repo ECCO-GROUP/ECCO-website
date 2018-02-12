@@ -39,8 +39,7 @@
                         <div class="accordion">
                             <div class="accordion-section pad-20">
                                 Automatic Differentiation (AD) is a technology for automatically augmenting computer programs, including arbitrarily complex simulations, with statements for the computation of derivatives (tangent linear, adjoint, Hessian, etc.), also known as sensitivities. AD tools in our context provide source-to-source transformation of a function, given as computer code, to generate efficient and accurate (truncation-free) code for computing first, second and higher-order derivatives of the given function.
-                                <br /><br />
-                                <!--<a href="automatic-differentiation/">&rsaquo; Read more</a>-->
+                                <!-- <br /><br /><a href="automatic-differentiation/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
 
@@ -50,16 +49,15 @@
                         <div class="accordion">
                             <div class="accordion-section pad-20">
                                 Adjoint method is an algorithmic technique to solve a constrained
-optimization problem using the constraint's adjoint. The adjoint
-provides a computationally efficient means to evaluate the gradient
-(sensitivity) of what is being optimized with respect to the
-constraint. In the adjoint method, this gradient is employed to solve
-the problem using gradient-based optimization algorithms (e.g.,
-steepest descent, quasi-Newton, conjugate gradient methods). 4dvar
-(4-dimensional variational method) is synonymous with adjoint method.
-
-                                <br /><br />
-                                <!--<a href="adjoint-method/">&rsaquo; Read more</a>-->
+                                optimization problem. The adjoint of the constraint (e.g., model) provides a
+                                computationally efficient means to evaluate the gradient (sensitivity)
+                                of what is being optimized, such as model-data differences, with
+                                respect to the problem's independent variables (controls). To solve
+                                the problem, the adjoint method uses this information in
+                                gradient-based optimization algorithms (e.g., steepest descent,
+                                quasi-Newton, conjugate gradient methods). 4dvar (4-dimensional
+                                variational method) is synonymous with adjoint method."
+                                <!--<br /><br /><a href="adjoint-method/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
 
@@ -68,17 +66,15 @@ steepest descent, quasi-Newton, conjugate gradient methods). 4dvar
                         </p>
                         <div class="accordion">
                             <div class="accordion-section pad-20">
-                               Filters and smoothers are sequential techniques to correct models with
-observations. They are "sequential" as the correction takes place
-sequentially in time; e.g., model state at time "n" is corrected,
-followed by that at time "n+1". Filters correct models using
-observations formally in the past; smoothers use observations both
-formally in the past as well as the future. A Kalman filter and
-Rauch-Tung-Striebel (RTS) smoother are particular forms of these
-recursive least-squares estimators.
-
-                                <br /><br />
-                                <!--<a href="optimization/">&rsaquo; Read more</a>-->
+                                Filters and smoothers are sequential techniques to correct models with
+                                observations. They are "sequential" as the correction takes place
+                                sequentially in time; e.g., model state at time "n" is corrected,
+                                followed by that at time "n+1". Filters correct models using
+                                observations formally in the past; smoothers use observations both
+                                formally in the past as well as the future. A Kalman filter and
+                                Rauch-Tung-Striebel (RTS) smoother are particular forms of these
+                                recursive least-squares estimators.
+                                <!--<br /><br /><a href="optimization/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
 
@@ -88,13 +84,11 @@ recursive least-squares estimators.
                         <div class="accordion">
                             <div class="accordion-section pad-20">
                                 State estimation is an act of inferring the state of a dynamic system
-from observations of that system. State estimation belongs to the
-field of estimation and control theories, well-established
-mathematical subjects with roots in engineering applications (e.g.,
-ballistics).
-
-                                <br /><br />
-                                <!--<a href="kalman-filter-and-smoother/">&rsaquo; Read more</a>-->
+                                from observations of that system. State estimation belongs to the
+                                field of estimation and control theories, well-established
+                                mathematical subjects with roots in engineering applications (e.g.,
+                                ballistics).
+                                <!--<br /><br /><a href="kalman-filter-and-smoother/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
 
@@ -104,13 +98,11 @@ ballistics).
                         <div class="accordion">
                             <div class="accordion-section pad-20">
                                 Data assimilation is a process of correcting dynamical models with
-observations. Data assimilation has roots in numerical weather
-forecasting; viz., the process of using observations to initialize
-numerical weather models for forecasting. As such, data assimilation
-is largely a filtering problem.
-
-                                <br /><br />
-                                <!--<a href="closing-budgets/">&rsaquo; Read more</a>-->
+                                observations. Data assimilation has roots in numerical weather
+                                forecasting; viz., the process of using observations to initialize
+                                numerical weather models for forecasting. As such, data assimilation
+                                is largely a filtering problem.
+                                <!--<br /><br /><a href="closing-budgets/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
                         
@@ -120,19 +112,16 @@ is largely a filtering problem.
                         <div class="accordion">
                             <div class="accordion-section pad-20">
                                 Filtered solutions do not satisfy model constraints due to the
-filters' corrections using data. These constraints include
-conservation laws embodied in models. As such, filtered property
-budgets cannot be closed in terms of processes that the models
-resolve, making causal mechanisms underlying filtered solutions
-difficult to ascertain.<br /><br />
-
-Smoothed solutions, in comparison, generally do satisfy model
-constraints as they include estimates of model error sources consistent
-with corrections to the state.
-
-
+                                filters' corrections using data. These constraints include
+                                conservation laws embodied in models. As such, filtered property
+                                budgets cannot be closed in terms of processes that the models
+                                resolve, making causal mechanisms underlying filtered solutions
+                                difficult to ascertain.
                                 <br /><br />
-                                <!--<a href="kalman-filter-and-smoother/">&rsaquo; Read more</a>-->
+                                Smoothed solutions, in comparison, generally do satisfy model
+                                constraints as they include estimates of model error sources consistent
+                                with corrections to the state.
+                                <!--<br /><br /><a href="kalman-filter-and-smoother/">&rsaquo; Read more</a>-->
                             </div><!-- //.accordion-section -->
                         </div><!-- //.accordion -->
 
