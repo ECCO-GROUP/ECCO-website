@@ -30,7 +30,7 @@ EOF;
 								<th class="text-left">Product</th>
 								<th>Release Identifier</th>
 								<th>Release Name</th>
-								<th>Covered Time Period</th>
+								<th>Time Period</th>
 								<th>Model Grid</th>
 								<th>Depth Levels</th>
 								<th>Estimation Method</th>
@@ -52,8 +52,8 @@ EOF;
 							</tr>
 							<tr>
 								<td>&gt;</td>
-								<td><a href="http://mit.ecco-group.org/opendap/diana/h8_i48/contents.html" target="_blank" rel="noopener noreferrer">Interpolated climatology</a></td>
-								<td>1993-2014</td>
+								<td><a href=" ftp://ecco.jpl.nasa.gov/Version4/Release3/interp_monthly/" target="_blank" rel="noopener noreferrer">Interpolated climatology</a></td>
+								<td>1992-2015</td>
 								<td>1/2 deg.</td>
 								<td>50</td>
 								<td>-</td>
