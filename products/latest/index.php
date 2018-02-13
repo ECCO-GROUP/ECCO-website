@@ -114,6 +114,14 @@ summarized in a "User Guide" in the link below.
 				
 				<h2>Technical Reference</h2>
 				<div>
+					<p><strong>ECCO-v4-Py: A Python toolbox and tutorial for using the ECCO v4 output</strong></p>
+					<div class="indent">
+						<p>
+							
+							<a href="http://ecco-v4-python-tutorial.readthedocs.io/" target="_blank" rel="noopener noreferrer">http://ecco-v4-python-tutorial.readthedocs.io/</a><br/>
+						</p>
+					</div>
+					
 					<p><strong>Synopsis of V4r3 estimation</strong></p>
 					<div class="indent">
 						<p>
