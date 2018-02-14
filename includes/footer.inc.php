@@ -56,7 +56,6 @@
                     <ul class='subnav'>
                       <li><a href="/products/all/" title="View a list of ECCO's products">All Products</a></li>
                       <li><a href="/products/latest/" title="View ECCO's Latest Product">Latest Product</a></li>
-                      <li><a href="/products/ecco-jpl/" title="View old website." class="no-break">ECCO-JPL</a></li>
                     </ul>
                   </div>
                   <div class='footer_sitemap_item'>

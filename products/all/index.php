@@ -274,6 +274,16 @@ EOF;
 								<td>0</td>
 								<td>no sea-ice</td>
 							</tr>
+							<tr>
+								<th class="text-left"><a href="/products/ecco-jpl/">ECCO-JPL</a></th>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
 						</tbody>
 					</table>
 				</div>
