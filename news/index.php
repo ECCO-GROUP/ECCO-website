@@ -113,7 +113,7 @@ Forget, G., J.M. Campin, P. Heimbach, C.N. Hill, R.M. Ponte, and C. Wunsch, 2015
 <hr />
 <h4>September 2008 — An eddy-permitting Southern Ocean State Estimate (SOSE)</h4>
 
-<p>As part of his Ph.D. thesis, <a href="http://www-pord.ucsd.edu/~mmazloff/" target="_blank">Matt Mazloff</a> has produced an eddy-permitting state estimate at 1/6 degree horizontal resolution of the Southern Ocean, covering the Argo-rich period 2005/06. The adjoint-based solution is dynamically consistent and enables closed budget calculations of various quantities. Matt's thesis was featured in the <a href="http://www.sdsc.edu/us/newsletter/common/newsletter.php?%20issue=2006-02&corner=fstory">SDSC Thread Newsletter</a>, and more recently in WHOI's Oceanus magazine (<a href="http://www.whoi.edu/oceanus/viewArticle.do?id=49240&archives=true" target="_blank">Corralling the Wild and Wooly Southern Ocean</a>).</p>
+<p>As part of his Ph.D. thesis, <a href="http://www-pord.ucsd.edu/~mmazloff/" target="_blank">Matt Mazloff</a> has produced an eddy-permitting state estimate at 1/6 degree horizontal resolution of the Southern Ocean, covering the Argo-rich period 2005/06. The adjoint-based solution is dynamically consistent and enables closed budget calculations of various quantities. Matt's thesis was featured in the SDSC Thread Newsletter, and more recently in WHOI's Oceanus magazine (<a href="http://www.whoi.edu/oceanus/viewArticle.do?id=49240&archives=true" target="_blank">Corralling the Wild and Wooly Southern Ocean</a>).</p>
 
 <hr />
 <h4>May 2007 — 50 year GECCO solution made available online</h4>
@@ -185,7 +185,7 @@ are not available otherwise.</p>
 <hr />
 <h4>August 2006 — NAS Teamwork Helps Researchers Cruise Through Ocean Data</h4>
 
-<p>As part of his Ph.D. thesis, <a href="http://www-pord.ucsd.edu/~mmazloff/" target="_blank">Matt Mazloff</a> has produced an eddy-permitting state estimate at 1/6 degree horizontal resolution of the Southern Ocean, covering the Argo-rich period 2005/06. The adjoint-based solution is dynamically consistent and enables closed budget calculations of various quantities. Matt's thesis was featured in the <a href="http://www.sdsc.edu/us/newsletter/common/newsletter.php?%20issue=2006-02&corner=fstory">SDSC Thread Newsletter</a>, and more recently in WHOI's Oceanus magazine (<a href="http://www.whoi.edu/oceanus/viewArticle.do?id=49240&archives=true" target="_blank">Corralling the Wild and Wooly Southern Ocean</a>).</p>
+<p>As part of his Ph.D. thesis, <a href="http://www-pord.ucsd.edu/~mmazloff/" target="_blank">Matt Mazloff</a> has produced an eddy-permitting state estimate at 1/6 degree horizontal resolution of the Southern Ocean, covering the Argo-rich period 2005/06. The adjoint-based solution is dynamically consistent and enables closed budget calculations of various quantities. Matt's thesis was featured in the SDSC Thread Newsletter, and more recently in WHOI's Oceanus magazine (<a href="http://www.whoi.edu/oceanus/viewArticle.do?id=49240&archives=true" target="_blank">Corralling the Wild and Wooly Southern Ocean</a>).</p>
 
 <hr />
 <h4>April 2006 — ECCO puts focus on Southern Ocean</h4>
@@ -198,7 +198,7 @@ run efficiently on 600 pocessors of SDSC's IBM  Power-4 &quot;DataStar&quot;    
 to a variety of observation during the year  2004.
 The work led by MIT's Matthew Mazloff was  featured in the 
 April 2006 issue of the SDSC Nuggets magazine 
-(<a href="http://www.sdsc.edu/nuggets/200604_nuggets.html" target="_blank">&quot;Predicting the State of the Ocean&quot;)</a> and Issue 4,&nbsp;  Febbruary&nbsp; 2006 of SDSC Thread <a href="http://www.sdsc.edu/us/newsletter/common/newsletter.php?issue=2006-02&corner=fstory" target="_blank">(&quot;Estimating the State of the Southern  Ocean&quot;)</a> by Matthew Mazloff.</p>
+(&quot;Predicting the State of the Ocean&quot;) and Issue 4,&nbsp;  Febbruary&nbsp; 2006 of SDSC Thread (&quot;Estimating the State of the Southern  Ocean&quot;) by Matthew Mazloff.</p>
 
 <hr />
 <h4>February 2006 — IT Struggles with Climate Change</h4>
