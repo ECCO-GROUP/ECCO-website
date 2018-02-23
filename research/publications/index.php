@@ -36,6 +36,7 @@ EOF;
 					<li>The ECCO Consortium, 2017a: A Twenty-Year Dynamical Oceanic Climatology: 1994-2013. Part 1: Active Scalar Fields: Temperature, Salinity, Dynamic Topography, Mixed-Layer Depth, Bottom Pressure. <a href="http://hdl.handle.net/1721.1/107613" target="blank">http://hdl.handle.net/1721.1/107613</a> (2017-03-20)</li>
 					<li>The ECCO Consortium, 2017b: A Twenty-Year Dynamical Oceanic Climatology: 1994-2013. Part 2: Velocities, Property Transports, Meteorological Variables, Mixing Coefficients. <a href="http://hdl.handle.net/1721.1/109847" target="blank">http://hdl.handle.net/1721.1/109847</a> (2017-06-14)</li>
 					<li>Wu, Q., Zhang, X., Church, J. A. and Hu, J., 2017: <a href="http://dx.doi.org/10.1002/2016JC012345">Variability and change of sea level and its components in the Indo-Pacific region during the altimetry era.</a> J. Geophys. Res. Oceans., doi:10.1002/2016JC012345</li>
+					<li>Liang, X., M. Spall, and C. Wunsch, 2017: Global ocean vertical velocity from a dynamically consistent ocean state estimate. J. Geophys. Res, doi: 10.1002/2017JC012985</li>
 				</ul>
 
 				<h4>2016</h4>
@@ -57,6 +58,7 @@ EOF;
 					<li>G. Spreen, R. Kwok, D. Menemenlis, and A. Nguyen, 2016: <a href="http://www.the-cryosphere-discuss.net/tc-2016-13/">Sea ice deformation in a coupled ocean-sea ice model and in satellite remote sensing data.</a> The Cryosphere, 10.5194/tc-2016-13</li>
 					<li>D. Stammer, M. Balmaseda, P. Heimbach, A.Koehl, and A. Weaver, 2016: Ocean Data Assimilation in Support of Climate Applications: Status and Perspectives. Ann. Rev. Mar. Sci., 8, 491-518.</li>
 					<li>C. Wunsch, 2016: Global Ocean Integrals and Means, with Trend Implications. Ann. Rev. Mar. Sci., 8, 1-33.</li>
+					<li>    Liang, X., and L. Yu, 2016: Variations of the global net air–sea heat flux during the “Hiatus” period (2001–10). J. Clim, 29, 3647–3660, doi:10.1175/JCLI-D-15-0626.1</li>
 				</ul>
 
 				<h4>2015</h4>
