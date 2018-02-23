@@ -1,0 +1,19 @@
+Improving ENSO simulations and predictions through
+the ECCO ocean state estimation 
+
+Dietmar Dommenget and Detlef Stammer
+
+The global ECCO ocean state estimation procedure is used to simulate 
+and forecasts of tropical Pacific SST and sub-surface fields on seasonal
+time scale. As compared to a traditional ENSO assimilation and prediction
+procedures, the hindcast of the constrained ocean state is much closer to 
+observed conditions. The skill of the 12 month lead SST forecast in the
+equatorial Pacific appears to be similar in both assimilation, but
+the optimizations leads to better skills in the SST anomaly correlations. 
+Although our current forecast system is strongly limited by the estimation 
+of atmospheric forcing corrections, the results see to suggest that
+the forecast system would benefit if adoint optimizations are performed
+with coupled ocean-atmosphere systems in which the coupling is
+part of the control vectors of the adjoint optimization.
+
+

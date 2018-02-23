@@ -1,0 +1,30 @@
+Bottom Topography as a Control Parameter in an
+    Ocean Circulation Model
+    
+Martin Losch and Carl Wunsch
+
+  Bottom topography is a major factor in determining the general
+  circulation of the ocean. It is, however, inaccurately known in many
+  regions, and even where accurately known, the best way to represent 
+  (parameterize) it in models is obscure. To begin to understand the  
+  influence of errors in topography and of misrepresentations of both 
+  resolved and sub-grid scale structures, a linear barotropic shallow 
+  water model and its adjoint are developed in which depth is used as 
+  a control variable. Simple basin geometries are employed to explore 
+  the extent to which topographic structure determines the sea-surface
+  elevation in a steady flow and, more directly, the information
+  content about the bottom contained in elevation measurements. 
+  Experiments show that even perfect measurements of sea-surface
+  elevation in a steady state cannot, by themselves, uniquely
+  determine the full structure of the bottom topography. (There is a
+  null space.) As in most control problems, a priori knowledge of its
+  structure is useful in the best topographic determination.
+  Resolution of the bottom topography as a function of position is
+  greatest where the flow velocities are greatest. Spatial correlation
+  between the resolution of the bottom topography and the flow field  
+  is weaker (as expected) when noise with realistically large variance
+  is introduced into the data. Ultimately, bottom topography will
+  likely be included generally as a control variable in GCMs of  
+  arbitrary complexity along with other controls such as friction and
+  lateral boundary conditions.
+

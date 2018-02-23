@@ -1,0 +1,34 @@
+Interannual Variation of Mixed-layer Heat Balance:
+contrasting different climate phenemena and the roles of linear
+versus nonlinear effects
+
+Tong Lee, Ichiro Fukumori, Benyang Tang, and Dimitris Menemenlis
+
+Variation of mixed-layer heat balance are studied using an ECCO
+assimilation product (http://www.ecco-group.org).  The analysis
+focuses on the similarity and difference associated with El
+Nino-Southern Oscillation (ENSO), Indian-Ocean Dipole (OID), and
+Pacific Decadal Oscillation (PDO), and the relative importance of
+linear versus nonlinear advective tendencies. In the eastern and central
+equatorial Pacific, the warming and cooling are caused by the combined  
+effect of oceanic advection and diffusion.  Surface heat flux opposes   
+the change. The opposite is true for the western equatorial Pacific.    
+The relative contribution of different components of oceanic advection  
+is spatially dependent.  Zonal advection is dominant in the central
+equatorial Pacific where zonal temperature gradient associated with
+the warm-pool edge is large.  Vertical advection is more important in
+the eastern equatorial Pacific where upwelling and vertical
+temperature gradient are large.  Diffusion has a smaller magnitude
+than advection, but is comparable to the temporal change of
+mixed-layer temperature (MLT).  Advection of anomalous temperature
+gradient by mean flow and advection of mean temperature gradient by
+anomalous flow have comparable magnitude, both being in-phase with the
+change of MLT. Nonlinear tendency (advection of anomalous temperature 
+gradient by anomalous flow) is sizable and counteracts the two linear 
+tendencies above.  Different from the tropical Pacific, nonlinear effect
+in mid-latitude Pacific is very small; the advection of mean temperature
+gradient by anomalous flow has the largest contribution to the total
+advection of heat.  The role of total oceanic advection in MLT balance is
+similar for ENSO, IOD, and PDO. However, that of surface heat flux is
+different.
+

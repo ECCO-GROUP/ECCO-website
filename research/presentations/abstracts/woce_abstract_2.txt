@@ -1,0 +1,16 @@
+The ECCO 1 degree global WOCE Synthesis: Data Constraints and Their Estimated
+Errors.
+
+Y. Lu, K. Uejoshi, A. Koehl, E. Remy, K. Lohrbacher, D. Stammer and C. Wunsch
+
+for the ECCO Consortium.
+
+The ECCO global ocean state estimate over the 10-year period 1992 - 2001 
+is obtained by fitting WOCE data sets to a general circulation model. Data 
+included are most of the in situ and satellite observations available during 
+WOCE itself, and continuing. These data include satellite altimetry, scatterometry 
+and SST fields, in situ hydrographic sections, XBT, P-ALACE, ARGO and TAO 
+profiles, surface drifter velocities and Levitus climatological hydrography. 
+As with all statistical estimation problems, one must provide a priori
+error covariances for all data sets, and the values and structures used in
+the estimation procedures are described here.

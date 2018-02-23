@@ -1,0 +1,78 @@
+// components/_tables.scss
+
+.wysiwyg_content table {
+	border: 1px solid $color-jpl-cool-gray-3;
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+	tr, th, td {
+		background-color: $color-jpl-white;
+		height: 50px;
+	}
+
+	th {
+		border: 1px solid $color-jpl-cool-gray-3;
+		font-weight: bold;
+		min-width: 20%;
+		vertical-align: middle;
+
+		&.one-quarter-width {
+			width: 25%;
+		}
+	}
+
+	td {
+		border: 1px solid $color-jpl-cool-gray-3;
+		padding: 10px;
+		min-width: 40%;
+		vertical-align: middle;
+	}
+
+	&.full-width {
+		width: 100%;
+	}
+
+	&.half-width {
+		width: 50%;
+	}
+
+	a {
+		color: $color-jpl-link-blue !important;
+	}
+
+	&.gray-striped {
+		tr:nth-child(odd) {
+			background-color: #F3F3F3;
+		}
+		td {
+			background-color: initial;
+		}
+	}
+
+	&.one-quarter-width {
+		tbody tr th, td:nth-child(1) {
+			width: 25%;
+		}
+
+	}
+
+	&.one-fifth-width {
+		tbody tr th, td:nth-child(1) {
+			width: 20%;
+		}
+
+	}
+
+	&.one-eighth-width {
+		tbody tr th, td:nth-child(1) {
+			width: 12.5%;
+		}
+
+	}
+
+
+}

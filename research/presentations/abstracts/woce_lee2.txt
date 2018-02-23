@@ -1,0 +1,46 @@
+Interannual-to-decadal Variation of Tropical-subtropical
+Exchange in the Pacific Ocean: Boundary Versus Interior 
+Pathways 
+
+Tong Lee, Ichiro Fukumori, Dimitris Menemenlis, Lee-Lueng Fu
+Jet Propulsion Laboratory, California Institute of Technology
+
+Tropical-subtropical exchange of water masses is considered
+to be important to interannual-to-decadal variability in the
+tropical Pacific.  On average, the exchange is accomplished 
+by a shallow (< 400 m) meridional circulation which connects
+the equatorial upwelling, poleward transport of surface
+Ekman flow, and equatorward transport of pycnocline waters
+originating from the subtropics.  Pycnocline waters arrive
+at the tropics via western-boundary and interior pathways.
+It is well-established that, on average, the two pathways 
+re-enforces the net exchange. However, less is known about
+their relative role on interannual-to-decadal time scales 
+and the underlying physical processes.  In this study, we 
+address these issues using sea level measurements obtained
+by the TOPEX/Poseidon satellite altimter and circulation  
+estimated by the Consortium for Estimating the Circulation  
+and Climate of the Ocean (ECCO; http://www.ecco-group.org). 
+Variation of pycnocline transport via the boundary is found 
+to be (1) anti-correlated to and (2) smaller in magnitude   
+than that of the interior.  These features are attributed   
+to the combined effect of two different forcing mechanisms: 
+(1) the variation of local wind stress curl changes the
+strength of horizontal circulation and results in variation
+of boundary flow that is opposite in direction and
+comparable in magnitude to that of interior flow; (2) the
+variation of equatorial zonal wind stress which affects  
+the strength of meridional circulation with net pycnocline
+flow opposing the surface Ekman flow.  Due to the partial 
+compensation by boundary flow, the convergence of 
+pycnocline waters into the tropics is about 50% of that
+inferred from interior pycnocline flow alone.  The net 
+pycnocline transport reflects ENSO forcing on interannual
+time scales.  There is less equatorward intrusion of
+pycnocline water in the 1990s than in the 1980s,
+consistent with recent observation.  In the North Pacific,
+variability of interior pycnocline transport is larger
+than that through the boundary.  This is different from the
+time mean where the interior transport is substantially 
+smaller than that through the boundary.
+

@@ -1,0 +1,16 @@
+ECCO Estimates of Large-scale Changes at the Hawaii Ocean Time-series Station
+
+D. Stammer, S. Park, A. Koehl, R. Lukas, and F. Santiago-Mandujano 
+
+A comparison of ECCO ocean estimates is being provided
+with independent observations at the HOT deep-water station.
+The goal is to compare and identify similar inter-annual changes in
+the HOT observations and use the ECCO estimates to infer their
+origin.  Based on the ECCO WOCE synthesis, a complete balance of
+temperature and salinity  (freshwater) anomalies will be provided
+at the HOT station to help interpret the local time series
+measurements as a function of depth. In addition we will use the 
+adjoint framework to identify the area (in space and time) that 
+can in principle be influenced by the HOT measurements in a 
+dynamically consistent assimilation framework.
+

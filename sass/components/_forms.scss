@@ -1,0 +1,20 @@
+// components/_form.scss
+
+input[type=text], textarea, select { 
+	outline: none; 
+	padding: 5px 3px;
+	margin: 5px 0;
+	border: 1px solid $color-jpl-cool-gray-3;
+	width: 100%; 
+	@include font-size(16); 
+}
+
+.input_focus {
+	box-shadow: 0 0 5px $color-jpl-aqua;
+	border: 1px solid $color-jpl-aqua; 
+}
+
+input.datepicker {
+	width: 49%;
+	cursor: pointer;
+}

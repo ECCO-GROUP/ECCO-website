@@ -1,0 +1,30 @@
+A 1/3 {$^\circ$} resolution model of the tropical Pacific Ocean is 
+used to investigate eddy energetics associated with tropical 
+instability waves (TIWs) in the equatorial Pacific Ocean from 1996 
+to 2000. The geographical dependence of the balance of the perturbation
+energy equation is explored, and the sensitivity of the results to
+the wind forcing and the model's resolution is investigated.
+
+Eddy kinetic energy reaches large values in fall 1998 
+during La Nina and TIWs are absent during El Nino (spring 1997 to 
+spring 1998).  At 135$^{\circ}$W, the large mean to eddy kinetic 
+energy conversion is dominated by $\overline{u'v'} \partial 
+U/\partial y$, $\overline{v'v'}\partial V/\partial y$ and 
+$\overline{u'w'}\partial U/\partial z$. All those terms are 
+subject to seasonal and interannual variability. Baroclinic instability also 
+provides energy to the TIWs between 1$^{\circ}$ and 4$^{\circ}$N through the
+conversion of eddy potential to eddy kinetic energy. 
+
+Largest eddy energy production are observed in surface at 4$^{\circ}$N within 
+the anticyclonic shear between the SEC and the NECC, where the eddy kinetic energy 
+is maximum. $\overline{u'v'}\partial U/\partial y$ is maximum just north of the equator 
+at about 50\,m in fall 1996 while it is maximum at the surface 
+in fall 1998 and fall 1999, suggesting that the TIWs derive their energy 
+from the EUC-SEC shear in 1996 and from the shear within the SEC in 1998 
+and 1999. $\overline{v'v'}\partial V/\partial y$ and $\overline{u'w'}\partial 
+U/\partial z$, which generally tend to weaken the waves just to the north 
+of the equator, are also subject to interannual variability and their combination 
+with $\overline{u'v'}\partial U/\partial y$ lead to weaker TIWs in fall 
+1996 compared to fall 1998 and 1999. 
+
+

@@ -1,0 +1,32 @@
+Assessing the importance of non-Boussinesq effects in a coarse
+resolution global ocean model.
+
+M. Losch, A. Adcroft, and J.-M. Campin
+
+The advent of the GRACE mission presents the opportunity to accurately
+measure variations in bottom pressure. Such a data source will prove  
+valuable in state estimation and constraining general circulation
+models (GCMs) in general. However, conventional GCMs make the
+Boussinesq approximation as a consequence of which mass is not
+conserved. Thus Boussinesq models have an implicit drift in bottom
+pressure. By use of the height-pressure coordinate isomorphism
+implemented in the MIT GCM, we can evaluate the impact of
+non-Boussinesq effects.  We find that although implementing a
+non-Boussinesq model in pressure coordinates is relatively
+straight-forward, making a direct comparison between height and
+pressure coordinate (i.e., Boussinesq and non-Boussinesq) models is
+not simple. Here we present a careful comparison of the Boussinesq and
+non-Boussinesq solutions ensuring that only non-Boussinesq effects can
+be responsible for the observed differences. As a yard-stick, we also 
+compare differences between the Boussinesq hydrostatic and
+non-hydrostatic models, another approximation commonly made in
+GCMs. We find that model errors (differences) due to the Boussinesq
+approximation are apparently smaller than the errors due to the
+hydrostatic approximation. We also compare these model errors with
+uncertainties associated with model parameterizations and find that
+non-Boussinesq and non-hydrostatic effects are much smaller than these
+uncertainties. We conclude that non-Boussinesq effects are negligible 
+with respect to other model errors. However, since there is no
+additional cost incurred in using a pressure coordinate model,
+non-Boussinesq modeling is preferable simply for puristic reasons.
+

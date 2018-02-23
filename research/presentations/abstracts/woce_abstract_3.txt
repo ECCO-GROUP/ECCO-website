@@ -1,0 +1,24 @@
+The ECCO 1 degree global WOCE Synthesis.  The Estimated Mean State
+
+A. Koehl, Y. Lu, P. Heimbach, B. Cornuelle, D. Stammer and C. Wunsch
+
+for the ECCO Consortium.
+
+The global time-dependent WOCE data synthesis made by the ECCO
+Consortium over the 10-year period 1992 - 2001 aims at estimating 
+the time-dependent ocean state that is, within error bars, consistent
+with the global data sets and the dynamics imbedded in the numerical 
+model.  We compare the estimated state with the WOCE observations that 
+went into the synthesis. Overall, the agreement with the data is 
+close to consistent with the prior error statistics for 
+the data and model. The remaining misfit and a comparison
+with the reference state provides information about the quality of
+both the state and about and model errors.  The state estimation
+procedure is able to correct for many of the traditional shortcomings
+of the flow field. However, as adjustments are made through changing the
+surface boundary conditions and initial conditions only, not all deficits
+can be properly represented.  Mean meridional heat transports,
+meridional overturning and volume transport through passages are 
+slightly reduced in comparison with the unconstrained reference run.
+
+

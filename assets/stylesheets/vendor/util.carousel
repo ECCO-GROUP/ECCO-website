@@ -1,0 +1,104 @@
+/*UtilCarousel Base Style*/
+/* line 3, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel {
+  display: none;
+  position: relative;
+  -ms-touch-action: pan-y; }
+
+/* line 8, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel .util-wrapper-holder {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+/* line 13, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel .util-wrapper {
+  *zoom: 1;
+  position: relative;
+  display: none; }
+
+/* line 18, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel .util-wrapper:before, .util-carousel .util-wrapper:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+/* line 23, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel .util-wrapper:after {
+  clear: both; }
+
+/* line 26, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-carousel .util-item {
+  float: left; }
+
+/* line 29, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.dragging, .dragging * {
+  cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move; }
+
+/*UtilCarousel Defualt Theme*/
+/* line 34, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-pagination {
+  text-align: center;
+  margin-top: 10px; }
+
+/* line 38, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px; }
+
+/* line 50, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-page {
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+  *display: inline; }
+
+/* line 56, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-page.active-page span {
+  background-color: #555555; }
+
+/* line 59, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-page:hover span {
+  background-color: #888; }
+
+/* line 62, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-navigation {
+  text-align: center; }
+
+/* line 65, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-prev, .util-theme-default .util-next {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 5px;
+  background-color: #bbbbbb;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1em;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 85, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-prev:hover, .util-theme-default .util-next:hover {
+  background-color: #555555; }
+
+/* line 88, /Users/justin/Git_projects/projects/middleman/jpl-website/source/assets/stylesheets/vendor/util.carousel.scss */
+.util-theme-default .util-disable, .util-theme-default .util-disable:hover {
+  background-color: #bbbbbb;
+  opacity: 0.4;
+  cursor: default; }

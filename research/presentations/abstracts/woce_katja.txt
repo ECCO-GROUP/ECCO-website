@@ -1,0 +1,29 @@
+North Atlantic low-frequency changes of volume and
+heat transports in the ECCO state estimates
+
+K. Lorbacher, A. Koehl and D. Stammer, SIO
+
+From a solution of the global ECCO state estimation we
+diagnose
+the low-frequency (seasonal to interannual) variability of meridional
+volume and heat transports between 20N and 60N in the North Atlantic
+Ocean. The model transports are compared with estimates across the
+nominal "48N"-section (WOCE/A2) -- reaching from the English Channel
+to the Grand Banks -- where a coherent hydrographic data set was
+obtained during seven cruises from 1993 to 2000.
+
+The standard deviation of the monthly-mean anomalies of the simulated
+overturning rate at "48N" amounts to 2 Sv and of the heat transport to
+0.08 PW, respectively; the year-to-year variability is half of those
+numbers. In contrast to the model simulations, the observed amplitudes
+lie 50% above the model transport variations on interannual timescale.
+The percentage of the different components contributing to the total
+heat transport in the model is consistent with the estimates from the
+observations: In the time-mean, the baroclinic component of the heat
+transport contributes 80% to the total integral and the Ekman component
+10%. However, the latter explains 90% of the diagnosed low-frequency
+variability. In the observations the baroclinic component is mainly
+responsible for interannual variations and thereby changes in the sign
+of the horizontal component appears to be dynamically relevant. From
+the model output we compute error bars on the observed transport
+estimates to test their representativeness of low-frequency variability.

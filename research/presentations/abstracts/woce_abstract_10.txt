@@ -1,0 +1,25 @@
+The Role of Salinity in Pacific Surface Height Variability and in Diagnosing 
+the Hydrological Cycle
+
+Elizabeth Douglass, Dean Roemmich, John Gilson, Detlef Stammer
+Scripps Institution of Oceanography, La Jolla CA 92093-0230 USA
+
+
+We present a preliminary analysis of Argo data, XCTD profiles, and results from 
+the ECCO assimilation project with respect to the role of salinity in the variability 
+of seasurface height and the use of salinity measurements to improve our understan
+ding of the hydrological cycle in the ocean. 
+
+The Argo Project  part of the legacy of WOCE - marks the first globally repeating 
+measurements of subsurface salinity, with the data freely available in near real-time. 
+A sparse but rapidly growing Argo array is now operating in the tropical Pacific, 
+returning temperature and salinity profiles every 10 days from 1000 m to the sea surface. 
+These data, plus XCTD profiles from several High Resolution XBT/XCTD lines, are used to 
+assess the quality of results from data assimilation activities in the Pacific Ocean. 
+A synthesis of the data and a model will then be used to understand the magnitude of 
+salinity variability and its contribution to density and sea surface height. They are 
+also used for diagnosing precipitation minus evaporation (P-E) anomalies, both locally 
+in surface waters, and remotely in subducted water masses. Substantial interannual signals 
+in salinity occur in the upper Pacific Ocean, whose understanding will help to unravel 
+the puzzle of ENSO and other modes of cl imate variabilty.
+

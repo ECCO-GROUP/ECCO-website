@@ -1,0 +1,109 @@
+// components/_header.scss
+
+.fixed {
+	// -- luis: fixes chrome header humping bug	
+	-webkit-transform: translateZ(0);
+	backface-visibility: hidden;
+}
+
+.light_background {
+	.site_header_area, .no-touch .site_header_area.fixed, .touch .site_header_area.fixed {
+		background-color: #17283c;
+	}
+}
+
+.light_background .site_header .brand_area, .fixed .site_header .brand_area {
+		background: url(/assets/images/logo_nasa_trio_white@2x.png) no-repeat;
+		@include background-size(100%);	
+}
+
+.site_header_area, .no-touch .site_header_area.fixed, .main_nav_overlay {
+	.brand_area {
+		background: url(/assets/images/logo_nasa_trio_white@2x.png) no-repeat;
+		@include background-size(100%);
+
+		.jpl_logo {
+			height: 50%; 
+		}
+
+		.caltech_logo { 
+			display: block; 
+			text-indent: -9999px; 
+			width: 100%; 
+			float: left; 
+			height: 50%; 
+		}
+	}
+
+	#modal_close { 
+		right: .3em;
+		top: .8em;;
+
+		@include breakpoint($medium_mid) {
+			top: 1.4em;
+		}
+
+		@include breakpoint($medium_large) {
+			top: 1.5em;
+		}
+
+		@include breakpoint($large) {
+			top: 2em;
+		}
+	}
+
+	.separator, .other_brand {
+		position: absolute;
+		display: none;
+
+		@include breakpoint($medium) {
+			display: inline-block;
+		}
+
+	    &.separator {
+		    border-left: 1px solid $color-jpl-white;
+		    margin: 0 20px;
+	    	height: 34px;
+	    	bottom: 22%;
+		    
+		    @include breakpoint($medium_mid) {
+		    	height: 40px;
+		    	bottom: 22%;
+		    }
+
+		    @include breakpoint($large) {
+				height: 45px;
+		    	bottom: 25%;
+		    }
+
+		}
+	
+		&.other_brand {
+			margin-left: 40px;
+			bottom: 14%;
+
+			@include breakpoint($large){
+				bottom: 20%;
+			}
+
+			div:first-child {
+				@include font-size(30);
+
+				@include breakpoint($medium_mid) {
+					@include font-size(40);
+				}
+			}
+
+			a {
+		    	color: $color-jpl-white;
+			  	text-decoration: none;
+			  	@include transition-duration(.2s);
+			  	/*
+			  	&:hover {
+			  		color: $color-jpl-slate-blue;
+			  	}
+			  	*/
+			}
+		}
+	}
+}
