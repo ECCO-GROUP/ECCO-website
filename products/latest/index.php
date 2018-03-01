@@ -100,8 +100,8 @@ correlated errors).
 				<p>As a condition of using this product, you <strong><i>must</i></strong> cite the use of this product using the following citation.</p>
 				<div class="indent gray-bg pad-20">
 					<i>
+						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a></p>
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</p>
-						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2016: ECCO version 4: Second Release, <a href="http://hdl.handle.net/1721.1/102062" target="_blank" rel="noopener noreferrer">http://hdl.handle.net/1721.1/102062</a></p>
 					</i>
 				</div>
 				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
