@@ -21,16 +21,15 @@ EOF;
 				<h1 class='article_title'>Publications</h1>
 			</header>
 			<div class='wysiwyg_content'>
-				<ul class="bullet_list indent">
-					<li><a href="#production">ECCO-Production and ECCO-IcES publications</a></li>
-					<li><a href="#godae">ECCO-GODAE @ JPL (1993-2009)</a></li>
-					<li><a href="#sio">ECCO-SIO, ECCO-JPL, GECCO (1997-2005)</a></li>
-					<li><a href="#report">ECCO REPORT SERIES</a></li>
-				</ul>
-
-				<div id="publications" class=""></div>
-				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
+			<hr />
+			<div id="publications" class=""></div>
 		</div><!-- //.grid_layout -->
 	</section><!-- //.content_page -->
 

@@ -16,8 +16,8 @@ let publications = {
 				publications.articles += "      <th>Year</th>";
 				publications.articles += "      <th>Contributors</th>";
 				publications.articles += "      <th>Title</th>";
-				publications.articles += "      <th>Keywords</th>";
 				publications.articles += "      <th>Abstract</th>";
+				publications.articles += "      <th class='is-hidden'>Keywords</th>";
 				publications.articles += "  </tr>";
 				publications.articles += " </thead>";
 				publications.articles += " <tfoot>";
@@ -25,8 +25,8 @@ let publications = {
 				publications.articles += "      <th>Year</th>";
 				publications.articles += "      <th>Contributors</th>";
 				publications.articles += "      <th>Title</th>";
-				publications.articles += "      <th>Keywords</th>";
 				publications.articles += "      <th>Abstract</th>";
+				publications.articles += "      <th class='is-hidden'>Keywords</th>";
 				publications.articles += "  </tr>";
 				publications.articles += " </tfoot>";
 				publications.articles += " <tbody>";
@@ -90,7 +90,7 @@ let publications = {
 					          return (this.length > n) ? this.substr(0, n-1) + '&hellip;' : this;
 					      };
 
-					let abstract = $(this).find("abstract").text().trunc(100);
+					let abstract = $(this).find("abstract").text();
 					/************ XML Items ************/
 
 					// continue buidling item
@@ -98,8 +98,8 @@ let publications = {
 					publications.articles += 	"<td>" + year + "</td>";
 					publications.articles += 	"<td>" + authors.join("<br />") + "</td>";
 					publications.articles += 	"<td>" + title + "</td>";
-					publications.articles += 	"<td>" + keywords.join("<br />") + "</td>";
-					publications.articles += 	"<td>" + abstract + "</td>";
+					publications.articles += 	"<td>" + abstract.trunc(100) + "</td>";
+					publications.articles += 	"<td class='is-hidden'>" + keywords.join("<br />") + "</td>";
 					publications.articles += "</tr>";
 
 				}); // end for each loop
@@ -123,10 +123,8 @@ let publications = {
 				searching: true,
 				info: false,
 				language: {emptyTable: "<strong>There are currently no publications.</strong>"},
-				"columnDefs": [
-					{ "orderable": false, "targets": 3 },
-					{ "orderable": false, "targets": 4 }
-				]
+				"columnDefs": [{ "orderable": false, "targets": [1, 2, 3] }],
+				"order": [[ 0, "desc" ]]
 			});
 		};
 	}
