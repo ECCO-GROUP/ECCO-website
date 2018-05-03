@@ -43,64 +43,82 @@ let publications = {
 				//Loop through each node and build item
 				$('record', xml).each(function (i) {
 					/************ XML Items ************/
+					let noValue = "--";
+					let theURL = "";
+					
 					// get contributors
-					let authors = Array();
+					let authors = ($(this).find("author").text() != "") ? Array() : noValue;
 
-					$('author', $(this)).each(function (index) {
-						authors.push($(this).text());
-					});
-					authors = authors.join(", ");
-					//console.log("Authors: \n" + authors.join("\n"));
+					if(authors != noValue){
+						$('author', $(this)).each(function (index) {
+							authors.push($(this).text());
+						});
+						authors = authors.join(", ");
+						//console.log("Authors: \n" + authors);
+					}
 
 					// get title
-					let title = $(this).find("title").text();
-					let secondaryTitle = $(this).find("secondary-title").text();
-					let fullTitle = $(this).find("full-title").text();
+					let title = ($(this).find("title").text() != "") ? $(this).find("title").text() : noValue;
+					let secondaryTitle = ($(this).find("secondary-title").text() != "") ? $(this).find("secondary-title").text() : noValue; 
+					let fullTitle = ($(this).find("full-title").text() != "") ? $(this).find("full-title").text() : noValue;
 
 					// get publication info
-					let pages = $(this).find("pages").text();
-					let volume = $(this).find("volume").text();
-					let issue = $(this).find("issue").text();
+					let pages = ($(this).find("pages").text() != "") ? $(this).find("pages").text() : noValue;
+					let volume = ($(this).find("volume").text() != "") ? $(this).find("volume").text() : noValue;
+					let issue = ($(this).find("issue").text() != "") ? $(this).find("issue").text() : noValue;
 
 					// get keywords
-					let keywords = Array();
+					let keywords = ($(this).find("keyword").text() != "") ? Array() : noValue;
 
-					$('keyword', $(this)).each(function (index) {
-						keywords.push($(this).text());
-					});
-					keywords = keywords.join(", ");
-					//console.log("Keywords: \n" + keywords.join("\n"));
+					if(keywords != noValue){
+						$('keyword', $(this)).each(function (index) {
+							keywords.push($(this).text());
+						});
+						keywords = keywords.join(", ");
+						//console.log("Keywords: \n" + keywords);
+					}
 
 					// get date
-					let year = $(this).find("year").text();
+					let year = ($(this).find("year").text() != "") ? $(this).find("year").text() : noValue;
 
 					// get isbn
-					let isbn = $(this).find("isbn").text();
+					let isbn = ($(this).find("isbn").text() != "") ? $(this).find("isbn").text() : noValue;
 
 					// get electronic resource number
-					let ern = $(this).find("electronic-resource-num").text();
+					let ern = ($(this).find("electronic-resource-num").text() != "") ? $(this).find("electronic-resource-num").text() : noValue;
 
-					// get urls
-					let pdfURL = Array();
+					// get pdf urls
+					let pdfURL = ($(this).find("pdf-urls").text() != "") ? Array() : noValue;
 
-					$('pdf-urls', $(this)).each(function (index) {
-						pdfURL.push($(this).text());
-					});
-					//console.log("PDF URLs: \n" + pdfURL.join("\n"));
+					if(pdfURL != noValue){
+						theURL = "";
+						$('pdf-urls', $(this)).each(function (index) {
+							theURL = "<a href='" + $(this).text() + "' target='_blank'>" + $(this).text() + "</a>";
+							pdfURL.push(theURL);
+						});
+						pdfURL = pdfURL.join(", ");
+						//console.log("PDF URLs: \n" + pdfURL);
+					}
 
-					let webURL = Array();
+					let webURL = ($(this).find("web-urls").text() != "") ? Array() : noValue;
 
-					$('web-urls', $(this)).each(function (index) {
-						webURL.push($(this).text());
-					});
-					//console.log("Web URLs: \n" + webURL.join("\n"));
+					if(webURL != noValue){
+						theURL = "";
+						$('web-urls', $(this)).each(function (index) {
+							theURL = "<a href='" + $(this).text() + "' target='_blank'>" + $(this).text() + "</a>";
+							webURL.push(theURL);
+						});
+						webURL = webURL.join(", ");
+						//console.log("Web URLs: \n" + WebURL);
+					}
 
 					String.prototype.trunc = String.prototype.trunc ||
 					      function(n){
 					          return (this.length > n) ? this.substr(0, n-1) + '&hellip;' : this;
 					      };
 
-					let abstract = $(this).find("abstract").text();
+					let abstract = ($(this).find("abstract").text() != "") ? $(this).find("abstract").text() : noValue;
+					
 					/************ XML Items ************/
 
 					// continue building table item
@@ -128,9 +146,9 @@ let publications = {
 					publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>Abstract:</strong></p><p>" + abstract + "</p>";
 					publications.moreInfo += 	"<hr />";
-					publications.moreInfo += 	"<p><strong>Keywords:</strong><br />" + keywords + "</p>";
+					publications.moreInfo += 	"<p><strong>Keywords:</strong></p><p>" + keywords + "</p>";
 					publications.moreInfo += 	"<hr />";
-					publications.moreInfo += 	"<p><strong>URL:</strong><br /><a href='" + webURL + "' target='_blank'>" + webURL + "</a></p>";
+					publications.moreInfo += 	"<p><strong>URL:</strong> " + webURL + "</p>";
 					publications.moreInfo += "</div>";
 
 				}); // end for each loop
