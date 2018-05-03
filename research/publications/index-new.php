@@ -5,7 +5,9 @@
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
+	<link href="/assets/stylesheets/vendor/fancybox/3.0/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/stylesheets/vendor/DataTables-1.10.16/datatables.min.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="/assets/javascripts/vendor/fancybox/3.0/jquery.fancybox.min.js" type="text/javascript"></script>
    	<script src="/assets/javascripts/vendor/DataTables-1.10.16/datatables.min.js" type="text/javascript"></script>
     <script src="/assets/javascripts/publications.js" type="text/javascript"></script>
 EOF;
@@ -16,7 +18,7 @@ EOF;
 	<div class='header_mask'></div>
 
 	<section class='content_page module'>
-		<div class='grid_layout'>
+		<div class='pad-20'>
 			<header id='page_header'>
 				<h1 class='article_title'>Publications</h1>
 			</header>

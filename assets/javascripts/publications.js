@@ -3,9 +3,14 @@ let publications = {
 	container: "#publications",
 	datatablesContainer: "table.display",
 	articles: null,
+	moreInfo: "",
 
 	init: function(){
 		//Load xml file
+		publications.loadXML();
+	}, 
+
+	loadXML: function(){
 		$.get(this.xmlURL, {}, function (xml) {
 			// check to make sure xml file exist, proceed to parse
 			if(xml != null){
@@ -13,27 +18,30 @@ let publications = {
 				publications.articles = "<table class='display' cellspacing='0' cellpadding='0' width='100%'>";
 				publications.articles += " <thead>";
 				publications.articles += "  <tr>";
+				publications.articles += "      <th>Author</th>";
 				publications.articles += "      <th>Year</th>";
-				publications.articles += "      <th>Contributors</th>";
 				publications.articles += "      <th>Title</th>";
-				publications.articles += "      <th>Abstract</th>";
-				publications.articles += "      <th class='is-hidden'>Keywords</th>";
+				publications.articles += "      <th>Journal</th>";
+				publications.articles += "      <th class='is-hidden'>Keywords</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Authors</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Abstract</th>"; //used for search
 				publications.articles += "  </tr>";
 				publications.articles += " </thead>";
 				publications.articles += " <tfoot>";
 				publications.articles += "  <tr>";
+				publications.articles += "      <th>Author</th>";
 				publications.articles += "      <th>Year</th>";
-				publications.articles += "      <th>Contributors</th>";
 				publications.articles += "      <th>Title</th>";
-				publications.articles += "      <th>Abstract</th>";
-				publications.articles += "      <th class='is-hidden'>Keywords</th>";
+				publications.articles += "      <th>Journal</th>";
+				publications.articles += "      <th class='is-hidden'>Keywords</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Authors</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Abstract</th>"; //used for search
 				publications.articles += "  </tr>";
 				publications.articles += " </tfoot>";
 				publications.articles += " <tbody>";
 
 				//Loop through each node and build item
 				$('record', xml).each(function (i) {
-
 					/************ XML Items ************/
 					// get contributors
 					let authors = Array();
@@ -41,6 +49,7 @@ let publications = {
 					$('author', $(this)).each(function (index) {
 						authors.push($(this).text());
 					});
+					authors = authors.join(", ");
 					//console.log("Authors: \n" + authors.join("\n"));
 
 					// get title
@@ -59,6 +68,7 @@ let publications = {
 					$('keyword', $(this)).each(function (index) {
 						keywords.push($(this).text());
 					});
+					keywords = keywords.join(", ");
 					//console.log("Keywords: \n" + keywords.join("\n"));
 
 					// get date
@@ -93,14 +103,35 @@ let publications = {
 					let abstract = $(this).find("abstract").text();
 					/************ XML Items ************/
 
-					// continue buidling item
-					publications.articles += "<tr>";
+					// continue building table item
+					publications.articles += "<tr data-fancybox data-src='#article_" + i + "' data-options='{\"touch\" : false}' class='articleRow'>";
+					publications.articles += 	"<td>" + authors.trunc(100) + "</td>";
 					publications.articles += 	"<td>" + year + "</td>";
-					publications.articles += 	"<td>" + authors.join("<br />") + "</td>";
 					publications.articles += 	"<td>" + title + "</td>";
-					publications.articles += 	"<td>" + abstract.trunc(100) + "</td>";
-					publications.articles += 	"<td class='is-hidden'>" + keywords.join("<br />") + "</td>";
+					publications.articles += 	"<td>" + fullTitle + "</td>";
+					publications.articles += 	"<td class='is-hidden'>" + keywords + "</td>";
+					publications.articles += 	"<td class='is-hidden'>" + authors + "</td>";
+					publications.articles += 	"<td class='is-hidden'>" + abstract + "</td>";
 					publications.articles += "</tr>";
+
+					// build hidden container that can be used for displaying more info
+					publications.moreInfo += "<div class='is-hidden three-quarters' id='article_" + i + "'>";
+					publications.moreInfo += 	"<h3>" + title + "</h3>";
+					publications.moreInfo += 	"<p><strong>Authors:</strong> " + authors + "</p>";
+					//publications.moreInfo += 	"<p><strong>PDF:</strong><br />" + pdfURL + "</p>";
+					publications.moreInfo += 	"<p><strong>Journal:</strong> <i>" + fullTitle + "</i></p>";
+					publications.moreInfo += 	"<p><strong>Year:</strong> " + year + "</p>";
+					publications.moreInfo += 	"<p><strong>Volume:</strong> " + volume + "</p>";
+					publications.moreInfo += 	"<p><strong>Issue:</strong> " + issue + "</p>";
+					publications.moreInfo += 	"<p><strong>Pages:</strong> " + pages + "</p>";
+					publications.moreInfo += 	"<p><strong>ISBN:</strong> " + isbn + "</p>";
+					publications.moreInfo += 	"<hr />";
+					publications.moreInfo += 	"<p><strong>Abstract:</strong></p><p>" + abstract + "</p>";
+					publications.moreInfo += 	"<hr />";
+					publications.moreInfo += 	"<p><strong>Keywords:</strong><br />" + keywords + "</p>";
+					publications.moreInfo += 	"<hr />";
+					publications.moreInfo += 	"<p><strong>URL:</strong><br /><a href='" + webURL + "' target='_blank'>" + webURL + "</a></p>";
+					publications.moreInfo += "</div>";
 
 				}); // end for each loop
 
@@ -112,19 +143,19 @@ let publications = {
 				publications.buildPublications();
 			} // end if
 		}); // end get
-	}, 
+	},
 
 	buildPublications: function(){
 		// insert articles to HTML container
 		if(this.articles != null){
-			$(this.container).html(this.articles);
+			$(this.container).html(this.articles + this.moreInfo);
 			$(this.datatablesContainer).DataTable({
 				paging: false,
 				searching: true,
 				info: false,
 				language: {emptyTable: "<strong>There are currently no publications.</strong>"},
-				"columnDefs": [{ "orderable": false, "targets": [1, 2, 3] }],
-				"order": [[ 0, "desc" ]]
+				"columnDefs": [{ "orderable": false, "targets": [2, 3] }],
+				"order": [[ 1, "desc" ]]
 			});
 		};
 	}
