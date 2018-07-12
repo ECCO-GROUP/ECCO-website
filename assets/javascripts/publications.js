@@ -84,11 +84,17 @@ let publications = {
 					// get isbn
 					let isbn = ($(this).find("isbn").text() != "") ? $(this).find("isbn").text() : noValue;
 
+					// get notes
+					let notes = ($(this).find("notes").text() != "") ? $(this).find("notes").text() : noValue;
+
 					// get electronic resource number
 					let ern = ($(this).find("electronic-resource-num").text() != "") ? $(this).find("electronic-resource-num").text() : noValue;
 
 					// get pdf urls
 					let pdfURL = ($(this).find("pdf-urls").text() != "") ? Array() : noValue;
+					
+					// get label
+					let label = ($(this).find("label").text() != "") ? $(this).find("label").text() : noValue;
 
 					if(pdfURL != noValue){
 						theURL = "";
@@ -139,14 +145,17 @@ let publications = {
 					//publications.moreInfo += 	"<p><strong>PDF:</strong><br />" + pdfURL + "</p>";
 					publications.moreInfo += 	"<p><strong>Journal:</strong> <i>" + fullTitle + "</i></p>";
 					publications.moreInfo += 	"<p><strong>Year:</strong> " + year + "</p>";
-					publications.moreInfo += 	"<p><strong>Volume:</strong> " + volume + "</p>";
-					publications.moreInfo += 	"<p><strong>Issue:</strong> " + issue + "</p>";
-					publications.moreInfo += 	"<p><strong>Pages:</strong> " + pages + "</p>";
-					publications.moreInfo += 	"<p><strong>ISBN:</strong> " + isbn + "</p>";
+					publications.moreInfo += 	"<p><strong>Citation:</strong></p><p>" + notes + "</p>";
+					//publications.moreInfo += 	"<p><strong>Volume:</strong> " + volume + "</p>";
+					//publications.moreInfo += 	"<p><strong>Issue:</strong> " + issue + "</p>";
+					//publications.moreInfo += 	"<p><strong>Pages:</strong> " + pages + "</p>";
+					//publications.moreInfo += 	"<p><strong>ISBN:</strong> " + isbn + "</p>";
 					publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>Abstract:</strong></p><p>" + abstract + "</p>";
 					publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>Keywords:</strong></p><p>" + keywords + "</p>";
+					publications.moreInfo += 	"<hr />";
+					publications.moreInfo += 	"<p><strong>ECCO Products used:</strong> " + label + "</p>";
 					publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>URL:</strong> " + webURL + "</p>";
 					publications.moreInfo += "</div>";
