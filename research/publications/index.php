@@ -23,12 +23,12 @@ EOF;
 				<h1 class='article_title'>Publications</h1>
 			</header>
 			<div class='wysiwyg_content'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>This database catalogues publications of the ECCO Project and those
+				that employ ECCO's products. Click individual papers for full citation,
+				abstract, links to corresponding publications, and a list of ECCO
+				products employed.  Please acknowledge the ECCO project when utilizing
+				the products and inform us (<a href="mailto:ecco.consortium@gmail.com">ecco.consortium@gmail.com</a>) of any publication missing from this list.
+</p>
 			</div>
 			<hr />
 			<div id="publications" class=""></div>
