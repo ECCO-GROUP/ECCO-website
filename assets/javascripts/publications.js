@@ -181,7 +181,7 @@ let publications = {
 				searching: true,
 				info: false,
 				language: {emptyTable: "<strong>There are currently no publications.</strong>"},
-				"columnDefs": [{ "orderable": false, "targets": [2, 3] }],
+				"columnDefs": [{ "orderable": false, "targets": [] }],
 				"order": [[ 1, "desc" ]]
 			});
 		};
