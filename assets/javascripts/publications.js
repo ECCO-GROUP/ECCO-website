@@ -25,6 +25,7 @@ let publications = {
 				publications.articles += "      <th class='is-hidden'>Keywords</th>"; //used for search
 				publications.articles += "      <th class='is-hidden'>Authors</th>"; //used for search
 				publications.articles += "      <th class='is-hidden'>Abstract</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Tags</th>"; //used for search
 				publications.articles += "  </tr>";
 				publications.articles += " </thead>";
 				publications.articles += " <tfoot>";
@@ -36,6 +37,7 @@ let publications = {
 				publications.articles += "      <th class='is-hidden'>Keywords</th>"; //used for search
 				publications.articles += "      <th class='is-hidden'>Authors</th>"; //used for search
 				publications.articles += "      <th class='is-hidden'>Abstract</th>"; //used for search
+				publications.articles += "      <th class='is-hidden'>Tags</th>"; //used for search
 				publications.articles += "  </tr>";
 				publications.articles += " </tfoot>";
 				publications.articles += " <tbody>";
@@ -136,6 +138,7 @@ let publications = {
 					publications.articles += 	"<td class='is-hidden'>" + keywords + "</td>";
 					publications.articles += 	"<td class='is-hidden'>" + authors + "</td>";
 					publications.articles += 	"<td class='is-hidden'>" + abstract + "</td>";
+					publications.articles += 	"<td class='is-hidden'>" + label + "</td>";
 					publications.articles += "</tr>";
 
 					// build hidden container that can be used for displaying more info
