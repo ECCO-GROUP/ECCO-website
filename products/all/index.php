@@ -253,7 +253,7 @@ EOF;
 								<td>no sea-ice</td>
 							</tr>
 							<tr>
-								<th class="text-left">ECCO-JPL</th>
+                                                                <th class="text-left"><a href="/ecco-jpl/">ECCO-JPL</a></th>
 								<td><a href="http://dx.doi.org/10.1175/1520-0493(2002)130<1370:APKFAS>2.0.CO;2" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="ftp://ecco.jpl.nasa.gov/NearRealTime/" target="_blank" rel="noopener noreferrer">Run 80h</a></td>
 								<td>1993-present</td>
@@ -274,16 +274,6 @@ EOF;
 								<td>0</td>
 								<td>no sea-ice</td>
 							</tr>
-							<tr>
-								<th class="text-left"><a href="/products/ecco-jpl/">ECCO-JPL</a></th>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
-								<td>&nbsp;</td>
 						</tbody>
 					</table>
 				</div>
