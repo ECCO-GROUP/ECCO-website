@@ -39,6 +39,26 @@ EOF;
 			<!-- End Slide 1 -->
 
 			<!-- Slide 2 (regular template) -->
+            <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
+              <div class='gradient_container_top'></div>
+              <img alt='slide2 background' data-src='/assets/images/home/2019_summer_school.jpg' src='/assets/images/home/2019_summer_school.jpg'>
+              <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+                <a class='text_content_link' href='/news/'>
+                  <h1 class='media_feature_title'>ECCO Summer School 2019<br /><br />
+                  	Global Ocean State & Parameter Estimation:<br /> From Methods to Applications in Oceanographic Research</h1>
+                </a>
+                <div class='description'>
+                  <a href='/news/'>The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</a>
+                                  
+				  <a class='detail_link' href='/news/'>Read more</a>
+                </div>
+              </div>
+              <div class='gradient_container_bottom'></div>
+            </article>
+            <!-- End Slide 2 -->
+
+
+			<!-- Slide 3 (regular template) -->
 			<article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
@@ -49,17 +69,15 @@ EOF;
 				<div class='description'>
 					<a href='/products/latest/'>The new release 3 is ECCO's latest state estimate of global ocean
 					circulation combining all modern observations with an ocean
-					circulation model. The release extends the Version 4 product using
-					additional observations and incorporates improvements in modeling and
-					estimation.</a>
+					circulation model. The release extends the Version 4 product using additional observations and incorporates improvements in modeling and estimation.</a>
 				  <a class='detail_link' href='/products/latest/'>Read more</a>
 				</div>
 			  </div>
 			  <div class='gradient_container_bottom'></div>
 			</article>
-			<!-- End Slide 2 -->
+			<!-- End Slide 3 -->
 			
-			<!-- Slide 3 (regular template) -->
+			<!-- Slide 4 (regular template) -->
 			<article class='dark_background ms-slide slide-3' data-delay='6' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide3 background' data-src='/assets/images/home/Pie17carousel.jpg' src='/assets/images/home/Pie17carousel.jpg'>
@@ -74,7 +92,7 @@ EOF;
 			  </div>
 			  <div class='gradient_container_bottom'></div>
 			</article>
-			<!-- End Slide 3 -->
+			<!-- End Slide 4 -->
 			
 		  </div>
 		</section>
@@ -282,6 +300,31 @@ EOF;
 				<h2 class="content_title">Latest Updates</h2>
 				<section class="grid_gallery list_view">					
 					<ul class="articles">
+						
+						<li class='slide'>
+							<a href='/news/'>
+								<div class='image_and_description_container'>
+									<div class='img'><img alt="2019 ECCO Summer School" title="2019 ECCO Summer School" src="/assets/images/home/2019_summer_school.jpg"></div>
+									<div class='list_text_content'>
+										<div class='content_title no-pad'>
+											2019 ECCO Summer School
+										</div>
+										<div class='article_teaser_body'>
+											<p>The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</p>
+
+											<p><b>Topics covered:</b> Data assimilation (global & regional); state & parameter estimation; adjoint method; sensitivity analysis; algorithmic differentiation; ocean modeling; ocean dynamics and variability; global ocean observing system; physics of sea level; sea ice physics; ice sheet-ocean interactions; ice shelf dynamics; ocean tides; cyberinfrastructure & data analytics </p>
+
+											<b>Dates:</b> May 19–31, 2019<br />
+											<b>Location:</b> Friday Harbor Laboratories, University of Washington, Friday Harbor, WA<br />
+											<b>Application Deadline:</b> September 30, 2018<br />
+											<p>For more information, confirmed lecturers, and how to apply, please visit:
+											<a class='detail_link' href='https://www.eccosummerschool.org'>https://www.eccosummerschool.org</a>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
 						<li class='slide'>
 							<a href='/news/'>
 								<div class='image_and_description_container'>

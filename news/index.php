@@ -22,14 +22,12 @@
 
 <h4>ECCO Summer School 2019</h4>
 
-<p><b>Synopsis:</b> The Consortium for "Estimating the Circulation and Climate of the Ocean" (ECCO) will host a summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects. In doing so, the school aims to help nurture the next generation of oceanographers and climate scientists in the subject matter so that they may utilize the ECCO products and underlying modeling/estimation tools most effectively to further advance the state-of-the-art in ocean state estimation and ocean science. <br /><br />
+<p><b>Synopsis:</b> The Consortium for "Estimating the Circulation and Climate of the Ocean" (ECCO) will host a summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects. In doing so, the school aims to help nurture the next generation of oceanographers and climate scientists in the subject matter so that they may utilize the ECCO products and underlying modeling/estimation tools most effectively to further advance the state-of-the-art in ocean state estimation and ocean science. </p>
 
-<b>Topics covered:</b> Data assimilation (global & regional); state & parameter estimation; adjoint method; sensitivity analysis; algorithmic differentiation; ocean modeling; ocean dynamics and variability; global ocean observing system; physics of sea level; sea ice physics; ice sheet-ocean interactions; ice shelf dynamics; ocean tides; cyberinfrastructure & data analytics <br /><br />
+<p><b>Topics covered:</b> Data assimilation (global & regional); state & parameter estimation; adjoint method; sensitivity analysis; algorithmic differentiation; ocean modeling; ocean dynamics and variability; global ocean observing system; physics of sea level; sea ice physics; ice sheet-ocean interactions; ice shelf dynamics; ocean tides; cyberinfrastructure & data analytics </p>
 
 <b>Dates:</b> May 19–31, 2019 <br /><br />
-
 <b>Location:</b> Friday Harbor Laboratories, University of Washington, Friday Harbor, WA <br /><br />
-
 <b>Application Deadline:</b> September 30, 2018 <br /><br />
 
 For more information, confirmed lecturers, and <b>how to apply</b>, please visit: <a href="https://www.eccosummerschool.org">https://www.eccosummerschool.org</a><br>
