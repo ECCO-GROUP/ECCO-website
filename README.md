@@ -1,7 +1,7 @@
 ECCO
 ===
 
-###Estimating the Circulation and Climate of the Ocean (ECCO)
+#### Estimating the Circulation and Climate of the Ocean (ECCO)
 
 This repository houses the code for the [ECCO Website](https://ecco.jpl.nasa.gov)
 
