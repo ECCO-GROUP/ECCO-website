@@ -37,6 +37,8 @@ Deploying to the development or production environment can be accomplished by fo
 	  6. README.md
 8. Now that the files are cleaned up, deploy the files and folders to either the development or production environment as needed.
 
+**NOTE: If deploying to production, it is _highly_ recommended that a [release](https://github.jpl.nasa.gov/18x/ecco/releases) marked against the `master` branch is added in Github to mark the deployment to production. This helps the project keep track of production releases over time. In addition, if the production environment ever needs to be reverted back to a previous release, the previous release can be downloaded from github and deployed, but only if releases are marked.**
+
 ### Git Notes
 
 Branch and merge often. Keeping things organized in your Github repository also helps keep your website equally organized and stable. 
