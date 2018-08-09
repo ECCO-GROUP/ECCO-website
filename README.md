@@ -55,11 +55,11 @@ Deploying to the development or production environment can be accomplished by fo
 1. Download a .ZIP of the repository via Github.
 2. Unpack the .ZIP file
 3. Some files in the ZIP file do not need to be published. Delete the following files and folders, if they exist, from the files that were unpacked from the ZIP file:
-	5. .git
-	4. .gitattributes
-	5. .gitignore
-	6. README.md
-8. Now that the files are cleaned up, we can deploy the files and folders to the development or production environment as needed:
+	1. .git
+	2. .gitattributes
+	3. .gitignore
+	4. README.md
+4. Now that the files are cleaned up, we can deploy the files and folders to the development or production environment as needed:
 
 #### Deploying to _Development_ environment:
 
@@ -68,7 +68,7 @@ Deploying to the development or production environment can be accomplished by fo
 #### Deploying to _Production_ environment:
 
 1. We need merge the "development" branch code with the "master" branch because we treat "master" as our production code"
-	2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development"
+2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development"
 
 ## Other helpful information
 
@@ -80,10 +80,10 @@ More information about using pull requests can be found in Githubs documentation
 
 #### Creating a release for Production
 
-1. Now that you're ready to publish to production, let's start by creating a "release" in github to mark a label a point in time in the repository that we released code to prouduction.
-	2. 	Go to the [ECCO Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
-	3. Click "Draft new release" which will take you here: [https://github.jpl.nasa.gov/18x/ecco/releases/new](https://github.jpl.nasa.gov/18x/ecco/releases/new)
-	4. Enter a version number for the new release. We increment the second number of content updates, bug fixes, items. We increment the first number for major site updates like a site redesign. So if the current version is v1.10, the next version number could be v1.11. It's just a label, don't need to overthink this.
-	5. Be sure that "master" 
+Now that you're ready to publish to production, let's start by creating a "release" in github to mark a point in time in the repository that we released code to prouduction.
+1. Go to the [ECCO Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
+2. Click "Draft new release" which will take you here: [https://github.jpl.nasa.gov/18x/ecco/releases/new](https://github.jpl.nasa.gov/18x/ecco/releases/new)
+3. Enter a version number for the new release. We increment the second number of content updates, bug fixes, items. We increment the first number for major site updates like a site redesign. So if the current version is v1.10, the next version number could be v1.11. It's just a label, don't need to overthink this.
+4. Be sure that "master" 
 
 More information about creating releases can be found in Github's documentation: [https://help.github.com/articles/creating-releases/](https://help.github.com/articles/creating-releases/)
