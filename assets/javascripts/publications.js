@@ -55,7 +55,7 @@ let publications = {
 						$('author', $(this)).each(function (index) {
 							authors.push($(this).text());
 						});
-						authors = authors.join(", ");
+						authors = authors.join("; ");
 						//console.log("Authors: \n" + authors);
 					}
 
