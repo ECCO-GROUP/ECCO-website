@@ -68,7 +68,9 @@ Deploying to the development or production environment can be accomplished by fo
 #### Deploying to _Production_ environment:
 
 1. We need merge the "development" branch code with the "master" branch because we treat "master" as our production code"
-2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development"
+2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development" and close out the pull request by following the stated instructions.
+3. Mark a release if you haven't already.
+4. Send the files that were prepared using the instructions above to Ou for deployment to the production server.
 
 ## Other helpful information
 
