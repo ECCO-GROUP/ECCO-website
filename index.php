@@ -316,7 +316,7 @@ EOF;
 
 											<b>Dates:</b> May 19–31, 2019<br />
 											<b>Location:</b> Friday Harbor Laboratories, University of Washington, Friday Harbor, WA<br />
-											<b>Application Deadline:</b> September 30, 2018<br />
+											<b>Application Deadline:</b> December 17, 2018<br />
 											<p>For more information, confirmed lecturers, and how to apply, please visit:
 											<a class='detail_link' href='https://www.eccosummerschool.org'>https://www.eccosummerschool.org</a>
 										</div>
