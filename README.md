@@ -38,7 +38,7 @@ master | This branch is treated as the production code. Always strive to keep th
 
 ## Development Workflow
 
-1. Make updates or corrections to the _development_ branch.
+1. Make all of your updates or corrections to the _development_ branch.
 2. Deploy code in the _development_ branch to the development environment for review.
 3. Test [development website](http://ecco-dev.jpl.nasa.gov/), repeat steps 1 and 2 as necessary.
 4. When testing is complete and ready for production release, merge the _development_ branch into _master_ branch via a [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls).
