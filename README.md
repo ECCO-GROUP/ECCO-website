@@ -36,7 +36,7 @@ Branch | Description
 | development | This is set up as the default branch for the repo. All changes should be made in this branch or on branches derived from this branch.
 master | This branch is treated as the production code. Always strive to keep this branch pristine by testing code in the development branch to remove bugs _before_ merging the code from the development branch into master.
 
-### Development Workflow
+## Development Workflow
 
 1. Make updates or corrections to the _development_ branch.
 2. Deploy code in the _development_ branch to the development environment for review.
@@ -46,9 +46,7 @@ master | This branch is treated as the production code. Always strive to keep th
 6. Deploy code in the _master_ branch to the production environment.
 7. Test the [production website](http://ecco.jpl.nasa.gov/) to ensure everything is working as expected. If something is broken, start at step 1.
 
----
-
-### Deployment Notes
+## Deployment Notes
 
 Deploying to the development or production environment can be accomplished by following some simple steps:
 
@@ -72,7 +70,7 @@ Deploying to the development or production environment can be accomplished by fo
 1. We need merge the "development" branch code with the "master" branch because we treat "master" as our production code"
 	2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development"
 
----
+## Other helpful information
 
 #### Creating a pull request
 
