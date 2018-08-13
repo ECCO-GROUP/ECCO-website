@@ -38,10 +38,10 @@ master | This branch is treated as the production code. Always strive to keep th
 
 ## Development Workflow
 
-1. Make all of your updates or corrections to the _development_ branch.
+1. Make updates or corrections to the _development_ branch, or a branch derived from development that has been merged with development.
 2. Deploy code in the _development_ branch to the development environment for review.
 3. Test [development website](http://ecco-dev.jpl.nasa.gov/), repeat steps 1 and 2 as necessary.
-4. When testing is complete and ready for production release, merge the _development_ branch into _master_ branch via a [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls). There are notes at the bottom of this page that detail creating a pull request.
+4. When testing is complete and ready for production release, merge the _development_ branch into the _master_ branch via a [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls).
 5. Create a [release](https://github.jpl.nasa.gov/18x/ecco/releases) for the master branch so that the version of code that is being deployed to production is tagged in case it needs to be referenced in the future. There are notes at the bottom of this page that detail creating a release.
 6. Deploy code in the _master_ branch to the production environment.
 7. Test the [production website](http://ecco.jpl.nasa.gov/) to ensure everything is working as expected. If something is broken, start at step 1.
@@ -50,27 +50,49 @@ master | This branch is treated as the production code. Always strive to keep th
 
 Deploying to the development or production environment can be accomplished by following some simple steps:
 
-#### Deployment Preparation:
+### Deployment Preparation:
 
-1. Download a .ZIP of the repository via Github.
-2. Unpack the .ZIP file
-3. Some files in the ZIP file do not need to be published. Delete the following files and folders, if they exist, from the files that were unpacked from the ZIP file:
-	1. .git
-	2. .gitattributes
-	3. .gitignore
-	4. README.md
-4. Now that the files are cleaned up, we can deploy the files and folders to the development or production environment as needed:
+These instructions detail how you attain a copy of the website files by downloading a .ZIP from Github for deployment to either the development or production environment.
+
+**NOTE: If you have the cloned the files from this repo onto your local computer, there is _no_ need to download the ZIP file, but you _MUST_ ensure that you have the correct codebase for the environment that you are deploying to. Namely, if you are deploying to the development environment, you must have the _development_ branch checked out on your computer. And if you are deploying to the production environment, the _master_ branch would need to be checked out on your computer.** Refer to the Github [help site](https://help.github.com/) on how to clone and checkout branches.
+
+**Downloading ZIP file:**
+
+1. Within Github, select the appropriate branch for the environment that you are deploying to:
+	1. Select ***development*** if you are deploying to the development environment
+	2. Select ***master*** if you are deploying to the production environment
+2. Download the .ZIP file of the website code to your computer.
+2. Unpack the .ZIP file.
+8. Deploy the files and folders to the development or production environment using the instructions below.
+
+### Environment specific deployment instructions:
 
 #### Deploying to _Development_ environment:
 
-1. Map a network drive to the Development Hosting acount. On Mac, using Finder, using Go, Connect to Server, map a drive using `smb://websites/ecco-dev`. On windows, simply create a network drive by mapping `\\websites\ecco-dev`. Once connected, deploy the files prepared above to the `www` folder.
+Map a network drive to the Development Hosting acount:
+
+  1. On Mac, using Finder, within the menu bar navigate to Go &rarr; Connect to Server, map a drive using:
+
+		smb://websites/ecco-dev
+		
+  2. On Windows, using File Explorer, create a network drive by mapping to:
+
+		\\websites\ecco-dev
+
+Once connected, deploy the development files, prepared using the instructions noted earlier in this document, to the `www` folder in the hosting account
 
 #### Deploying to _Production_ environment:
 
-1. We need merge the "development" branch code with the "master" branch because we treat "master" as our production code"
-2. Create a new [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls) with the base set to "master" and the compare set to "development" and close out the pull request by following the stated instructions.
-3. Mark a release if you haven't already.
-4. Send the files that were prepared using the instructions above to Ou for deployment to the production server.
+The production ECCO website is hosted on a custom server. Send the prepared files to Ou Wang via [LFT](https://lft.jpl.nasa.gov) so that he can install them on the production server.
+
+#### Post-deployment clean up instructions:
+
+Some files in our code repository do not need to be published to the hosting platforms as they are only used for development purposes. Delete the following files and folders from the hosting platform, if they exist:
+
+1. .git
+2. .gitattributes
+3. .gitignore
+4. README.md
 
 ## Other helpful information
 
@@ -82,10 +104,15 @@ More information about using pull requests can be found in Githubs documentation
 
 #### Creating a release for Production
 
-Now that you're ready to publish to production, let's start by creating a "release" in github to mark a point in time in the repository that we released code to prouduction.
-1. Go to the [ECCO Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
+Now that you're ready to publish some code to production, let's start by creating a "release" in github to mark a point in time in the repository that we released code to one of our environments:
+
+1. Go to the [Climate Sciences Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
 2. Click "Draft new release" which will take you here: [https://github.jpl.nasa.gov/18x/ecco/releases/new](https://github.jpl.nasa.gov/18x/ecco/releases/new)
-3. Enter a version number for the new release. We increment the second number to describe content updates, bug fixes, addition of files, etc.. We increment the first number for major site updates, e.g. a full site redesign. So if the current version is v1.10, the next version number could be v1.11. It's just a label, don't need to overthink this.
-4. Be sure that "master" 
+3. Enter a new version number for the new release. We increment the second number of content updates, bug fixes, items. We increment the first number for major site updates like a site redesign. So if the current version is v1.10, the next version number could be v1.11. It's just a label, don't need to overthink this.
+4. Be sure that "master" is selected for the target branch.
+5. Fill in a title and describe the release.
+6. Click "Publish release" to create the release.
+
+**If you want to mark a release for the development environment, simply choose the _development_ branch instead and choose a version number accordingly**
 
 More information about creating releases can be found in Github's documentation: [https://help.github.com/articles/creating-releases/](https://help.github.com/articles/creating-releases/)
