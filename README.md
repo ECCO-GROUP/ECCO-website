@@ -106,7 +106,7 @@ More information about using pull requests can be found in Githubs documentation
 
 Now that you're ready to publish some code to production, let's start by creating a "release" in github to mark a point in time in the repository that we released code to one of our environments:
 
-1. Go to the [Climate Sciences Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
+1. Go to the [ECCO Releases page](https://github.jpl.nasa.gov/18x/ecco/releases) and note the current version number. For example, it may be something like "v1.10"
 2. Click "Draft new release" which will take you here: [https://github.jpl.nasa.gov/18x/ecco/releases/new](https://github.jpl.nasa.gov/18x/ecco/releases/new)
 3. Enter a new version number for the new release. We increment the second number of content updates, bug fixes, items. We increment the first number for major site updates like a site redesign. So if the current version is v1.10, the next version number could be v1.11. It's just a label, don't need to overthink this.
 4. Be sure that "master" is selected for the target branch.
