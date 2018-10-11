@@ -66,7 +66,7 @@
                       <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       <ul class="subnav">
                         <li><a href="/products/all/" title="View a list of all products." class="no-break">All Products</a></li>
-                        <li><a href="/products/latest/" title="Downlaod the latest product." class="no-break">Latest Product</a></li>
+                        <li><a href="/products/latest/" title="Download the latest product." class="no-break">Latest Product</a></li>
                       </ul>
                     </li>
                     <li><a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a></li>
