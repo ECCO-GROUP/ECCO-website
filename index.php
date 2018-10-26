@@ -25,14 +25,13 @@ EOF;
 		  	<!-- Slide 2 (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
-              <img alt='slide2 background' data-src='/assets/images/home/2019_summer_school.jpg' src='/assets/images/home/2019_summer_school.jpg'>
-              <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+              <img alt='slide2 background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
+              <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
                 <a class='text_content_link' href='/news/'>
-                  <h1 class='media_feature_title'>ECCO Summer School 2019<br /><br />
-                  	Global Ocean State & Parameter Estimation:<br /> From Methods to Applications in Oceanographic Research</h1>
+                  <h1 class='media_feature_title'>ECCO Summer School 2019</h1>
                 </a>
                 <div class='description'>
-                  <a href='/news/'>The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</a>
+                  <a href='/news/'><b>Global Ocean State & Parameter Estimation: From Methods to Applications in Oceanographic Research</b> The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</a>
                                   
 				  <a class='detail_link' href='/news/'>Read more</a>
                 </div>
@@ -66,7 +65,7 @@ EOF;
 			<article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
-			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/products/latest/'>
 				  <h1 class='media_feature_title'>Version 4 release 3, covering 1992-2015, now available</h1>
 				</a>
@@ -84,14 +83,14 @@ EOF;
 			<!-- Slide 4 (regular template) -->
 			<article class='dark_background ms-slide slide-3' data-delay='6' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide3 background' data-src='/assets/images/home/Pie17carousel.jpg' src='/assets/images/home/Pie17carousel.jpg'>
+			  <img alt='slide3 background' data-src='/assets/images/home/20171213_gmsst_fig01_v6.png' src='/assets/images/home/20171213_gmsst_fig01_v6.png'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>
-				  <h1 class='media_feature_title'>What is responsible for recent decadal changes in ocean heat content in the subpolar North Atlantic?</h1>
+				  <h1 class='media_feature_title'>What mechanisms control the evolution of global mean sea surface temperature?</h1>
 				</a>
 				<div class='description'>
-				  <a href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>Analyses of the latest ECCO estimate reveals the importance of surface wind stress and ocean gyre circulation changes in causing the observed shift from warming to cooling trends in the subpolar North Atlantic over the last two decades.</a>
-				  <a class='detail_link' href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>Read more</a>
+				  <a href='https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017GL076821'>The latest ECCO solution is used to examine the nature of variability in the global mean sea surface temperature (GMSST), a key climate metric, in terms of surface forcing, advection, and diffusion processes. Changes in the ocean circulation are found to be important to the evolution of GMSST and the Earth’s surface climate.</a>
+				  <a class='detail_link' href='https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017GL076821'>Read more</a>
 				</div>
 			  </div>
 			  <div class='gradient_container_bottom'></div>
