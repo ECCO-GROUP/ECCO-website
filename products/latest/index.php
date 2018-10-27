@@ -33,7 +33,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
 						<br />
 						<p><strong><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" class="button white">Download Product</a></strong></p>
-						<p><strong><a href="fhttps://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
+						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
 						<div><img src="/assets/images/home/v4r3b.jpg"></div>
