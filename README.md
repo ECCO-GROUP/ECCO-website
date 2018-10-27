@@ -38,10 +38,18 @@ master | This branch is treated as the production code. Always strive to keep th
 
 ## Development Workflow
 
+### Preliminary: 
+1. If you are going make changes to the _development_ branch by editing files on a local machine (not the JPL github website), you must first update your local copy of the _development_ branch.  To do this you have two options:
+	1. From the "Github Desktop" program, make sure that the 'current branch' option in the toolbar is set to _development_ and then click on the 'fetch origin' button immediately to the right.  
+ 	1. From the command line, navigate to the head directory of the _development_ repository and type 'git pull'.
+
+### Edit/Deploy/Commit/Push/Merge: 
+
 1. Make updates or corrections to the _development_ branch, or a branch derived from development that has been merged with development.
 2. Deploy code in the _development_ branch to the development environment for review.
 3. Test [development website](http://ecco-dev.jpl.nasa.gov/), repeat steps 1 and 2 as necessary.
 4. When testing is complete and ready for production release, merge the _development_ branch into the _master_ branch via a [pull request](https://github.jpl.nasa.gov/18x/ecco/pulls).
+	1. Important: verify that the _development_ and _master_ branches are identical after the merge.  To do that, begin another pull request and you should see "There isn’t anything to compare. master is up to date with all commits from development. Try switching the base for your comparison."
 5. Create a [release](https://github.jpl.nasa.gov/18x/ecco/releases) for the master branch so that the version of code that is being deployed to production is tagged in case it needs to be referenced in the future. There are notes at the bottom of this page that detail creating a release.
 6. Deploy code in the _master_ branch to the production environment.
 7. Test the [production website](http://ecco.jpl.nasa.gov/) to ensure everything is working as expected. If something is broken, start at step 1.
