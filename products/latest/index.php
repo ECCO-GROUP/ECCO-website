@@ -128,7 +128,7 @@ summarized in a "User Guide" in the link below.
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_files.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_files.pdf</a><br/>
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_fields.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_fields.pdf</a><br/>
 						</p>
 					</div>
 					<p><strong>Plots of V4r3</strong></p>
@@ -163,7 +163,7 @@ summarized in a "User Guide" in the link below.
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf" target="_blank" rel="noopener noreferrer">ftp://mit.ecco-group.org/ecco_for_las/version_4/release2/doc/ECCOV4R2_gcmfaces.pdf</a><br/>
+							<a href="https://gcmfaces.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">https://gcmfaces.readthedocs.io/en/latest/</a><br/>
 						</p>
 					</div>
 				</div>
