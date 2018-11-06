@@ -24,7 +24,8 @@ git commit -m "Readme edit test"
 git push origin master
 ```  
 
-### How to integrate ECCO website changes from the public github to the JPL github
+### Integrating ECCO website changes from the public github to the JPL github
+
 using information from [this page](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private)
 
 Note: _This only can be done from within the lab's network_
