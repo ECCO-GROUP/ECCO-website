@@ -1,5 +1,8 @@
-## How to edit the ECCO website on the public github
+## How to edit the public github ECCO website and integrate those changes to the JPL github
+by Ian Fenty
 
+
+### Edit the public github ECCO website
 **Step 1**, clone the _ECCO-GROUP_ copy of the website from the public github
 
 ```
@@ -21,7 +24,7 @@ git commit -m "Readme edit test"
 git push origin master
 ```  
 
-## How to integrate ECCO website changes from the public github to the JPL github
+### How to integrate ECCO website changes from the public github to the JPL github
 using information from [this page](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private)
 
 Note: _This only can be done from within the lab's network_
