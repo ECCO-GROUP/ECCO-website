@@ -1,5 +1,5 @@
-ECCO
-====
+ECCO-Website
+============
 
 #### Estimating the Circulation and Climate of the Ocean (ECCO)
 
