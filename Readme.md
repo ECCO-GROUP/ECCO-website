@@ -3,7 +3,10 @@
 ### Guidelines for editing 
 1. Always insert your name and date as a comment to any item added.
    e.g., ```<!-- Ian Fenty 2018-11-06 -->```
-   
+1. Images on the landing page carousel expand to fill the whole page by default.  I don't know how to change that behavior.  To avoid giant plots you can embed your image within a larger black image.  Here is an [example](https://github.com/ECCO-GROUP/ECCO-website/blob/master/assets/images/home/Pie17carousel.jpg).  I also made a ```svg``` template that you can use [here](https://github.com/ECCO-GROUP/ECCO-website/blob/master/assets/images/home/fenty_front_page_image_template.svg)
+
+
+
 ### Name and location of important items of webpage
 1. Carousel & Front Page News: /index.php
 1. Dedicated News: /news/index.php
