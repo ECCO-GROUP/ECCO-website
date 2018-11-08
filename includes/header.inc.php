@@ -78,7 +78,8 @@
                         <?php /*
                         <li><a href="/research/scientists/" title="ECCO Research Scientists">Scientists</a></li>
                         */ ?>
-                        <li><a href="/research/publications/" title="ECCO Research Publications">Publications</a></li>
+                        <li><a href="/research/publications/" title="ECCO Research Publications">Publication List</a></li>
+                        <li><a href="/research/publication_highlights/" title="ECCO Research Publications">Publication Highlights</a></li>
                         <li><a href="/research/presentations/" title="ECCO Research Presentations">Presentations</a></li>
                       </ul>
                     </li>
