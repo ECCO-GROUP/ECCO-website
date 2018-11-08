@@ -27,7 +27,7 @@ EOF;
             <article class='dark_background ms-slide slide-5' data-delay='6' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide5 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
-              <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+              <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
                 <a class='text_content_link' href='/research/topics/'>
                   <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
                 </a>
