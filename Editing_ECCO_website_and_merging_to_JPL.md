@@ -30,10 +30,17 @@ using information from [this page](https://stackoverflow.com/questions/10065526/
 
 Note: _This only can be done from within the lab's network_
  
+#### Preliminary Requirement: Install git-lfs on your machine
+
+Some 'large' files are stored on the ECCO website (pdfs, pptxs, etc).  You will need the git-lfs (large file storage) program installed in order to fully clone the website onto your local machine.
+
+Follow the simple instructions here:  https://help.github.com/articles/installing-git-large-file-storage/
+ 
+
 **Step 4**, clone the JPL copy of the website into a different directory
 
 ```
-git clone https://github.jpl.nasa.gov/18x/ecco.git ECCO-website-JPL
+git lfs clone https://github.jpl.nasa.gov/18x/ecco.git ECCO-website-JPL
 ```
   
 **Step 5**, Add a new remote called _ecco-website-public-github-YOURNAME_ here within your cloned ECCO-website-JPL repository.  Remote repositories are versions of your project that are hosted on the Internet or network somewhere. The 'remote add' command allows you to specify a shortname to a repository that you can reference easily, ```run git remote add <shortname> <url>```
