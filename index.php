@@ -22,25 +22,24 @@ EOF;
         <section class='clearfix main_feature'>
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
-		  	<!-- Slide climatology (regular template) -->
-			<!-- Ichiro Fukumori 11/07/18 -->
-			  
-            <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
+		  	<!-- Slide 5 (regular template) -->
+			<!-- Ichiro Fukumori 11/07/18 -->	  
+            <article class='dark_background ms-slide slide-5' data-delay='6' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
-              <img alt='slide2 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
+              <img alt='slide5 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
               <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-                <a class='text_content_link' href='/news/'>
+                <a class='text_content_link' href='/research/topics/'>
                   <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
                 </a>
                 <div class='description'>
-                  <a href='/news/'><b>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
+                  <a href='/research/topics/'><b>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
                                   
-				  <a class='detail_link' href='/topics/'>Read more</a>
+				  <a class='detail_link' href='/research/topics/'>Read more</a>
                 </div>
               </div>
               <div class='gradient_container_bottom'></div>
             </article>
-            <!-- End Slide climatology -->
+            <!-- End Slide 5 -->
             
 			  <!-- Slide 2 (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
@@ -76,9 +75,6 @@ EOF;
 			  <div class='gradient_container_bottom'></div>
 			</article>
 			<!-- End Slide 1 -->
-
-			
-
 
 			<!-- Slide 3 (regular template) -->
 			<article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
