@@ -25,6 +25,33 @@ EOF;
 			<div class='grid_layout'>
 				<div class='grid'>
 					<div class="grid-cell flexit">
+						<a href="https://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-17-0213.1" target="_blank" rel="noopener noreferrer"><h2 class="content_title">A New 20-year Ocean Climatology</h2></a>
+						<p><strong>Nov 2018</strong></p>
+						<p>A new 20-year ocean climatology is available for ocean circulation and
+						climate studies based on the recent ECCO version 4 release 3 ocean
+						state estimate. In comparison to conventional climatologies based on
+						observations alone, the new ECCO climatology accounts for the very
+						great inhomogeneity with which the ocean has been observed. The new
+						climatology includes all conventional variables of a general
+						circulation model over the entire water column and is consistent with
+						the diversity of data available from the global observation
+						system. All basic convservation rules for ocean circulation, including
+						enthalpy and energy, are obeyed to machine precision in the model
+						equations.</p>
+						<p>Fukumori, I., P. Heimbach, R. M. Ponte, and C. Wunsch, 2018: A Dynamically Consistent, Multi-Variable Ocean Climatology. Bull. Am. Meteorol. Soc., doi:10.1175/BAMS-D-17-0213.1.</p>
+					</div>
+					<div class="grid-cell grid--1of3 wysiwyg_content">
+						<p><img src="/assets/images/research/topics/v4r3_climatology_topics.png" alt="Salinity mismatch with Gouretski and Koltermann"></p>
+						
+					</div>
+				</div>
+			</div><!-- //.grid_layout -->
+		</section> <!-- //section -->
+
+		<section class="gray-bg2">
+			<div class='grid_layout'>
+				<div class='grid'>
+					<div class="grid-cell flexit">
 						<a href="http://onlinelibrary.wiley.com/doi/10.1002/2017JC012845/abstract" target="_blank" rel="noopener noreferrer"><h2 class="content_title">Mechanisms of the recent decadal trend of the North Atlantic Ocean heat content</h2></a>
 						<p><strong>Sept 2017</strong></p>
 						<p>The subpolar North Atlantic (SPNA) reversed trends in ocean heat
