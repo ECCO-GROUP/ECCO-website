@@ -32,7 +32,7 @@ EOF;
                   <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
                 </a>
                 <div class='description'>
-                  <a href='/research/topics/'><b>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
+                  <a href='/research/topics/'>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
                                   
 				  <a class='detail_link' href='/research/topics/'>Read more</a>
                 </div>
@@ -50,7 +50,7 @@ EOF;
                   <h1 class='media_feature_title'>ECCO Summer School 2019</h1>
                 </a>
                 <div class='description'>
-                  <a href='/news/'><b>Global Ocean State & Parameter Estimation: From Methods to Applications in Oceanographic Research</b> The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</a>
+                  <a href='/news/'>Global Ocean State & Parameter Estimation: From Methods to Applications in Oceanographic Research</b> The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</a>
                                   
 				  <a class='detail_link' href='/news/'>Read more</a>
                 </div>
