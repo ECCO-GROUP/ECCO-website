@@ -22,6 +22,7 @@ EOF;
 		</section><!-- //section -->
 
 		<section class="gray-bg2">
+		<!-- Ichiro Fukumori 11/07/18 -->
 			<div class='grid_layout'>
 				<div class='grid'>
 					<div class="grid-cell flexit">
