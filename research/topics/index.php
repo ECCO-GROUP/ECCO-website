@@ -21,7 +21,7 @@ EOF;
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
 
-		<section class="gray-bg2">
+		<section class="gray-bg2 margin-20 no-left no-right">
 		<!-- Ichiro Fukumori 11/07/18 -->
 			<div class='grid_layout'>
 				<div class='grid'>
@@ -49,7 +49,7 @@ EOF;
 			</div><!-- //.grid_layout -->
 		</section> <!-- //section -->
 
-		<section class="gray-bg2">
+		<section class="gray-bg2 margin-20 no-left no-right">
 			<div class='grid_layout'>
 				<div class='grid'>
 					<div class="grid-cell flexit">
