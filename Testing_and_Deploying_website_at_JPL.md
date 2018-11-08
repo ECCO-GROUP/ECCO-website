@@ -74,6 +74,14 @@ These instructions detail how you attain a copy of the website files by download
 2. Unpack the .ZIP file.
 8. Deploy the files and folders to the development or production environment using the instructions below.
 
+**Checking out the _Development_ Branch**
+
+This checks out the development brach to a directory called 'ECCO-website-JPL-devel'
+```
+git lfs clone --single-branch -b development https://github.jpl.nasa.gov/18x/ecco.git ECCO-website-JPL-devel
+```
+
+
 ### Environment specific deployment instructions:
 
 #### Deploying to _Development_ environment:
