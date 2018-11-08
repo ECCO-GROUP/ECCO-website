@@ -22,7 +22,27 @@ EOF;
         <section class='clearfix main_feature'>
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
-		  	<!-- Slide 2 (regular template) -->
+		  	<!-- Slide climatology (regular template) -->
+			<!-- Ichiro Fukumori 11/07/18 -->
+			  
+            <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
+              <div class='gradient_container_top'></div>
+              <img alt='slide2 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
+              <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+                <a class='text_content_link' href='/news/'>
+                  <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
+                </a>
+                <div class='description'>
+                  <a href='/news/'><b>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
+                                  
+				  <a class='detail_link' href='/topics/'>Read more</a>
+                </div>
+              </div>
+              <div class='gradient_container_bottom'></div>
+            </article>
+            <!-- End Slide climatology -->
+            
+			  <!-- Slide 2 (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide2 background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
@@ -39,8 +59,7 @@ EOF;
               <div class='gradient_container_bottom'></div>
             </article>
             <!-- End Slide 2 -->
-
-            
+			  
 		  	<!-- Slide 1 (regular template) -->
 			<article class='dark_background ms-slide slide-4' data-delay='6' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
