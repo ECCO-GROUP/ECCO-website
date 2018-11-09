@@ -1,7 +1,7 @@
 <?php
     /* define page vars */
     $include_path = '../';
-    $page_title = "ECCO | Frequently Asked Questions";
+    $page_title = "ECCO | FAQs";
     $page_id = 'faq';
     $theme = 'light_background'; //dark_background || light_background
     $include_other = "";
