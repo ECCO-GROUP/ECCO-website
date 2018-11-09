@@ -17,7 +17,7 @@ EOF;
 	<section class='content_page'>
 		<section class="module">
 			<div class='grid_layout'>
-				<h1 class='article_title'>Research Topics</h1>
+				<h1 class='article_title'>Publication Hightlights</h1>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
 
