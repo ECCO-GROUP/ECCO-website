@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = '../../';
-	$page_title = "ECCO | Research | Publications";
+	$page_title = "ECCO | Research | Publication List";
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
@@ -20,7 +20,7 @@ EOF;
 	<section class='content_page module'>
 		<div class='pad-20'>
 			<header id='page_header'>
-				<h1 class='article_title'>Publications</h1>
+				<h1 class='article_title'>Publication List</h1>
 			</header>
 			<div class='wysiwyg_content'>
 				<p>This database catalogues publications of the ECCO Project and those
