@@ -24,7 +24,7 @@ EOF;
 		  	
 		  	<!-- Slide 5 (regular template) -->
 			<!-- Ichiro Fukumori 11/07/18 -->	  
-            <article class='dark_background ms-slide slide-5' data-delay='6' data-fill-mode='fill'>
+            <article class='dark_background ms-slide slide-5' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide5 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
               <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
@@ -42,7 +42,7 @@ EOF;
             <!-- End Slide 5 -->
             
 			  <!-- Slide 2 (regular template) -->
-            <article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
+            <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide2 background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
               <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
@@ -60,7 +60,7 @@ EOF;
             <!-- End Slide 2 -->
 			  
 		  	<!-- Slide 1 (regular template) -->
-			<article class='dark_background ms-slide slide-4' data-delay='6' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-4' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
 			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
@@ -77,7 +77,7 @@ EOF;
 			<!-- End Slide 1 -->
 
 			<!-- Slide 3 (regular template) -->
-			<article class='dark_background ms-slide slide-2' data-delay='6' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
@@ -96,7 +96,7 @@ EOF;
 			<!-- End Slide 3 -->
 			
 			<!-- Slide 4 (regular template) -->
-			<article class='dark_background ms-slide slide-3' data-delay='6' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
 			  <img alt='slide3 background' data-src='/assets/images/home/20171213_gmsst_fig01_v6.png' src='/assets/images/home/20171213_gmsst_fig01_v6.png'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
