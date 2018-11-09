@@ -28,13 +28,13 @@ EOF;
               <div class='gradient_container_top'></div>
               <img alt='slide5 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
               <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-                <a class='text_content_link' href='/research/topics/'>
+                <a class='text_content_link' href='/research/publicationHighlights/'>
                   <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
                 </a>
                 <div class='description'>
-                  <a href='/research/topics/'>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
+                  <a href='/research/publicationHighlights/'>A new 20-year ocean climatology is available for ocean circulation and climate studies based on the recent ECCO version 4 release 3 ocean state estimate. In comparison to conventional climatologies based on observations alone, the new ECCO climatology accounts for the very great inhomogeneity with which the ocean has been observed.</a>
                                   
-				  <a class='detail_link' href='/research/topics/'>Read more</a>
+				  <a class='detail_link' href='/research/publicationHighlights/'>Read more</a>
                 </div>
               </div>
               <div class='gradient_container_bottom'></div>
