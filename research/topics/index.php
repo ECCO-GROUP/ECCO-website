@@ -39,7 +39,7 @@ EOF;
 						system. All basic convservation rules for ocean circulation, including
 						enthalpy and energy, are obeyed to machine precision in the model
 						equations.</p>
-						<p>Fukumori, I., P. Heimbach, R. M. Ponte, and C. Wunsch, 2018: A Dynamically Consistent, Multi-Variable Ocean Climatology. Bull. Am. Meteorol. Soc., doi:10.1175/BAMS-D-17-0213.1.</p>
+						<p>Fukumori, I., P. Heimbach, R. M. Ponte, and C. Wunsch, 2018: A Dynamically Consistent, Multivariable Ocean Climatology. Bull. Am. Meteorol. Soc., 99, 2107–2128, doi:10.1175/BAMS-D-17-0213.1.</p>
 					</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
 						<p><img src="/assets/images/research/topics/v4r3_climatology_topics.png" alt="Salinity mismatch with Gouretski and Koltermann"></p>
