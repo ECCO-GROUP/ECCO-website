@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = '../../';
-	$page_title = "ECCO | Research Topics";
+	$page_title = "ECCO | Publication Highlights";
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
@@ -17,7 +17,7 @@ EOF;
 	<section class='content_page'>
 		<section class="module">
 			<div class='grid_layout'>
-				<h1 class='article_title'>Publication Hightlights</h1>
+				<h1 class='article_title'>Publication Highlights</h1>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
 
@@ -28,8 +28,8 @@ EOF;
 					<div class="grid-cell flexit">
 						<a href="https://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-17-0213.1" target="_blank" rel="noopener noreferrer"><h2 class="content_title">A New 20-year Ocean Climatology</h2></a>
 						<p><strong>Nov 2018</strong></p>
-						<p>A new 20-year ocean climatology is available for ocean circulation and
-						climate studies based on the recent ECCO version 4 release 3 ocean
+						<p>A new 20-year ocean climatology has been created for ocean circulation 
+						and climate studies based on the recent ECCO version 4 release 3 ocean
 						state estimate. In comparison to conventional climatologies based on
 						observations alone, the new ECCO climatology accounts for the very
 						great inhomogeneity with which the ocean has been observed. The new
