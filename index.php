@@ -20,8 +20,35 @@ EOF;
       <!-- MAIN Carousel / Media Feature -->
       <section class='primary_media_feature homepage_carousel'>
         <section class='clearfix main_feature'>
+		  
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
+			<!-- Ian Fenty 11/12/2018 -->	  
+		  	<!-- Slide 6 (AGU 2018) -->
+         	<article class='dark_background ms-slide slide-5' 
+         	  data-delay='5' 
+         	  data-fill-mode='fill'>
+
+              <!--<div class='gradient_container_top'></div>-->
+              <img alt='slide6 background' 
+              	data-src='/assets/images/home/ecco_agu_2018_2.png' 
+              	src='/assets/images/home/ecco_agu_2018_2.png'
+              	data-resize='true'>
+              
+              <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+                <a class='text_content_link' href='/news/'>
+                  <h1 class='media_feature_title'>Town Hall at 2018 AGU Fall Meeting</h1>
+                </a>
+                <div class='description'>
+                  <a href='/news/'>The town hall will introduce the latest global ocean and sea-ice state estimate of the “Estimating the Circulation and Climate of the Ocean” (ECCO) Consortium. This new ECCO state estimate, Version 4 Release 3 synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</a>
+
+                  <a class='detail_link' href='/news/'>Read more</a>
+                </div>
+              </div>
+              <div class='gradient_container_bottom'></div>
+            </article>
+            <!-- End Slide 6  AGU 2018-->
+
 		  	<!-- Slide 5 (regular template) -->
 			<!-- Ichiro Fukumori 11/07/18 -->	  
             <article class='dark_background ms-slide slide-5' data-delay='5' data-fill-mode='fill'>
@@ -41,7 +68,7 @@ EOF;
             </article>
             <!-- End Slide 5 -->
             
-			  <!-- Slide 2 (regular template) -->
+			<!-- Slide 2 (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide2 background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
@@ -319,6 +346,30 @@ EOF;
 				<section class="grid_gallery list_view">					
 					<ul class="articles">
 						
+						<!-- Ian Fenty 2018-11-12 AGU Town Hall-->
+						<li class='slide'>
+							<a href='/news/'>
+								<div class='image_and_description_container'>
+									<div class='img'><img alt="2018 ECCO Town Hall" title="2018 ECCO Town Hall" src="/assets/images/home/CEN-FM18_logo-1-1.png"></div>
+									<div class='list_text_content'>
+										<div class='content_title no-pad'>
+											2018 Town Hall at the AGU Fall Meeting
+										</div>
+										<div class='article_teaser_body'>
+											<p>The ECCO consortium will host a town hall at the AGU Fall Meeting in Washington, DC.  We will introduce the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+
+											<p>By design, ECCO state estimates conserve heat, salt, volume and momentum—a virtue that is critical for analyzing causal mechanisms of ocean variability, and detecting climate signals that are small residuals of large regional anomalies. Instructional material will be provided for analyzing different aspects of the state estimate, including budget analysis, along with instructions for downloading and running the ocean model to recreate the solution. In addition, a selection of recent science applications will be highlighted. Members of the ECCO Group will be available to answer questions and provide guidance on utilizing the products.</p>
+
+											<b>Date & Time:</b> Monday, 10 December 2018: 12:30 - 13:30 <br/>
+											<b>Location: </b><a class='detail_link' href='https://www.marriott.com/hotel-meetings/wasco-marriott-marquis-washington-dc/modules/meetings/meeting-event-space.mi'>Marriott Marquis</a>, 901 Massachusetts Avenue NW, Washington DC 20001<br>Room: Liberty L<br />
+											
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<!-- Ian Fenty 2018-11-12 AGU Town Hall  END -->
+
 						<li class='slide'>
 							<a href='/news/'>
 								<div class='image_and_description_container'>

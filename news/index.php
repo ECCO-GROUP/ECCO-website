@@ -19,7 +19,19 @@
 			</header>
 			<div class='wysiwyg_content'>
 
+<!---------------------------------------------------------------------->
+<h4>ECCO Town Hall at 2018 AGU Fall Meeting</h4>
 
+<p><b>Synopsis:</b> The ECCO consortium will host a town hall at the AGU Fall Meeting in Washington, DC.  We will introduce the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+
+<p>By design, ECCO state estimates conserve heat, salt, volume and momentum—a virtue that is critical for analyzing causal mechanisms of ocean variability, and detecting climate signals that are small residuals of large regional anomalies. Instructional material will be provided for analyzing different aspects of the state estimate, including budget analysis, along with instructions for downloading and running the ocean model to recreate the solution. In addition, a selection of recent science applications will be highlighted. Members of the ECCO Group will be available to answer questions and provide guidance on utilizing the products.</p>
+
+<b>Date & Time:</b> Monday, 10 December 2018: 12:30 - 13:30 <br/>
+<b>Location: </b><a class='detail_link' href='https://www.marriott.com/hotel-meetings/wasco-marriott-marquis-washington-dc/modules/meetings/meeting-event-space.mi'>Marriott Marquis</a>, 901 Massachusetts Avenue NW, Washington DC 20001<br>Room: Liberty L<br />
+</p>
+
+<!---------------------------------------------------------------------->
+<hr />
 <h4>ECCO Summer School 2019</h4>
 
 <p><b>Synopsis:</b> The Consortium for "Estimating the Circulation and Climate of the Ocean" (ECCO) will host a summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects. In doing so, the school aims to help nurture the next generation of oceanographers and climate scientists in the subject matter so that they may utilize the ECCO products and underlying modeling/estimation tools most effectively to further advance the state-of-the-art in ocean state estimation and ocean science. </p>
@@ -33,6 +45,7 @@
 For more information, confirmed lecturers, and <b>how to apply</b>, please visit: <a href="https://www.eccosummerschool.org">https://www.eccosummerschool.org</a><br>
 </p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>September 2017 — Paper available analyzing subpolar North Atlantic Ocean heat content change</h4>
 
@@ -50,11 +63,15 @@ Research: Oceans, 122(9), 7181-7197, doi:10.1002/2017JC012845.
 </p>
 <p>For more details: <a href="http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract">http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract</a></p>
 
+
+<!---------------------------------------------------------------------->
 <hr />
 <h4>July 2017 — ECCO version 4 release 3 (ECCO-V4r3), covering 1992-2015, now available online</h4>
 
 <p>The <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="blank">new release 3</a> extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling 				and estimation. A <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_summary.pdf" 						target="blank">summary document</a> describes details of the changes. Also available are descriptions of 				<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" 						target="blank">how to evaluate property budgets</a> and <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/ECCOv4r3_reproduction.pdf" target="blank">how to reproduce the results</a> and generate additional fields using MITgcm.</a></p>
 
+
+<!---------------------------------------------------------------------->
 <hr />
 <h4>June 2017 — A new 20-yr ECCO climatology is now available online</h4>
 
@@ -63,22 +80,27 @@ Associated pictorial atlas and descriptions are available in the DSpace@MIT ECCO
 <li>A Twenty-Year Dynamical Oceanic Climatology: 1994-2013. Part 1: Active Scalar Fields: Temperature, 					Salinity, Dynamic Topography, Mixed-Layer Depth, Bottom Pressure. <a href="http://hdl.handle.net/1721.1/107613" target="blank">http://hdl.handle.net/1721.1/107613</a> (2017-03-20)</li>
 <li>A Twenty-Year Dynamical Oceanic Climatology: 1994-2013. Part 2: Velocities, Property Transports, 					Meteorological Variables, Mixing Coefficients. <a href="http://hdl.handle.net/1721.1/109847" target="blank">http://hdl.handle.net/1721.1/109847</a> (2017-06-14)</li></p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>May 2016 — Joint ECCO-Production and ECCO-IcES Meeting at MIT</h4>
 
 <p>The ECCO-Production and ECCO-IcES groups will hold a joint project meeting at MIT from 16-18 May 2016. A <a href="http://www.ecco-group.org/meetings/2016-mit/" target="blank">preliminary meeting agenda is now available online</a></p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>March 2016 — ECCO version 4, release 2 (ECCO v4r2) now available online</h4>
 
 <p>As compared with the earlier release, ECCO v4-r2 benefits from a few additional corrections as documented in <a href="http://hdl.handle.net/1721.1/102062">this note</a>. ECCO v4-r2 (see <a href="http://www.ecco-group.org/products.htm">products</a>) further includes the full suite of observational inputs and forcing fields, as well as an interpolated version of the state estimate fields (on a half degree lat-lon grid). The ECCO v4 model settings (see <a href="http://www.ecco-group.org/model.htm">model</a>) have also been simplified to facilitate re-runs of the state estimate solution. This capability allows any user to generate model output that may not be available online (see the <a href="http://mitgcm.org/viewvc/*checkout*/MITgcm/MITgcm_contrib/gael/verification/eccov4.pdf">ECCO version 4 user guide</a>)</p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>May 2015 [UPDATED March 2016] — Paper available describing ECCO version 4, release 1 (ECCO v4r1) in details</h4>
 
 <p>Following the release in February 2014 (See <a href="http://www.ecco-group.org/products.htm">products</a>) of a new-generaption, global, bi-decadal state estimate (ECCO version 4, release 1), a paper has been published  and highlighted in <a href="http://www.geoscientific-model-development.net/index.html"> Geoscientific Model Development</a> that provides a detailed description of the model and estimation configuration, the observational data streams, and basic properties of the solution:
 Forget, G., J.M. Campin, P. Heimbach, C.N. Hill, R.M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geosci. Model Dev., 8, 3071-3104, <a href="http://www.geosci-model-dev.net/8/3071/2015/">doi:10.5194/gmd-8-3071-2015</a></p>
 
+
+<!---------------------------------------------------------------------->
 <hr />		
 <h4>February 2014 — Announcing a new-generation, global, bi-decadal state estimate: ECCO version 4</h4>
 
@@ -97,11 +119,13 @@ The sub-directory ancillary_data/ has some extra information, including our stan
 Gael Forget has played a leading role in developing ECCO v4 and producing the released estimate. [UPDATE 2015:] A more detailed paper describing the design of ECCO v4, and the solution is available at:
 Forget, G., J.M. Campin, P. Heimbach, C.N. Hill, R.M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geosci. Model Dev., 8, 3071-3104, <a href="http://www.geosci-model-dev.net/8/3071/2015/">doi:10.5194/gmd-8-3071-2015</a></p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>February 2010 — ECCO-GODAE to be featured at AGU Ocean Science 2010 Town Hall Meeting</h4>
 
 <p>The National Oceanographic Partnership Program (NOPP) will hold a Town Hall meeting during OS 2010, entitled: <i>Ocean Partnerships: Collaborative Oceanographic Research for the Future</i>. One of the projects featured will be ECCO-GODAE. The meeting takes place on Tuesday, February 23rd, from 11:45 to 12:45 in room D139.</strong></p>
 
+<!---------------------------------------------------------------------->
 <hr />
 <h4>August 2009 — Editors' Highlight in GRL</h4>
 
