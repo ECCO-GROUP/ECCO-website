@@ -23,14 +23,31 @@ EOF;
 		  
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
+		  	<!-- Slide (ECCO / about) regular template) -->
+			<article class='dark_background ms-slide slide-4' data-delay='5' data-fill-mode='fill'>
+			  <div class='gradient_container_top'></div>
+			  <img alt='slide background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
+			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+				<a class='text_content_link' href='/about'>
+				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
+				</a>
+				<div class='description'>
+				  <a href='/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
+				  <a class='detail_link' href='/about'>Learn more</a>
+				</div>
+			  </div>
+			  <div class='gradient_container_bottom'></div>
+			</article>
+			<!-- End Slide 1 -->
+
 			<!-- Ian Fenty 11/12/2018 -->	  
-		  	<!-- Slide 6 (AGU 2018) -->
+		  	<!-- (AGU 2018) -->
          	<article class='dark_background ms-slide slide-5' 
          	  data-delay='5' 
          	  data-fill-mode='fill'>
 
               <!--<div class='gradient_container_top'></div>-->
-              <img alt='slide6 background' 
+              <img alt='slide background' 
               	data-src='/assets/images/home/ecco_agu_2018_2.png' 
               	src='/assets/images/home/ecco_agu_2018_2.png'
               	data-resize='true'>
@@ -47,13 +64,14 @@ EOF;
               </div>
               <div class='gradient_container_bottom'></div>
             </article>
-            <!-- End Slide 6  AGU 2018-->
+            <!-- End Slide AGU 2018-->
 
-		  	<!-- Slide 5 (regular template) -->
-			<!-- Ichiro Fukumori 11/07/18 -->	  
-            <article class='dark_background ms-slide slide-5' data-delay='5' data-fill-mode='fill'>
+		  	<!-- Ichiro Fukumori 11/07/18 -->	  
+            <article class='dark_background ms-slide slide-5' 
+            	data-delay='5' 
+            	data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
-              <img alt='slide5 background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
+              <img alt='slide background' data-src='/assets/images/home/v4r3_climatology_carousel.png' src='/assets/images/home/v4r3_climatology_carousel.png'>
               <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
                 <a class='text_content_link' href='/research/publicationHighlights/'>
                   <h1 class='media_feature_title'>A New 20-year Ocean Climatology</h1>
@@ -66,12 +84,38 @@ EOF;
               </div>
               <div class='gradient_container_bottom'></div>
             </article>
-            <!-- End Slide 5 -->
+            <!-- End Slide  /  New 20-year Ocean Climatology<-->
             
-			<!-- Slide 2 (regular template) -->
+            <!-- Ian Fenty 11/16/2018 -->	  
+		  	<!-- (Wood et al., paper) -->
+         	<article class='dark_background ms-slide slide-5' 
+         	  data-delay='5' 
+         	  data-fill-mode='fill'>
+              <div class='gradient_container_top'></div>
+              <img alt='slide background' 
+              	data-src='/assets/images/home/ian_ice_front_1040376.jpg' 
+              	src='/assets/images/home/ian_ice_front_1040376.jpg'
+              	data-resize='true'>
+              
+              <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+                <a class='text_content_link' href='/news/'>
+                  <h1 class='media_feature_title'>Ocean-induced melt triggers glacier retreat in Northwest Greenland</h1>
+                </a>
+                <div class='description'>
+                  <a href='/news/'>In recent decades, tidewater glaciers in Northwest Greenland have contributed significantly to sea level rise but have also exhibited a complex spatial pattern of retreat that remained unexplained. In a new study, NASA's Oceans Melting Greenland (OMG) data is used in combination with ECCO model outputs to assess the role of the ocean in triggering the retreat of these glaciers.</a>
+				  <a class='detail_link' href='/research/publicationHighlights/'>Read more</a>
+                </div>
+              </div>
+              <div class='gradient_container_bottom'></div>
+            </article>
+            <!-- End Slide 6  Wood et al paper-->
+
+
+
+			<!-- Slide (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
-              <img alt='slide2 background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
+              <img alt='slide background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
               <div class='bg_dark bottom_right floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
                 <a class='text_content_link' href='/news/'>
                   <h1 class='media_feature_title'>ECCO Summer School 2019</h1>
@@ -84,29 +128,14 @@ EOF;
               </div>
               <div class='gradient_container_bottom'></div>
             </article>
-            <!-- End Slide 2 -->
+            <!-- End Slide Summer School-->
 			  
-		  	<!-- Slide 1 (regular template) -->
-			<article class='dark_background ms-slide slide-4' data-delay='5' data-fill-mode='fill'>
-			  <div class='gradient_container_top'></div>
-			  <img alt='slide4 background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
-			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-				<a class='text_content_link' href='/about'>
-				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
-				</a>
-				<div class='description'>
-				  <a href='/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
-				  <a class='detail_link' href='/about'>Learn more</a>
-				</div>
-			  </div>
-			  <div class='gradient_container_bottom'></div>
-			</article>
-			<!-- End Slide 1 -->
+		  	
 
-			<!-- Slide 3 (regular template) -->
+			<!-- Slide ECCOv4 R3 (regular template) -->
 			<article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide2 background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
+			  <img alt='slide background' data-src='/assets/images/home/v4r3_available_online.jpg' src='/assets/images/home/v4r3_available_online.jpg'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/products/latest/'>
 				  <h1 class='media_feature_title'>Version 4 release 3, covering 1992-2015, now available</h1>
@@ -120,12 +149,12 @@ EOF;
 			  </div>
 			  <div class='gradient_container_bottom'></div>
 			</article>
-			<!-- End Slide 3 -->
+			<!-- End Slide ECCO v4 R3-->
 			
-			<!-- Slide 4 (regular template) -->
+			<!-- Slide 4 (GMSST) -->
 			<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide3 background' data-src='/assets/images/home/20171213_gmsst_fig01_v6.png' src='/assets/images/home/20171213_gmsst_fig01_v6.png'>
+			  <img alt='slide background' data-src='/assets/images/home/20171213_gmsst_fig01_v6.png' src='/assets/images/home/20171213_gmsst_fig01_v6.png'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='http://onlinelibrary.wiley.com/wol1/doi/10.1002/2017JC012845/abstract'>
 				  <h1 class='media_feature_title'>What mechanisms control the evolution of global mean sea surface temperature?</h1>
@@ -137,7 +166,7 @@ EOF;
 			  </div>
 			  <div class='gradient_container_bottom'></div>
 			</article>
-			<!-- End Slide 4 -->
+			<!-- End Slide GMSST -->
 			
 		  </div>
 		</section>

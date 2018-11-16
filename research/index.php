@@ -23,16 +23,18 @@ EOF;
 			<!--<br /><br />-->
 			<div class="grid">
 
+				<!-- Ian : I updated all of the icons 2018-11-16 and added
+				           publication highlights -->
 			 	<div class="grid-cell flexit">
 			 		<a href="topics/">
-		 				<img alt="Topics" src="/assets/images/icons/topics.jpg">
+		 				<img alt="Topics" src="/assets/images/icons/new_research_topics.jpg">
 		 				<div class="content_title text-center">Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="teams/">
-	 					<img alt="Teams" src="/assets/images/icons/teams.jpg">
+	 					<img alt="Teams" src="/assets/images/icons/new_teams.jpg">
 		 				<div class="content_title text-center">Teams</div>
 			 		</a>
 			 	</div>
@@ -46,19 +48,29 @@ EOF;
 			 	</div>
 			 	*/ ?>
 
+				<div class="grid-cell flexit">
+			 		<a href="publicationHighlights/">
+		 				<img alt="Publications" src="/assets/images/icons/publication_hightlights.png">
+		 				<div class="content_title text-center">Publication Highlights</div>
+			 		</a>
+			 	</div>
+
+
 			 	<div class="grid-cell flexit">
 			 		<a href="publications/">
-		 				<img alt="Publications" src="/assets/images/icons/publications.jpg">
+		 				<img alt="Publications" src="/assets/images/icons/new_publications.png">
 		 				<div class="content_title text-center">Publications</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
 			 		<a href="presentations/">
-			 			<img alt="Presentations" src="/assets/images/icons/presentations.jpg">
+			 			<img alt="Presentations" src="/assets/images/icons/new_presentation.png">
 			 			<div class="content_title text-center">Presentations</div>
 			 		</a>
 			 	</div>
+			 	<!-- Ian : end I updated all of the icons 2018-11-16 -->
+
 			</div><!-- //.grid -->
 		</div><!-- //.grid_layout -->
 	</section><!-- //.content_page -->
