@@ -32,7 +32,7 @@ EOF;
 				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
 				</a>
 				<div class='description'>
-				  <a href='/about'>ECCO was established in 1998 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
+				  <a href='/about'>ECCO was established in 1999 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
 				  <a class='detail_link' href='/about'>Learn more</a>
 				</div>
 			  </div>
