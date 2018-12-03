@@ -26,11 +26,12 @@
                   </a>
                 </div>
               </header>
-
+              <!-- Ian 2018-12-02, renamed 'latest product' to ECCO v4 R3, 
+              added faq and analysis tools to menu -->
               <section class='navigation_area'>
                 <div class='grid_layout'>
                   <div class='directory'>
-
+                    <!-- -->
                     <div class='nav_item'>
                       <a href="/" title="Visit the ECCO home page.">
                         <h3 class='nav_title' >
@@ -38,7 +39,7 @@
                         </h3>
                       </a>
                     </div>
-
+                    <!-- -->
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
                       <a href="/about/" title="Learn more about ECCO by visiting this page.">
@@ -47,7 +48,7 @@
                         </h3>
                       </a>
                     </div>
-
+                    <!-- -->
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
                       <div class='arrow_box'>
@@ -57,11 +58,11 @@
                         <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       </h3>
                       <ul class='subnav'>
-                        <li><a href="/products/all/" title="Learn more about ECCO's products.">All Products</a></li>
-                        <li><a href="/products/latest/" title="Download the latest product">Latest Product</a></li>
+                         <li><a href="/products/latest/" title="Download the latest product">Featured Product: ECCO v4 Release 3</a></li>
+                         <li><a href="/products/all/" title="Learn more about ECCO's products.">All Products</a></li>
                       </ul>
                     </div>
-
+                    <!-- -->
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
                       <a href="/data/" title="Learn more about ECCO Data by visiting this page.">
@@ -70,16 +71,21 @@
                         </h3>
                       </a>
                     </div>
-
+                    <!-- -->
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
-                      <a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">
-                        <h3 class='nav_title'>
-                          knowledge
-                        </h3>
-                      </a>
-                    </div>                    
-                    
+                      <div class='arrow_box'>
+                        <span class='arrow_down'></span>
+                      </div>
+                      <h3 class='nav_title'>
+                        <a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a>
+                      </h3>
+                      <ul class="subnav">
+                        <li><a href="/knowledge/faq/" title="ECCO FAQ.">FAQ</a></li>
+                        <li><a href="/knowledge/analysis_tools/" title="ECCO Analysis Tools">Analysis Tools</a></li>
+                      </ul>
+                    </div>
+                    <!-- -->
                     <div class='gradient_line'></div>
                     <div class='nav_item'>
                       <div class='arrow_box'>

@@ -1,7 +1,7 @@
 <?php
 	/* define page vars */
 	$include_path = '../';
-	$page_title = "ECCO | Research";
+	$page_title = "ECCO | Knowledge";
 	$page_id = 'research';
 	$theme = 'light_background'; //dark_background || light_background
 	$include_other = <<<EOF
@@ -26,15 +26,15 @@ EOF;
 				<!-- Ian : I updated all of the icons 2018-11-16 and added
 				           publication highlights -->
 			 	<div class="grid-cell flexit">
-			 		<a href="topics/">
-		 				<img alt="Topics" src="/assets/images/icons/new_research_topics.jpg">
+			 		<a href="analysis_tools/">
+		 				<img alt="Analysis Tools" src="/assets/images/icons/new_research_topics.jpg">
 		 				<div class="content_title text-center">Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
-			 		<a href="teams/">
-	 					<img alt="Teams" src="/assets/images/icons/new_teams.jpg">
+			 		<a href="faq/">
+	 					<img alt="Frequently Asked Questions (FAQ)" src="/assets/images/icons/new_teams.jpg">
 		 				<div class="content_title text-center">Teams</div>
 			 		</a>
 			 	</div>

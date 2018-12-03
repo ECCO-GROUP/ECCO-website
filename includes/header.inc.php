@@ -58,6 +58,9 @@
               <div class='other_brand'>
                 <div><a href="/" title="Return to ECCO home page">ECCO</a></div>
               </div>
+              
+              <!-- Ian 2018-12-02, renamed 'latest product' to ECCO v4 R3, 
+                added faq and analysis tools to menu -->
               <div class='side_nav'>
                 <ul>
                     <li><a href="/" title="Visit the ECCO home page.">Home</a></li>
@@ -65,12 +68,20 @@
                     <li>
                       <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       <ul class="subnav">
+                        <li><a href="/products/latest/" title="Download the latest product." class="no-break">Featured Product: ECCO v4 Release 3</a></li>
                         <li><a href="/products/all/" title="View a list of all products." class="no-break">All Products</a></li>
-                        <li><a href="/products/latest/" title="Download the latest product." class="no-break">Latest Product</a></li>
                       </ul>
                     </li>
+                    <!-- -->
                     <li><a href="/data/" title="Learn more about ECCO Data by visiting this page.">Data</a></li>
-                    <li><a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a></li>
+                    <!-- -->
+                    <li><a href="/knowledge/" title="Learn more about ECCO Knowledge Base by visiting this page.">Knowledge</a>
+                      <ul class="subnav">
+                        <li><a href="/knowledge/faq/" title="ECCO FAQ.">FAQ</a></li>
+                        <li><a href="/knowledge/analysis_tools/" title="ECCO Analysis Tools">Analysis Tools</a></li>
+                      </ul>
+                    </li>
+                    <!-- -->
                     <li><a href="/research/" title="Learn more about ECCO Research by visiting this page.">Research</a>
                       <ul class="subnav">
                         <li><a href="/research/topics/" title="Learn more about ECCO Research Topics by visiting this page.">Topics</a></li>
