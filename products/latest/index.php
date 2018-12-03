@@ -106,15 +106,40 @@ summarized in a "User Guide" in the link below.
 </p>
 				<p><strong><a href="./user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
-				<h2>Technical Reference</h2>
-				<div>
-					<p><strong>ECCO-v4-Py: A Python toolbox and tutorial for using the ECCO v4 output</strong></p>
+				<h2>Analysis Tools</h2>
+
+				<p><strong>ecco_v4_py: A Python package and tutorial for V4r3</strong></p>
 					<div class="indent">
 						<p>
-							
-							<a href="http://ecco-v4-python-tutorial.readthedocs.io/" target="_blank" rel="noopener noreferrer">http://ecco-v4-python-tutorial.readthedocs.io/</a><br/>
+							<a href="https://ecco-v4-python-tutorial.readthedocs.io/">https://ecco-v4-python-tutorial.readthedocs.io/</a><br/>
 						</p>
 					</div>
+
+				
+				<p><strong>gcmfaces: A general Matlab/Octave toolbox for analyzing V4r3</strong></p>
+					<div class="indent">
+						<p>
+							<a href="https://gcmfaces.readthedocs.io/en/latest/index.html">https://gcmfaces.readthedocs.io/en/latest/index.html</a><br/>
+						</p>
+					</div>
+
+		
+				<p><strong>Guide for calculating budgets with V4r3 output</strong></p>
+					<div class="indent">
+						<p>
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf</a><br/>
+						</p>
+					</div>
+
+				<p><strong>Guide for reproducing V4r3 results with MITgcm</strong></p>
+					<div class="indent">
+						<p>
+							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
+						</p>
+					</div>
+						
+				<h2>Technical Reference</h2>
+				<div>
 					
 					<p><strong>Synopsis of V4r3 estimation</strong></p>
 					<div class="indent">
@@ -145,27 +170,8 @@ summarized in a "User Guide" in the link below.
 							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf</a><br/>
 						</p>
 					</div>
-					<p><strong>Calculating budgets with V4r3 output</strong></p>
-					<div class="indent">
-						<p>
-							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf</a><br/>
-						</p>
-					</div>
-					<p><strong>Reproducing V4r3 results with MITgcm</strong></p>
-					<div class="indent">
-						<p>
-							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
-						</p>
-					</div>
-					<p><strong>gcmfaces: A Matlab toolbox for V4r3 and other gridded Earth variables</strong></p>
-					<div class="indent">
-						<p>
-							
-							<a href="https://gcmfaces.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">https://gcmfaces.readthedocs.io/en/latest/</a><br/>
-						</p>
-					</div>
+					
+					
 				</div>
 
 				<h2>Support</h2>

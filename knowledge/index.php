@@ -28,7 +28,7 @@ EOF;
 		<div class='grid_layout'>
 			
 			<div class='wysiwyg_content'>
-				<h3><a href="analysis_tools/">Software Analysis Tools</a></h3>
+				<h3><a href="analysis_tools/">Analysis Tools</a></h3>
 			</div><!-- //.wysiwyg_content -->
 			
 		</div>
