@@ -23,25 +23,8 @@ EOF;
 		  
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
-		  	<!-- Slide (ECCO / about) regular template) -->
-			<article class='dark_background ms-slide slide-4' data-delay='5' data-fill-mode='fill'>
-			  <div class='gradient_container_top'></div>
-			  <img alt='slide background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
-			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
-				<a class='text_content_link' href='/about'>
-				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
-				</a>
-				<div class='description'>
-				  <a href='/about'>ECCO was established in 1999 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
-				  <a class='detail_link' href='/about'>Learn more</a>
-				</div>
-			  </div>
-			  <div class='gradient_container_bottom'></div>
-			</article>
-			<!-- End Slide 1 -->
-
-			<!-- Ian Fenty 11/12/2018 -->	  
-		  	<!-- (AGU 2018) -->
+			<!-- Ian Fenty 12/04/2018 -->	  
+		  	<!-- (AGU 2018) moved to front-->
          	<article class='dark_background ms-slide slide-5' 
          	  data-delay='5' 
          	  data-fill-mode='fill'>
@@ -65,6 +48,24 @@ EOF;
               <div class='gradient_container_bottom'></div>
             </article>
             <!-- End Slide AGU 2018-->
+
+		  	<!-- Slide (ECCO / about) regular template) -->
+			<article class='dark_background ms-slide slide-4' data-delay='5' data-fill-mode='fill'>
+			  <div class='gradient_container_top'></div>
+			  <img alt='slide background' data-src='/assets/images/home/u5.jpg' src='/assets/images/home/u5.jpg'>
+			  <div class='bg_dark bottom_right floating_text_area ms-layer' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+				<a class='text_content_link' href='/about'>
+				  <h1 class='media_feature_title'>Estimating the Circulation & Climate of the Ocean (ECCO)</h1>
+				</a>
+				<div class='description'>
+				  <a href='/about'>ECCO was established in 1999 as part of the World Ocean Circulation Experiment (WOCE) with the goal of combining a general circulation model (GCM) with diverse observations in order to produce a quantitative depiction of the time-evolving global ocean state.</a>
+				  <a class='detail_link' href='/about'>Learn more</a>
+				</div>
+			  </div>
+			  <div class='gradient_container_bottom'></div>
+			</article>
+			<!-- End Slide 1 -->
+
 
 		  	<!-- Ichiro Fukumori 11/07/18 -->	  
             <article class='dark_background ms-slide slide-5' 
