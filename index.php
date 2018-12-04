@@ -91,7 +91,7 @@ EOF;
 	    <!-- Slide  Angular momentum -->
 		<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
 		<div class='gradient_container_top'></div>
-		<img alt='slide background' data-src='/assets/images/home/Qui+18carouselfigure' src='/assets/images/home/Qui+18carouselfigure'>
+		<img alt='slide background' data-src='/assets/images/home/Qui+18carouselfigure.png' src='/assets/images/home/Qui+18carouselfigure.png'>
 		<div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 			<a class='text_content_link' href='http://dx.doi.org/10.1093/gji/ggy452'>
 			<h1 class='media_feature_title'> New ocean angular momentum product for geodetic studies</h1>
