@@ -86,7 +86,27 @@ EOF;
             </article>
             <!-- End Slide  /  New 20-year Ocean Climatology<-->
             
-            <!-- Ian Fenty 11/16/2018 -->	  
+			  
+            <!—Rui Ponte 12/04/2018 --> 
+	    <!-- Slide  Angular momentum -->
+		<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
+		<div class='gradient_container_top'></div>
+		<img alt='slide background' data-src='/assets/images/home/Qui+18carouselfigure' src='/assets/images/home/Qui+18carouselfigure'>
+		<div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+			<a class='text_content_link' href='http://dx.doi.org/10.1093/gji/ggy452'>
+			<h1 class='media_feature_title'> New ocean angular momentum product for geodetic studies</h1>
+			</a>
+			<div class='description'>
+			<a href='http://dx.doi.org/10.1093/gji/ggy452'> Variable horizontal circulation and mass fields from the latest ECCO estimate are used to calculate global ocean angular momentum series that are constrained for the first time by satellite-derived bottom pressure data. The new series can be used to assess oceanic excitation of Earth rotation changes.</a>
+			<a class='detail_link' href='http://dx.doi.org/10.1093/gji/ggy452'>Read more</a>
+			</div>
+		</div>
+		<div class='gradient_container_bottom'></div>
+		</article>
+	   <!-- End Slide Angular momentum -->
+
+			  
+			  <!-- Ian Fenty 11/16/2018 -->	  
 		  	<!-- (Wood et al., paper) -->
          	<article class='dark_background ms-slide slide-5' 
          	  data-delay='5' 
