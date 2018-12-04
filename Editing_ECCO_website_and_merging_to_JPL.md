@@ -70,6 +70,8 @@ git push origin pull_request_YOURNAME
 
 **Step 9**, Someone at JPL merges the _pull_request_YOURNAME_ with the JPL github website _development_ branch and tests the web page rendering on the ECCO-DEVEL server.
 
+https://github.jpl.nasa.gov/18x/ecco
+
 **Step 10**, Someone at JPL merges the new _development_ branch with the _master_ branch, or rejects the changes and tells the author why the changes were rejected.
 
 
