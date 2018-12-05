@@ -37,7 +37,7 @@ EOF;
 						<p>Volkov, D. L., and V. Zlotnicki, 2012: Performance of GOCE and GRACE-derived mean dynamic topographies in resolving Antarctic Circumpolar Current fronts. Ocean Dyn., 62, 893–905, doi:10.1007/s10236-012-0541-9.</p>
 					</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
-						<p><img src="/assets/images/research/topics/v4r3_climatology_topics.png" alt="OAM errors"></p>
+						<p><img src="/assets/images/research/topics/nhat_oam.png" alt="OAM errors"></p>
 						
 					</div>
 				</div>
