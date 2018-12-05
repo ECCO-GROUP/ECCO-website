@@ -109,6 +109,53 @@ EOF;
 				</div>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
+			
+		<!—Rui Ponte 12/05/2018 --> 
+
+		<section class="white-bg">
+			<div class='grid_layout'>
+				<div class='grid'>
+					<div class="grid-cell grid--1of3 wysiwyg_content">
+						<p><img src="/assets/images/data/aquarius_mission_composite_v5_molleweide.png" alt="Aquarius Salinity"></p>
+						<p>
+							External Links:
+							<ul class="bullet_list">
+								<li><a href="https://www.jpl.nasa.gov/missions/aquarius/" target="_blank" rel="noopener noreferrer">www.jpl.nasa.gov/missions/aquarius/</a></li>
+								<li><a href="https://aquarius.nasa.gov/" target="_blank" rel="noopener noreferrer">aquarius.nasa.gov</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="grid-cell flexit">
+						<h2 class="content_title">Aquarius (Sea Surface Salinity)</h2>
+						<p>The Aquarius mission was a collaboration of US and Argentinian space agencies that provided sea surface salinity retrievals from August 2011 to June 2015.  Measurements from three radiometers were combined to provide nearly global monthly salinity estimates at roughly one degree resolution.</p>
+						<p>Products that use Aquarius : ECCO V4 </p>
+					</div>
+				</div>
+			</div><!-- //.grid_layout -->
+		</section><!-- //section -->
+
+		<section class="gray-bg2">
+			<div class='grid_layout'>
+				<div class='grid'>
+					<div class="grid-cell grid--1of3 wysiwyg_content">
+						<p><img src="/assets/images/data/mss_cnes_cls2015.jpg" alt="Mean Sea Surface"></p>
+						<p>
+							External Links:
+							<ul class="bullet_list">
+								<li><a href="https://www.aviso.altimetry.fr/en/data/products/auxiliary-products/mss.html" target="_blank" rel="noopener noreferrer">www.aviso.altimetry</a></li>
+								<li><a href="https://grace.jpl.nasa.gov/data/get-data/dynamic-ocean-typography/" target="_blank" rel="noopener noreferrer">grace.jpl.nasa.gov</a></li>
+								<li><a href="http://www.space.dtu.dk/english/Research/Scientific_data_and_models/Global_Mean_Dynamic_topography" target="_blank" rel="noopener noreferrer">www.space.dtu.dk</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="grid-cell flexit">
+						<h2 class="content_title">Mean Ocean Dynamic Topography</h2>
+						<p>The use of mean geoids obtained from satellite gravity missions (GRACE, GOCE) together with mean sea surfaces derived from multiple altimeter missions can yield estimates of the mean dynamic ocean topography, which in turn contains information on surface geostrophic currents. Many such estimates of mean dynamic ocean topography, using different mean geoid and sea surface fields, have been used as constraints in most ECCO products.</p>
+						<p>Products that use Mean Ocean Dynamic Topography : all </p>
+					</div>
+				</div>
+			</div><!-- //.grid_layout -->
+		</section><!-- //section -->
 	</section><!-- //.content_page -->
 
 	<!-- END CONTENT -->
