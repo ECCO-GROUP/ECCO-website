@@ -30,7 +30,7 @@ EOF;
 					<h1 class='article_title'>Data</h1>
 				</header>
 				<div class='wysiwyg_content'>
-	 				
+	 		 		
 	 				<br />
 	 				<div class="grid text-center">
 	 					<div class="grid-cell flexit"><a href=""><img class="img--th" src="/assets/images/data/1.png"><p>Satellite Altimetry</p></a></div>
