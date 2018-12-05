@@ -233,7 +233,7 @@ EOF;
 							<tr>
 								<th class="text-left">ECCO2</th>
 								<td><a href="http://dx.doi.org/10.1029/2005EO090002" target="_blank" rel="noopener noreferrer">I.D.</a></td>
-								<td><a href="ftp://ecco2.jpl.nasa.gov/data1/cube/cube92/lat_lon/quart_90S_90N/" target="_blank" rel="noopener noreferrer">Cube 92</a></td>
+								<td><a href="ftp://ecco.jpl.nasa.gov/ECCO2/cube92_latlon_quart_90S90N/" target="_blank" rel="noopener noreferrer">Cube 92</a></td>
 								<td>1992-present</td>
 								<td> CS510 </td>
 								<td>50</td>
