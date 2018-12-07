@@ -22,6 +22,29 @@ EOF;
 		</section><!-- //section -->
 
 		<section class="gray-bg2 margin-20 no-left no-right">
+		<!-- Rui Ponte 12/05/18 -->
+			<div class='grid_layout'>
+				<div class='grid'>
+					<div class="grid-cell flexit">
+						<a href="https://academic.oup.com/gji/article-abstract/216/1/584/5149498" target="_blank" rel="noopener noreferrer"><h2 class="content_title">Using ECCO estimates for studies in geodesy</h2></a>
+						<p><strong>Dec 2018</strong></p>
+						<p>The ocean is a key factor in determining and understanding the geodetic properties of the Earth. For example, changes in the oceanic mass field can have important effects on crustal loading. Knowledge of the mean ocean surface circulation and dynamic topography can help determine the marine geoid and the gravity field. And variability in both ocean currents and bottom pressure can affect the Earth’s orientation in space.</p>
+						<p>The ECCO products make it possible to calculate geodetically relevant quantities such as the ocean angular momentum and center of mass, based on fields that are constrained to many data sets, most recently including GRACE-derived bottom pressure fields.  Such time series, available at the Special Bureau for the Oceans/International Earth Rotation and Reference Systems Service (https://euler.jpl.nasa.gov/sbo/sbo_home.html), can be used to explore the role of the ocean in the excitation of Earth rotation changes.</p>
+						<p>The global coverage, continuity in time, and consistency with observations of the ECCO fields make them ideal for geodetic investigations of the role of the ocean on the Earth’s variable shape, rotation and gravity field.</p>
+						<p>Davis, J., and N. Vinogradova, 2017: Causes of accelerating sea level on the East Coast of North America. Geophys. Res. Lett., 44, doi:10.1002/2017GL072845.</p>
+						<p>Quinn, K. J., R. M. Ponte, P. Heimbach, I. Fukumori, and J.-M. Campin, 2019: Ocean angular momentum from a recent global state estimate, with assessment of uncertainties. Geophys. J. Int., 216(1), 584–597, doi:10.1093/gji/ggy452.</p>
+						<p>van Dam, T., X. Collilieux, J. Wuite, Z. Altamimi, and J. Ray, 2012: Nontidal ocean loading: amplitudes and potential effects in GPS height time series. J. Geod., 86, 1043–1057, doi:10.1007/s00190-012-0564-5.</p>
+						<p>Volkov, D. L., and V. Zlotnicki, 2012: Performance of GOCE and GRACE-derived mean dynamic topographies in resolving Antarctic Circumpolar Current fronts. Ocean Dyn., 62, 893–905, doi:10.1007/s10236-012-0541-9.</p>
+					</div>
+					<div class="grid-cell grid--1of3 wysiwyg_content">
+						<p><img src="/assets/images/research/topics/nhat_oam.png" alt="OAM errors"></p>
+						
+					</div>
+				</div>
+			</div><!-- //.grid_layout -->
+		</section> <!-- //section -->
+		
+		<section class="gray-bg2 margin-20 no-left no-right">
 		<!-- Ichiro Fukumori 11/07/18 -->
 			<div class='grid_layout'>
 				<div class='grid'>
