@@ -381,7 +381,9 @@ EOF;
 											2018 Town Hall at the AGU Fall Meeting
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO consortium hosted a town hall at the 2018 AGU Fall Meeting that introduced the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>? p>
+											<p>The ECCO consortium hosted a town hall at the 2018 AGU Fall Meeting that introduced the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).</p>
+											
+											<p>Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
 											
 										</div>
 									</div>
