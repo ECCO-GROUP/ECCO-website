@@ -137,6 +137,11 @@ EOF;
 		<section class="gray-bg2">
 			<div class='grid_layout'>
 				<div class='grid'>
+					<div class="grid-cell flexit">
+						<h2 class="content_title">Mean Ocean Dynamic Topography</h2>
+						<p>The use of mean geoids obtained from satellite gravity missions (GRACE, GOCE) together with mean sea surfaces derived from multiple altimeter missions can yield estimates of the mean dynamic ocean topography, which in turn contains information on surface geostrophic currents. Many such estimates of mean dynamic ocean topography, using different mean geoid and sea surface fields, have been used as constraints in most ECCO products.</p>
+						<p>Products that use Mean Ocean Dynamic Topography : all </p>
+					</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
 						<p><img src="/assets/images/data/mss_cnes_cls2015.jpg" alt="Mean Sea Surface"></p>
 						<p>
@@ -148,11 +153,7 @@ EOF;
 							</ul>
 						</p>
 					</div>
-					<div class="grid-cell flexit">
-						<h2 class="content_title">Mean Ocean Dynamic Topography</h2>
-						<p>The use of mean geoids obtained from satellite gravity missions (GRACE, GOCE) together with mean sea surfaces derived from multiple altimeter missions can yield estimates of the mean dynamic ocean topography, which in turn contains information on surface geostrophic currents. Many such estimates of mean dynamic ocean topography, using different mean geoid and sea surface fields, have been used as constraints in most ECCO products.</p>
-						<p>Products that use Mean Ocean Dynamic Topography : all </p>
-					</div>
+				
 				</div>
 			</div><!-- //.grid_layout -->
 		</section><!-- //section -->
