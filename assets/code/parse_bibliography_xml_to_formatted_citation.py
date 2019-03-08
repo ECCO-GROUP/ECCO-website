@@ -13,6 +13,31 @@ import xmltodict
 import sys
 import copy
 
+
+#%%
+# ADDS A 'formatted-citation' FIELD TO THE collection.xml BIBLIOGRAPHY FILE 
+# EXPORTED FROM MENDELEY 
+
+# WHEN THE PUBLICATIONS PAGE IS RENDERED, THE WEBSITE JAVASCRIPT CODE 
+# publications.js WILL LOOK FOR AND DISPLAY THE 'formatted-citation' field
+
+# HOW TO USE:
+# ROUTINE TAKES TWO ARGUMENTS: 
+# 1) PATH TO FILENAME OF ORIGINAL XML FILE EXPORTED BY MENDELEY
+# 2) PATH TO FILENAME OF NEW XML FILE WITH FORMATTED CITATION FIELD ADDED
+
+# HOW TO INVOKE
+# python parse_bibliography_xml_to_formatted_citation.py ../data/collection.xml ../data/collection.xml_with_formatted_citation
+
+# AFTER YOU MAKE THE XML FILE WITH FORMATTED CITATIONS, 
+# RENAME THE ORIGINAL collection.xml TO collection.xml.original
+# AND COPY collection.xml_with_formatted_citation TO collection.xml
+
+# THE WEBSITE JAVASCRIPT CODE, publications.js, NEEDS collection.xml
+# IN THE /www/assets/data DIRECTORY
+
+
+
     
 #%%  
     
@@ -168,7 +193,7 @@ def make_formatted_citations_from_xml(doc):
             url_string = get_url(record)
             
             if len(url_string) > 0:
-                citation_string += ' ' + url_string
+                citation_string += ' ' + url_string + '.'
                 
                 
         elif ref_type == 'Thesis':
@@ -218,7 +243,7 @@ def make_formatted_citations_from_xml(doc):
             url_string = get_url(record)
             
             if len(url_string) > 0:
-                citation_string += ' ' + url_string
+                citation_string += ' ' + url_string + '.'
     
     
         ###################################
@@ -269,7 +294,7 @@ def make_formatted_citations_from_xml(doc):
             url_string = get_url(record)
             
             if len(url_string) > 0:
-                citation_string += ' ' + url_string
+                citation_string += ' ' + url_string + '.'
         
         ###################################
         elif ref_type == 'Magazine Article':
@@ -319,7 +344,7 @@ def make_formatted_citations_from_xml(doc):
             url_string = get_url(record)
             
             if len(url_string) > 0:
-                citation_string += ' ' + url_string
+                citation_string += ' ' + url_string + '.'
         
         
         else:
@@ -389,10 +414,13 @@ def make_author_string(authors, all_first=False):
                     # want all authors to be first initial, last name
                     single_author_string = make_single_author_string(authors[i], all_first)
                     author_string = single_author_string
-                else:
+                elif i > 0 and i < len(authors)-1:
                     # authors 2 .. n are first initial, last name
                     single_author_string = make_single_author_string(authors[i], True)
                     author_string += ', ' + single_author_string
+                else: 
+                    single_author_string = make_single_author_string(authors[i], True)
+                    author_string += ', and ' + single_author_string
                         
     elif isinstance(authors,unicode):
         author_string = make_single_author_string(authors, all_first)
