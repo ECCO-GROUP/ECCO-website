@@ -12,7 +12,9 @@ Created on Thu Mar  7 13:36:35 2019
 import xmltodict
 import sys
 import copy
-
+import codecs   
+import six
+import re
 
 #%%
 # ADDS A 'formatted-citation' FIELD TO THE collection.xml BIBLIOGRAPHY FILE 
@@ -47,7 +49,7 @@ def make_formatted_citations_from_xml(doc):
     citation_strings = dict()
     
     for r in range(len(records)):
-    
+        print r
         record = records[r]
         
         ref_type = record['ref-type']['@name']
@@ -59,6 +61,7 @@ def make_formatted_citations_from_xml(doc):
         
         if ref_type == 'Journal Article':
             
+
             authors = record['contributors']['authors']['author']
             #print type(authors)
             
@@ -148,27 +151,36 @@ def make_formatted_citations_from_xml(doc):
                 
         elif ref_type == 'Book' or ref_type == 'Report' or ref_type == 'Generic':
     
-            authors = record['contributors']['authors']['author']
+            check_secondary_authors = True
             
-            author_string = make_author_string(authors)
-    
-            citation_string = author_string + ','
-            
+            if 'authors' in record['contributors'].keys():
+                authors = record['contributors']['authors']['author']
+                author_string = make_author_string(authors)
+                citation_string = author_string + ','
+                check_secondary_authors = True
+            elif 'secondary-authors' in record['contributors']:
+                secondary_authors = record['contributors']['secondary-authors']['author']
+                secondary_author_string = make_author_string(secondary_authors, all_first=False)
+                citation_string = secondary_author_string
+                check_secondary_authors = False
+                
             pub_year =  record['dates']['year']
             citation_string += ' ' + pub_year + ':'
     
             item_title  = record['titles']['title']
             citation_string += ' ' + item_title  + '.'
                 
+            
             if 'secondary-title' in record['titles'].keys():
                 journal_title = record['titles']['secondary-title']
                 journal_title = shorten_journal_names(journal_title)
                 citation_string += ' ' + journal_title
         
-            if 'secondary-authors' in record['contributors']:
-                secondary_authors = record['contributors']['secondary-authors']['author']
-                secondary_author_string = make_author_string(secondary_authors, all_first=True)
-                citation_string += ', ' + secondary_author_string + ', Eds.'
+            if check_secondary_authors:
+                if 'secondary-authors' in record['contributors']:
+                    secondary_authors = record['contributors']['secondary-authors']['author']
+                    secondary_author_string = make_author_string(secondary_authors, all_first=True)
+                    citation_string += ', ' + secondary_author_string + ', Eds.'
     
             if 'publisher' in record.keys():
                 publisher = record['publisher']
@@ -366,7 +378,7 @@ def make_formatted_citations_from_xml(doc):
 
     
 #%%
-   
+    
 def get_url(record):
     url_string = str('')
     
@@ -392,7 +404,13 @@ def get_url(record):
         url = record['urls']
         if isinstance(url, dict):
             if 'web-urls' in url.keys():
-                url_string += url['web-urls']['url']
+                tmp = url['web-urls']['url']
+                if isinstance(tmp, six.string_types):                
+                    url_string += tmp
+                else:
+                    print 'GET_URL\N'
+                    print tmp
+                    print 'is not a string'
         
     #print type(url_string)
     return url_string
@@ -487,18 +505,60 @@ def shorten_journal_names(full_name):
         return full_name
     
 #%%    
-    
+def replace_chars(match):
+        char = match.group(0)
+        return chars[char]
+
+
+#%%    
 if __name__== "__main__":
     
     input_fname = sys.argv[1]
     output_fname = sys.argv[2]
 
-#%%
-    
-#    input_fname = '/Users/ifenty/git_repo_mine/ECCO-website-GITHUB/assets/data/collection.xml'
+    #%%
+    # remove annoying characters
+    chars = {
+        '\xc2\x82' : ',',        # High code comma
+        '\xc2\x84' : ',,',       # High code double comma
+        '\xc2\x85' : '...',      # Tripple dot
+        '\xc2\x88' : '^',        # High carat
+        '\xc2\x91' : '\x27',     # Forward single quote
+        '\xc2\x92' : '\x27',     # Reverse single quote
+        '\xc2\x93' : '\x22',     # Forward double quote
+        '\xc2\x94' : '\x22',     # Reverse double quote
+        '\xc2\x95' : ' ',
+        '\xc2\x96' : '-',        # High hyphen
+        '\xc2\x97' : '--',       # Double hyphen
+        '\xc2\x99' : ' ',
+        '\xc2\xa0' : ' ',
+        '\xc2\xa6' : '|',        # Split vertical bar
+        '\xc2\xab' : '<<',       # Double less than
+        '\xc2\xbb' : '>>',       # Double greater than
+        '\xc2\xbc' : '1/4',      # one quarter
+        '\xc2\xbd' : '1/2',      # one half
+        '\xc2\xbe' : '3/4',      # three quarters
+        '\xca\xbf' : '\x27',     # c-single quote
+        '\xcc\xa8' : '',         # modifier - under curve
+        '\xcc\xb1' : '',          # modifier - under line
+        '\xb8': '',
+        '\x023': '',
+        '\x0615': '',
+    }
 
-    with open(input_fname) as fd:
-        doc = xmltodict.parse(fd.read())
+#    input_fname = '/Users/ifenty/git_repo_mine/ECCO-website-GITHUB/assets/data/collection.xml'
+#    input_fname = '/Users/ifenty/tmp/ECCO-COLLECTION-20190312.xml'
+#    output_fname = '/Users/ifenty/tmp/test.xml'
+
+    f = codecs.open(input_fname, 'r',encoding='utf-8')
+    line = f.read()
+    
+    lineB =  re.sub('(' + '|'.join(chars.keys()) + ')', replace_chars, line)
+    doc = xmltodict.parse(lineB, encoding='utf-8')
+   
+    #%%
+#    with open(input_fname) as fd:
+#        doc = xmltodict.parse(fd.read(), encoding='utf-8')
         
     new_doc = make_formatted_citations_from_xml(copy.deepcopy(doc))
     
