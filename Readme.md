@@ -18,7 +18,7 @@
 1. Research topics: /research/topics/index.php
 1. Teams: /research/teams/index.php
 1. Publications: /research/publications/index.php
-   (List proviuded by Mendeley data base as /assets/data/collection.xml)
+1. Publications database: /assets/data/collection.xml
 1. Presentations: /research/presentations/index.php
    (Content in subdirectories of /research/presentations)
 1. About: /about/index.php
@@ -28,5 +28,5 @@
 1. [Merging edits to the JPL github](Editing_ECCO_website_and_merging_to_JPL.md)
 1. [Testing and Deploying the website at JPL](Testing_and_Deploying_website_at_JPL.md)
 1. [Mirroring repositories across different github servers](Mirroring_repository_with_Git_LFS_objects.md)
-
+1. [Adding formatted citations to the publications XML file](Adding_formatted_citations_to_XML.md)
 
