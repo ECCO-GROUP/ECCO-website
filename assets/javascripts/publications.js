@@ -89,6 +89,11 @@ let publications = {
 					// get notes
 					let notes = ($(this).find("notes").text() != "") ? $(this).find("notes").text() : noValue;
 
+					// get notes
+					// IAN FENTY
+					let formattedCitation = ($(this).find("formatted-citation").text() != "") ? $(this).find("formatted-citation").text() : noValue;
+
+
 					// get electronic resource number
 					let ern = ($(this).find("electronic-resource-num").text() != "") ? $(this).find("electronic-resource-num").text() : noValue;
 
@@ -148,7 +153,12 @@ let publications = {
 					//publications.moreInfo += 	"<p><strong>PDF:</strong><br />" + pdfURL + "</p>";
 					publications.moreInfo += 	"<p><strong>Journal:</strong> <i>" + fullTitle + "</i></p>";
 					publications.moreInfo += 	"<p><strong>Year:</strong> " + year + "</p>";
-					publications.moreInfo += 	"<p><strong>Formatted Citation:</strong></p><p>" + notes + "</p>";
+
+					// IAN FENTY 2019-03-07
+					// SHOW ORIG AND NEW FORMATTED CITATIONS publications.moreInfo += 	"<p><strong>Formatted Citation:</strong></p>ORIG<p>" + notes + "</p>NEW<p>" + formattedCitation + "</p>";
+					publications.moreInfo += 	"<p><strong>Formatted Citation:</strong></p><p>" + formattedCitation + "</p>";
+					// END IAN FENTY 2019-03-07
+
 					//publications.moreInfo += 	"<p><strong>Volume:</strong> " + volume + "</p>";
 					//publications.moreInfo += 	"<p><strong>Issue:</strong> " + issue + "</p>";
 					//publications.moreInfo += 	"<p><strong>Pages:</strong> " + pages + "</p>";
@@ -158,8 +168,7 @@ let publications = {
 					publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>Keywords:</strong></p><p>" + keywords + "</p>";
 					publications.moreInfo += 	"<hr />";
-					publications.moreInfo += 	"<p><strong>ECCO Products used:</strong> " + label + "</p>";
-					publications.moreInfo += 	"<hr />";
+					publications.moreInfo += 	"<p><strong>ECCO Products used:</strong> " + label + "</p>"; publications.moreInfo += 	"<hr />";
 					publications.moreInfo += 	"<p><strong>URL:</strong> " + webURL + "</p>";
 					publications.moreInfo += "</div>";
 
