@@ -74,11 +74,9 @@ An T. Nguyen
 the ECCO estimates. Also involved in assessing data and solution
 uncertainties and developing diagnostic tools for scientific analyses.<br /><br />
  
-Christopher M. Little<br />
-Christopher G. Piecuch* <br />
+Mengnan Zhao<br />
+Qiang Sun <br />
 Rui M. Ponte<br />
- 
-(* Now at Woods Hole Oceanographic Institution)
 </p>
 								<p><a href="https://www.aer.com/" target="_blank" rel="noopener noreferrer">Visit the Atmospheric &amp; Environmental Research, Inc. website</a>.</p>
 							</div>
