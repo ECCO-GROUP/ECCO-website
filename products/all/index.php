@@ -42,17 +42,17 @@ EOF;
 							<tr>
 								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r3</a></th>
 								<td><a href="https://dspace.mit.edu/handle/1721.1/110380" target="_blank" rel="noopener noreferrer">I.D.</a></td>
-								<td><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" target="_blank" rel="noopener noreferrer">Release 3</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" target="_blank" rel="noopener noreferrer">Release 3</a></td>
 								<td>1992-2015</td>
 								<td>LLC90</td>
 								<td>50</td>
 								<td>adjoint</td>
 								<td>4</td>
-								<td><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/" target="_blank" rel="noopener noreferrer">Documentation</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/" target="_blank" rel="noopener noreferrer">Documentation</a></td>
 							</tr>
 							<tr>
 								<td>&gt;</td>
-								<td><a href=" ftp://ecco.jpl.nasa.gov/Version4/Release3/interp_monthly/" target="_blank" rel="noopener noreferrer">Interpolated climatology</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/interp_monthly/" target="_blank" rel="noopener noreferrer">Interpolated climatology</a></td>
 								<td>1992-2015</td>
 								<td>1/2 deg.</td>
 								<td>50</td>
@@ -233,7 +233,7 @@ EOF;
 							<tr>
 								<th class="text-left">ECCO2</th>
 								<td><a href="http://dx.doi.org/10.1029/2005EO090002" target="_blank" rel="noopener noreferrer">I.D.</a></td>
-								<td><a href="ftp://ecco.jpl.nasa.gov/ECCO2/cube92_latlon_quart_90S90N/" target="_blank" rel="noopener noreferrer">Cube 92</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/ECCO2/cube92_latlon_quart_90S90N/" target="_blank" rel="noopener noreferrer">Cube 92</a></td>
 								<td>1992-present</td>
 								<td> CS510 </td>
 								<td>50</td>
@@ -255,7 +255,7 @@ EOF;
 							<tr>
                                                                 <th class="text-left"><a href="/ecco-jpl/">ECCO-KFS</a></th>
 								<td><a href="http://dx.doi.org/10.1175/1520-0493(2002)130<1370:APKFAS>2.0.CO;2" target="_blank" rel="noopener noreferrer">I.D.</a></td>
-								<td><a href="ftp://ecco.jpl.nasa.gov/NearRealTime/" target="_blank" rel="noopener noreferrer">Run 80h</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/NearRealTime/" target="_blank" rel="noopener noreferrer">Run 80h</a></td>
 								<td>1993-present</td>
 								<td>0.3 to 1 deg. </td>
 								<td>46</td>

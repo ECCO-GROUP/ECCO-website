@@ -31,8 +31,9 @@ EOF;
 ECCO's latest ocean state estimate. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 3 edition includes improvements in time-period (1992-2015), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors).
 </p>
 						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
+                                                <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov/ has been replaced by ECCO Drive. ECCO Drive https://ecco.jpl.nasa.gov/drive/files/ offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at https://urs.earthdata.nasa.gov/users/new in order to access the ECCO products.</strong></p>
 						<br />
-						<p><strong><a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/" class="button white">Download Product</a></strong></p>
+						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" class="button white">Download Product</a></strong></p>
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
