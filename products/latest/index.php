@@ -32,8 +32,6 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 </p>
 						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
                                                 <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
-						<br />
-
                                 <h4>Command line example:</h4>
                                 <p>To use wget to download ECCO v4r3's monthly SSH on the native grid: </p>
                                 <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/SSH</strong></p>
