@@ -31,13 +31,12 @@ EOF;
 ECCO's latest ocean state estimate. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 3 edition includes improvements in time-period (1992-2015), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors).
 </p>
 						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
+                                                <h4>ECCO Drive:</h4>
                                                 <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
-						<br />
-
-                                <h4>Command line example:</h4>
-                                <p>To use wget to download ECCO v4r3's monthly SSH on the native grid: </p>
-                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/SSH</strong></p>
-                                <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
+                                                <h4>Command line example:</h4>
+                                                <p>To use wget to download ECCO v4r3's monthly SSH on the native grid: </p>
+                                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/SSH</strong></p>
+                                                <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
 						<br />
 						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" class="button white">Download Product</a></strong></p>
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
