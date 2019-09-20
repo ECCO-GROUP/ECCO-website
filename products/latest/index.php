@@ -100,7 +100,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 				<p>As a condition of using this product, you <strong><i>must</i></strong> cite the use of this product using the following citation.</p>
 				<div class="indent gray-bg pad-20">
 					<i>
-						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a></p>
+						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a></p>
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</p>
 					</i>
 				</div>
@@ -133,14 +133,14 @@ summarized in a "User Guide" in the link below.
 				<p><strong>Guide for calculating budgets with V4r3 output</strong></p>
 					<div class="indent">
 						<p>
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_budgets_howto.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_budgets_howto.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_budgets_howto.pdf</a><br/>
 						</p>
 					</div>
 
 				<p><strong>Guide for reproducing V4r3 results with MITgcm</strong></p>
 					<div class="indent">
 						<p>
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
 						</p>
 					</div>
 						
@@ -151,7 +151,7 @@ summarized in a "User Guide" in the link below.
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a><br/>
 						</p>
 					</div>
 
@@ -159,21 +159,21 @@ summarized in a "User Guide" in the link below.
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_fields.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_output_fields.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_output_fields.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_output_fields.pdf</a><br/>
 						</p>
 					</div>
 					<p><strong>Plots of V4r3</strong></p>
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_overview_plots.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_overview_plots.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_overview_plots.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_overview_plots.pdf</a><br/>
 						</p>
 					</div>
 					<p><strong>Data used in V4r3</strong></p>
 					<div class="indent">
 						<p>
 							
-							<a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf" target="_blank" rel="noopener noreferrer">ftp://ecco.jpl.nasa.gov/Version4/Release3/doc/v4r3_input_data.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_input_data.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_input_data.pdf</a><br/>
 						</p>
 					</div>
 					

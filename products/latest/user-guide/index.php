@@ -23,7 +23,7 @@ EOF;
 				<h2>ECCO-V4r3</h2>				
 
 				<div>
-					<p>This <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
+					<p>This <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
 					<table class="full-width gray-striped text-left one-quarter-width">
 						<thead>
 							<th>Name</th>
@@ -60,7 +60,7 @@ EOF;
 							</tr>
 							<tr>
 								<td>available_diagnostics.log</td>
-								<td> A full list of available diagnostics with a short description.For a slightly more detailed description of diagnostics, check out <a href="ftp://ecco.jpl.nasa.gov/Version4/Release3/nctiles_monthly/README">ftp://ecco.jpl.nasa.gov/Version4/Release3/nctiles_monthly/README</a>.
+								<td> A full list of available diagnostics with a short description.For a slightly more detailed description of diagnostics, check out <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/README">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/README</a>.
  </td>
 							</tr>
 							<tr>
@@ -80,17 +80,17 @@ EOF;
 				</div>
 
 				<h3>1. Introduction</h3>
-				<p>This note describes the directory structure and content of ECCO Version 4, Release 3’s (v4r3) ftp site ftp://ecco.jpl.nasa.gov/Version4/Release3/. Covering the time period from 1992 through 2015, ECCO v4r3 synthesizes a general circulation model (MITgcm) and most of available satellite and in situ data to produce a physically consistent ocean estimate of which property budgets can be closed. The data that are used to constrain the model include satellite altimetry (sea surface height, SSH), GRACE ocean bottom pressure (OBP), AVHRR sea surface temperature (SST), Aquarius sea surface salinity (SSS), Argo, CTD, XBT, mooring temperature and salinity data, sea-ice measurements, and global mean SSH and OBP. The estimate uses the adjoint method to iteratively minimize a cost function that is defined as the sum of the squared sum of weighted model-data misfits and control adjustments. ECCO v4r3 is the final product after a series of iterations. A detailed summary of the estimate can be found in Fukumori et al. (2017).</p>
+				<p>This note describes the directory structure and content of ECCO Version 4, Release 3's (v4r3) repository https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/. Covering the time period from 1992 through 2015, ECCO v4r3 synthesizes a general circulation model (MITgcm) and most of available satellite and in situ data to produce a physically consistent ocean estimate of which property budgets can be closed. The data that are used to constrain the model include satellite altimetry (sea surface height, SSH), GRACE ocean bottom pressure (OBP), AVHRR sea surface temperature (SST), Aquarius sea surface salinity (SSS), Argo, CTD, XBT, mooring temperature and salinity data, sea-ice measurements, and global mean SSH and OBP. The estimate uses the adjoint method to iteratively minimize a cost function that is defined as the sum of the squared sum of weighted model-data misfits and control adjustments. ECCO v4r3 is the final product after a series of iterations. A detailed summary of the estimate can be found in Fukumori et al. (2017).</p>
 
 				<h3>2. Model</h3>
 				<p>The model that is used to produce v4r3 is MITgcm version checkpoint66g. Wang (2017) gives a detailed description about how to download the code, data, and any needed auxiliary files to reproduce v4r3.</p>
 				<p>The grid used in v4r3 is the so-called LLC90 (Lat-Lon-Cap 90) grid (Fig. 1a) that has five faces covering the whole globe, with simple latitude-longitude grid between 70°S and 57°N and an Arctic cap (Forget et al., 2015). The dimensions for the five faces are [90x270], [90x270], [90x90], [270x90], and [270x90] where each face consists of tiles dimensioned 90x90 (thus LLC90) (Figs. 1a & 1b). The horizontal resolution varies spatially from 22km to 110m, with the highest resolution in high latitudes and lowest resolution in mid latitudes. The deepest ocean bottom is set to 6145m below the surface, with the vertical grid spacing increasing from 10m near the surface to 457m near the ocean bottom.</p>
 
 				<h3>3. Directory Structure</h3>
-				<p>In this section, we describe the directory structure of v4r3’s ftp site ftp://ecco.jpl.nasa.gov/Version4/Release3/. Each subdirectory has a short README file that lists all the sub-directories and files in that directory along with a brief description. The directory structure is similar to that of Release 2’s (Forget et al., 2016).</p>
+				<p>In this section, we describe the directory structure of v4r3's repository https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/. Each subdirectory has a short README file that lists all the sub-directories and files in that directory along with a brief description. The directory structure is similar to that of Release 2's (Forget et al., 2016).</p>
 
 				<h4>3.1 Documentation</h4>
-				<p>The directory doc contains a few useful documents that include an overview of the ftp site (v4r3_overview.pdf, this document), a summary of v4r3 (v4r3_summary.pdf, Fukumori et al., 2017), a note about how to reproduce v4r3 results (ECCOv4r3_reproduction.pdf, Wang, 2017), a set of analysis plots (v4r3_depiction.pdf) generated using gcmfaces (see Software below), and a note on analyzing budgets (evaluating_budgets_in_eccov4r3.pdf, Piecuch, 2017). Also included are summary files of all cost functions (costfunction*) and a “standard output file” (STDOUT.0000) that the model creates during its integration with useful information about the model configuration and measures of the model state.</p>
+				<p>The directory doc contains a few useful documents that include an overview of the repository (v4r3_overview.pdf, this document), a summary of v4r3 (v4r3_summary.pdf, Fukumori et al., 2017), a note about how to reproduce v4r3 results (ECCOv4r3_reproduction.pdf, Wang, 2017), a set of analysis plots (v4r3_depiction.pdf) generated using gcmfaces (see Software below), and a note on analyzing budgets (evaluating_budgets_in_eccov4r3.pdf, Piecuch, 2017). Also included are summary files of all cost functions (costfunction*) and a “standard output file” (STDOUT.0000) that the model creates during its integration with useful information about the model configuration and measures of the model state.</p>
 				<div class="grid">
 					<div class="grid-cell text-center">
 						<img class="no-stretch" src="./images/u367.png" alt="Figure 1. a) V4r3's lat-lon-cap (llc) grid with five faces; b) The dimensions of the five faces. The figures are modified from Forget et al. (2015).">
@@ -442,7 +442,7 @@ EOF;
 						gcmfaces_global;<br />
 						<br />
 						%Type in the path of the grid directory of v4r3 that one has downloaded from<br />
-						% ftp://ecco.jpl.nasa.gov/Version4/Release3/nctiles_grid/<br />
+						% https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_grid/<br />
 						% e.g. ‘/mydir/v4r3/nctiles_grid/’;<br />
 						<br />
 						%Read in binary files<br />
