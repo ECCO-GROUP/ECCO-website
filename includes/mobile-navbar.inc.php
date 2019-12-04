@@ -58,7 +58,7 @@
                         <a href="/products/all/" title="Learn more about ECCO's products.">Products</a>
                       </h3>
                       <ul class='subnav'>
-                         <li><a href="/products/latest/" title="Download the latest product">Featured Product: ECCO v4 Release 3</a></li>
+                         <li><a href="/products/latest/" title="Download the latest product">Featured Product: ECCO v4 Release 4</a></li>
                          <li><a href="/products/all/" title="Learn more about ECCO's products.">All Products</a></li>
                       </ul>
                     </div>

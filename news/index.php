@@ -20,13 +20,14 @@
 			<div class='wysiwyg_content'>
 
 <!---------------------------------------------------------------------->
+<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
 <hr />
 <h4>December 2019 — ECCO version 4 release 4 (ECCO-V4r4), covering 1992-2017, now available online</h4>
 
-<p>The <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="blank">new release 4</a> extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="blank">summary document</a> describes details of the changes. In addition to standard monthly mean fields, the release now includes daily mean estimates for studies of wider range of ocean variability. Also available are descriptions of <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" target="blank">how to evaluate property budgets</a> and <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/ECCOv4r3_reproduction.pdf" target="blank">how to reproduce the results</a> and generate additional fields using MITgcm.</a></p>
-
+<p>The <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="blank">new release 4</a> extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="blank">summary document</a> describes details of the changes. In addition to standard monthly mean fields, the release now includes daily mean estimates for studies of wider range of ocean variability. As in previous releases, tools are avalaible for <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" target="blank">evaluating property budgets</a> and <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/ECCOv4r3_reproduction.pdf" target="blank">rerunning the model to generate additional fields</a> </p>
 
 <!---------------------------------------------------------------------->
+<hr />
 <h4>ECCO Town Hall at 2018 AGU Fall Meeting</h4>
 
 <p><b>Synopsis:</b> The ECCO consortium will host a town hall at the AGU Fall Meeting in Washington, DC.  We will introduce the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>

@@ -41,7 +41,7 @@ EOF;
 						<tbody>
 <!-- Ichiro Fukumori 2019-12-04 -->
 							<tr>
-								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r4</a></th>
+								<th class="text-left"><a href="/products/latest/">ECCO-V4r4</a></th>
 								<td>&gt;</td>
 								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="_blank" rel="noopener noreferrer">Release 4</a></td>
 								<td>1992-2017</td>
@@ -52,7 +52,7 @@ EOF;
 								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/" target="_blank" rel="noopener noreferrer">Documentation</a></td>
 							</tr>
 							<tr>
-								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r3</a></th>
+								<th class="text-left" rowspan="2"><a href="/products/V4r3/">ECCO-V4r3</a></th>
 								<td><a href="https://dspace.mit.edu/handle/1721.1/110380" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" target="_blank" rel="noopener noreferrer">Release 3</a></td>
 								<td>1992-2015</td>

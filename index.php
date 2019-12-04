@@ -23,10 +23,11 @@ EOF;
 		  
 		  <div class='master-slider ms-skin-light-3' id='masterslider'>
 		  	
+			<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
 			<!-- Slide ECCOv4 R4 (regular template) -->
-			<article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
+			<article class='dark_background ms-slide slide-1' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide background' data-src='/assets/images/home/v4r4_available_online.jpg' src='/assets/images/home/v4r4_available_online.jpg'>
+			  <img alt='slide background' data-src='/assets/images/home/v4r4_available_online.png' src='/assets/images/home/v4r4_available_online.png'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/products/latest/'>
 				  <h1 class='media_feature_title'>Version 4 release 4, covering 1992-2017, now available</h1>
@@ -184,12 +185,13 @@ EOF;
 			<div class="grid_layout">
 				<div class="grid vertical-middle">
 					<div class="grid-cell flexit">
-						<a href="/products/latest"><img alt="ECCO-V4r3" title="ECCO-V4r3" src="/assets/images/home/v4r3.jpg"></a>
+						<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
+						<a href="/products/latest"><img alt="ECCO-V4r4" title="ECCO-V4r4" src="/assets/images/home/v4r4_gmsl_gmobp.png"></a>
 					</div>						
 					<div class="grid-cell grid--1of3">
 						<h2 class="content_title">Featured Product</h2>
 						
-						<p><a href="/products/latest">ECCO-V4r3</a></p>
+						<p><a href="/products/latest">ECCO-V4r4</a></p>
 						<hr />
 						
 						<p><a href="/products/all">&rsaquo; See all products</a></p>
@@ -371,6 +373,24 @@ EOF;
 				<section class="grid_gallery list_view">					
 					<ul class="articles">
 						
+						<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
+						<li class='slide'>
+							<a href='/products/latest/'>
+								<div class='image_and_description_container'>
+									<div class='img'><img alt="ECCO-V4r4" title="ECCO-V4r3" src="/assets/images/home/v4r4_gmsl_gmobp.png"></div>
+									<div class='list_text_content'>
+										<div class='content_title no-pad'>
+											ECCO-V4r4, covering 1992-2017, now available
+										</div>
+										<div class='article_teaser_body'>
+											The new release 4 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. In addition to standard monthly mean fields, the release now includes daily mean estimates for studies of wider range of ocean variability. 
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<!-- Ichiro Fukumori 2019-12-04 V4r4  END -->
+						
 						<!-- Ian Fenty 2019-1-09 AGU Town Hall,  changed to past tense -->
 						
 						<li class='slide'>
@@ -428,21 +448,6 @@ EOF;
 										<div class='article_teaser_body'>
 											<p>The ECCO project hosted a workshop during Ocean Sciences 2018 in Portland, OR.<br />
 											Title: ECCO Workshop: How to use the latest ECCO Ocean State Estimate <br />
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class='slide'>
-							<a href='/products/latest/'>
-								<div class='image_and_description_container'>
-									<div class='img'><img alt="ECCO-V4r3" title="ECCO-V4r3" src="/assets/images/home/v4r3.jpg"></div>
-									<div class='list_text_content'>
-										<div class='content_title no-pad'>
-											ECCO-V4r3, covering 1992-2015, now available
-										</div>
-										<div class='article_teaser_body'>
-											The new release 3 extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A summary document describes details of the changes. Also available are descriptions of how to evaluate property budgets and how to reproduce the results and generate additional fields using MITgcm. 
 										</div>
 									</div>
 								</div>
