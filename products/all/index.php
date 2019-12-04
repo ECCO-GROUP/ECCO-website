@@ -39,6 +39,18 @@ EOF;
 							</tr>
 						</thead>
 						<tbody>
+<!-- Ichiro Fukumori 2019-12-04 -->
+							<tr>
+								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r4</a></th>
+								<td>&gt;</td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="_blank" rel="noopener noreferrer">Release 4</a></td>
+								<td>1992-2017</td>
+								<td>LLC90</td>
+								<td>50</td>
+								<td>adjoint</td>
+								<td>4</td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/" target="_blank" rel="noopener noreferrer">Documentation</a></td>
+							</tr>
 							<tr>
 								<th class="text-left" rowspan="2"><a href="/products/latest/">ECCO-V4r3</a></th>
 								<td><a href="https://dspace.mit.edu/handle/1721.1/110380" target="_blank" rel="noopener noreferrer">I.D.</a></td>
@@ -253,17 +265,6 @@ EOF;
 								<td>no sea-ice</td>
 							</tr>
 							<tr>
-                                                                <th class="text-left"><a href="/ecco-jpl/">ECCO-KFS</a></th>
-								<td><a href="http://dx.doi.org/10.1175/1520-0493(2002)130<1370:APKFAS>2.0.CO;2" target="_blank" rel="noopener noreferrer">I.D.</a></td>
-								<td><a href="https://ecco.jpl.nasa.gov/drive/files/NearRealTime/" target="_blank" rel="noopener noreferrer">Run 80h</a></td>
-								<td>1993-present</td>
-								<td>0.3 to 1 deg. </td>
-								<td>46</td>
-								<td>Kalman filter, RTS smoother</td>
-								<td>-</td>
-								<td>Near real time; no sea-ice</td>
-							</tr>
-							<tr>
 								<th class="text-left">ECCO-SIO</th>
 								<td><a href="http://dx.doi.org/10.1029/2001JC000888" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="http://www.ecco-group.org/las/v6/dataset?catitem=2" target="_blank" rel="noopener noreferrer">Iteration 107</a></td>
@@ -273,6 +274,17 @@ EOF;
 								<td>adjoint</td>
 								<td>0</td>
 								<td>no sea-ice</td>
+							</tr>
+							<tr>
+                                                                <th class="text-left"><a href="/ecco-jpl/">ECCO-KFS</a></th>
+								<td><a href="http://dx.doi.org/10.1175/1520-0493(2002)130<1370:APKFAS>2.0.CO;2" target="_blank" rel="noopener noreferrer">I.D.</a></td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/NearRealTime/" target="_blank" rel="noopener noreferrer">Run 80h</a></td>
+								<td>1993-present</td>
+								<td>0.3 to 1 deg. </td>
+								<td>46</td>
+								<td>Kalman filter, RTS smoother</td>
+								<td>-</td>
+								<td>Near real time; no sea-ice</td>
 							</tr>
 						</tbody>
 					</table>

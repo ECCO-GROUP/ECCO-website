@@ -17,34 +17,33 @@ EOF;
 	<section class='content_page module white-bg'>
 		<div class='grid_layout'>
 			<header id='page_header'>
-				<h1 class='article_title'>Latest Product</h1>
+				<h1 class='article_title'>Version 4 Release 3</h1>
 				<a href="../all">All Products</a>
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO-V4r4</h2>
+				<h2>ECCO-V4r3</h2>
 				<small>Authors: Fukumori, Ichiro; Wang, Ou; Fenty, Ian; Forget, Gael; Heimbach, Patrick; Ponte, Rui M.</small>
 
 				<div class="grid">
 					<div class="grid-cell flexit">
 						
 						<h4>Description:</h4>
-						<p>Version 4 Release 4 (V4r4), covering the period 1992-2017, represents
-ECCO's latest ocean state estimate. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 4 edition includes improvements in time-period (1992-2017), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors).
+						<p>Version 4 Release 3 (V4r3) covers the period 1992-2015. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 3 edition includes improvements in time-period (1992-2015), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors). V4r3 is superseced by Release 4 (V4r4) that covers an additional two year period. 
 </p>
-						<p>[<i>Image at right</i>] Global mean sea level and ocean bottom pressure (in equivalent sea level) of V4r4 in comparison to observations.</p>
+						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
                                                 <h4>ECCO Drive:</h4>
                                                 <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
                                                 <h4>Command line example:</h4>
-                                                <p>To use wget to download ECCO v4r4's monthly SSH on the native grid: </p>
-                                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/nctiles_monthly/SSH</strong></p>
+                                                <p>To use wget to download ECCO v4r3's monthly SSH on the native grid: </p>
+                                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/SSH</strong></p>
                                                 <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
 						<br />
-						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Product</a></strong></p>
-						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release4/" class="button white">Download Product (mirror)</a></strong></p>
+						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" class="button white">Download Product</a></strong></p>
+						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
-						<div><img src="/assets/images/home/v4r4_gmsl_gmobp.png"></div>
+						<div><img src="/assets/images/home/v4r3b.jpg"></div>
 					</div>
 				</div>
 
@@ -53,7 +52,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 					<table class="full-width gray-striped text-left one-quarter-width">
 						<tr>
 							<td>Period:</td>
-							<td>Jan 1992 - Dec 2017</td>
+							<td>Jan 1992 - Dec 2015</td>
 						</tr>
 						<tr>
 							<td>Grid & Resolution:</td>
@@ -85,7 +84,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						</tr>
 						<tr>
 							<td>Version:</td>
-							<td>Release 4</td>
+							<td>Release 3</td>
 						</tr>
 						<tr>
 							<td>Contact Person:</td>
@@ -93,7 +92,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						</tr>
 						<tr>
 							<td>Last Updated Date:</td>
-							<td>October 24, 2019</td>
+							<td>October 15, 2017</td>
 						</tr>
 					</table>
 				</div>
@@ -102,7 +101,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 				<p>As a condition of using this product, you <strong><i>must</i></strong> cite the use of this product using the following citation.</p>
 				<div class="indent gray-bg pad-20">
 					<i>
-						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2019: ECCO Version 4 Release 4, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf</a></p>
+						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a></p>
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</p>
 					</i>
 				</div>
@@ -149,11 +148,11 @@ summarized in a "User Guide" in the link below.
 				<h2>Technical Reference</h2>
 				<div>
 					
-					<p><strong>Synopsis of V4r4 estimation</strong></p>
+					<p><strong>Synopsis of V4r3 estimation</strong></p>
 					<div class="indent">
 						<p>
 							
-							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_estimation_synopsis.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a><br/>
 						</p>
 					</div>
 
