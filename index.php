@@ -127,7 +127,9 @@ EOF;
             <!-- End Slide 6  Wood et al paper-->
 
 
-<!-- Commented out: Ichiro Fukumori 12/05/19 
+<!--
+Commented out: Ichiro Fukumori 12/05/19
+
 			<!-- Slide (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
@@ -145,7 +147,9 @@ EOF;
               <div class='gradient_container_bottom'></div>
             </article>
             <!-- End Slide Summer School-->
-End Commented  out: Ichiro Fukumori 12/05/19 --> 		  	
+
+Commented out: Ichiro Fukumori 12/05/19 END 
+--> 		  	
 
 			<!-- Slide 4 (GMSST) -->
 			<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
@@ -430,7 +434,8 @@ End Commented  out: Ichiro Fukumori 12/05/19 -->
 						</li>
 						<!-- Ichiro Fukumori 2019-12-04 V4r4  END -->
 						
-		<!-- Ichiro Fukumori 2019-12-05 Changed to passed tense -->
+		<!-- Ichiro Fukumori 2019-12-05 Changed to past tense -->
+
 						<li class='slide'>
 							<a href='/news/'>
 								<div class='image_and_description_container'>
@@ -461,7 +466,8 @@ End Commented  out: Ichiro Fukumori 12/05/19 -->
 								</div>
 							</a>
 						</li>
-		<!-- Ichiro Fukumori 2019-12-05 Changed to passed tense END -->
+						
+		<!-- Ichiro Fukumori 2019-12-05 Changed to past tense END -->
 
 					</ul>
 				</section><!-- //.grid_gallery -->
