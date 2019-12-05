@@ -130,7 +130,7 @@ EOF;
 <!--
 Commented out: Ichiro Fukumori 12/05/19
 
-			<!-- Slide (regular template) -->
+			<!- - Slide (regular template) - ->
             <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
               <img alt='slide background' data-src='/assets/images/home/friday_harbor_20181026_5.jpg' src='/assets/images/home/friday_harbor_20181026_5.jpg'>
@@ -146,7 +146,7 @@ Commented out: Ichiro Fukumori 12/05/19
               </div>
               <div class='gradient_container_bottom'></div>
             </article>
-            <!-- End Slide Summer School-->
+            <!- - End Slide Summer School- ->
 
 Commented out: Ichiro Fukumori 12/05/19 END 
 --> 		  	
