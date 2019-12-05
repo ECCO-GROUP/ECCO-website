@@ -35,7 +35,7 @@ EOF;
 				<div class='description'>
 					<a href='/products/latest/'>The new release 4 is ECCO's latest state estimate of global ocean
 					circulation combining all modern observations with an ocean
-					circulation model. The release extends the Version 4 product using additional observations and incorporates improvements in modeling and estimation.</a>
+					circulation model. The release extends the Version 4 product using additional observations and incorporates improvements in modeling and estimation. In addition to standard monthly mean fields, the release now includes daily mean estimates for studies of wider range of ocean variability.</a>
 				  <a class='detail_link' href='/products/latest/'>Read more</a>
 				</div>
 			  </div>

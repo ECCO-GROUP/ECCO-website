@@ -16,7 +16,7 @@ EOF;
 		<div class='grid_layout'>
 			<header id='page_header'>
 				<h1 class='article_title'>User Guide</h1>
-				Products » <a href="../">Latest Product</a>
+				Products » <a href="/products/latest/">Latest Product</a>
 			</header>
 			<div class='wysiwyg_content'>
 

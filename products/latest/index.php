@@ -109,7 +109,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
 
 				<h2>User Guide</h2>
-				<p>A detailed description of available files and their content are summarized in a "User Guide" in the link below.  Although written for the previous release (V4r3) the User Guide, in addition to other files that folllow, apply equally to the present Release 4 estimate. 
+				<p>A detailed description of available files and their content are summarized in a "User Guide" in the link below.  Although written for the previous release (V4r3), the User Guide, in addition to other files that folllow, apply equally to the present Release 4 estimate. 
 </p>
 				<p><strong><a href="/products/V4r3/user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
