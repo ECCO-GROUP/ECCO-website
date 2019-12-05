@@ -32,7 +32,7 @@ EOF;
 						<p>Version 4 Release 4 (V4r4), covering the period 1992-2017, represents
 ECCO's latest ocean state estimate. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 4 edition includes improvements in time-period (1992-2017), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors).
 </p>
-						<p>[<i>Image at right</i>] Global mean sea level and ocean bottom pressure (in equivalent sea level) time-series of V4r4 in comparison to observations.</p>
+						<p>[<i>Image at right</i>] Global mean time-series of sea level and ocean bottom pressure (in equivalent sea level) of V4r4 in comparison to observations.</p>
                                                 <h4>ECCO Drive:</h4>
                                                 <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
                                                 <h4>Command line example:</h4>
@@ -102,16 +102,16 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 				<p>As a condition of using this product, you <strong><i>must</i></strong> cite the use of this product using the following citation.</p>
 				<div class="indent gray-bg pad-20">
 					<i>
-						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2019: ECCO Version 4 Release 4, Available at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf</a></p>
+						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2019: ECCO Version 4 Release 4, Avfailable at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf</a></p>
 						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</p>
 					</i>
 				</div>
 				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
 
 				<h2>User Guide</h2>
-				<p>A detailed description of available files and their content are summarized in a "User Guide" in the link below.  Although written for the previous release (V4r3), the description below and the other files that folllow apply equally to present latest Release 4. 
+				<p>A detailed description of available files and their content are summarized in a "User Guide" in the link below.  Although written for the previous release (V4r3) the User Guide, in addition to other files that folllow, apply equally to the present Release 4 estimate. 
 </p>
-				<p><strong><a href="./user-guide/" class="button white">Read the User Guide</a></strong></p>
+				<p><strong><a href="/products/V4r3/user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
 				<h2>Analysis Tools</h2>
 
@@ -152,7 +152,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 					<div class="indent">
 						<p>
 							
-							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_estimation_synopsis.pdf</a><br/>
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf</a><br/>
 						</p>
 					</div>
 
