@@ -44,7 +44,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release4/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
-						<div><img src="/assets/images/home/v4r4_gmsl_gmobp.png"></div>
+						<div><img src="/assets/images/home/v4r4/v4r4_gmsl_gmobp.png"></div>
 					</div>
 				</div>
 

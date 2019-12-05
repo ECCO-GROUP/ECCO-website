@@ -42,7 +42,7 @@ EOF;
 <!-- Ichiro Fukumori 2019-12-04 -->
 							<tr>
 								<th class="text-left"><a href="/products/latest/">ECCO-V4r4</a></th>
-								<td>&gt;</td>
+								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="_blank" rel="noopener noreferrer">I.D.</a></td>
 								<td><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="_blank" rel="noopener noreferrer">Release 4</a></td>
 								<td>1992-2017</td>
 								<td>LLC90</td>

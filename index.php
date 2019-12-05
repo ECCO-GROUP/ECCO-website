@@ -27,7 +27,7 @@ EOF;
 			<!-- Slide ECCOv4 R4 (regular template) -->
 			<article class='dark_background ms-slide slide-1' data-delay='5' data-fill-mode='fill'>
 			  <div class='gradient_container_top'></div>
-			  <img alt='slide background' data-src='/assets/images/home/v4r4_available_online.png' src='/assets/images/home/v4r4_available_online.png'>
+			  <img alt='slide background' data-src='/assets/images/home/v4r4/v4r4_available_online.png' src='/assets/images/home/v4r4/v4r4_available_online.png'>
 			  <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
 				<a class='text_content_link' href='/products/latest/'>
 				  <h1 class='media_feature_title'>Version 4 release 4, covering 1992-2017, now available</h1>
@@ -127,7 +127,7 @@ EOF;
             <!-- End Slide 6  Wood et al paper-->
 
 
-
+<!-- Commented out: Ichiro Fukumori 12/05/19 
 			<!-- Slide (regular template) -->
             <article class='dark_background ms-slide slide-2' data-delay='5' data-fill-mode='fill'>
               <div class='gradient_container_top'></div>
@@ -145,8 +145,7 @@ EOF;
               <div class='gradient_container_bottom'></div>
             </article>
             <!-- End Slide Summer School-->
-			  
-		  	
+End Commented  out: Ichiro Fukumori 12/05/19 --> 		  	
 
 			<!-- Slide 4 (GMSST) -->
 			<article class='dark_background ms-slide slide-3' data-delay='5' data-fill-mode='fill'>
@@ -186,7 +185,7 @@ EOF;
 				<div class="grid vertical-middle">
 					<div class="grid-cell flexit">
 						<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
-						<a href="/products/latest"><img alt="ECCO-V4r4" title="ECCO-V4r4" src="/assets/images/home/v4r4_gmsl_gmobp.png"></a>
+						<a href="/products/latest"><img alt="ECCO-V4r4" title="ECCO-V4r4" src="/assets/images/home/v4r4/v4r4_ECCO_v4_Volume_budget_closure_78_0.png"></a>
 					</div>						
 					<div class="grid-cell grid--1of3">
 						<h2 class="content_title">Featured Product</h2>
@@ -373,11 +372,51 @@ EOF;
 				<section class="grid_gallery list_view">					
 					<ul class="articles">
 						
+						<!-- Ichiro Fukumori 2019-12-05 Ocean Sciences 2020 Town Hall -->
+						<li class='slide'>
+							<a href='/news/'>
+								<div class='image_and_description_container'>
+									<div class='img'><img alt="ECCO Town Hall at Ocean Sciences 2020" title="ECCO Town Hall at Ocean Sciences 2020" src="/assets/images/home/2020_Ocean_Sciences.png"></div>
+									<div class='list_text_content'>
+										<div class='content_title no-pad'>
+											ECCO Town Hall at Ocean Sciences 2020 (02/20 18:30-19:30)
+										</div>
+										<div class='article_teaser_body'>
+											<p>The ECCO Consortium will host a town hall meeting at the 2020 Ocean Sciences Meeting in San Diego, CA, on Thursday, 20 February, 18:30-19:30.<br />
+											Attendees will be shown how to obtain the latest ECCO ocean state estimates and provided instructions for calculating heat, salt, and volume budget analyses, comparing the state estimates against observational data, and for re-running the open-source ECCO model for additional custom investigations.  Python and Matlab computational libraries and tutorials that facilitate ECCO analyses will be introduced.   <br />
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<!-- Ichiro Fukumori 2019-12-05 Ocean Sciences 2020 Town Hall END -->
+						
+						<!-- Ichiro Fukumori 2019-12-05 AGU Town Hall -->
+						<li class='slide'>
+							<a href='/news/'>
+								<div class='image_and_description_container'>
+									<div class='img'><img alt="2019 ECCO Town Hall" title="2019 ECCO Town Hall" src="/assets/images/home/2019_agu.jpg"></div>
+									<div class='list_text_content'>
+										<div class='content_title no-pad'>
+											2019 Town Hall at the AGU Fall Meeting (12/09 12:30-13:30)
+										</div>
+										<div class='article_teaser_body'>
+											<p>The ECCO consortium will host a town hall at the 2019 AGU Fall Meeting on Monday, 9 December, 12:30-13:30 in Moscone West, Room:2007, L2, to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).</p>
+											
+											<p>Release 4 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+											
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<!-- Ichiro Fukumori 2019-12-05 AGU Town Hall END -->
+
 						<!-- Ichiro Fukumori 2019-12-04 V4r4  -->
 						<li class='slide'>
 							<a href='/products/latest/'>
 								<div class='image_and_description_container'>
-									<div class='img'><img alt="ECCO-V4r4" title="ECCO-V4r3" src="/assets/images/home/v4r4_gmsl_gmobp.png"></div>
+									<div class='img'><img alt="ECCO-V4r4" title="ECCO-V4r3" src="/assets/images/home/v4r4/v4r4_gmsl_gmobp.png"></div>
 									<div class='list_text_content'>
 										<div class='content_title no-pad'>
 											ECCO-V4r4, covering 1992-2017, now available
@@ -391,28 +430,7 @@ EOF;
 						</li>
 						<!-- Ichiro Fukumori 2019-12-04 V4r4  END -->
 						
-						<!-- Ian Fenty 2019-1-09 AGU Town Hall,  changed to past tense -->
-						
-						<li class='slide'>
-							<a href='/news/'>
-								<div class='image_and_description_container'>
-									<div class='img'><img alt="2018 ECCO Town Hall" title="2018 ECCO Town Hall" src="/assets/images/home/CEN-FM18_logo-1-1.png"></div>
-									<div class='list_text_content'>
-										<div class='content_title no-pad'>
-											2018 Town Hall at the AGU Fall Meeting
-										</div>
-										<div class='article_teaser_body'>
-											<p>The ECCO consortium hosted a town hall at the 2018 AGU Fall Meeting that introduced the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).</p>
-											
-											<p>Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
-											
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<!-- Ian Fenty 2018-11-12 AGU Town Hall  END -->
-
+		<!-- Ichiro Fukumori 2019-12-05 Changed to passed tense -->
 						<li class='slide'>
 							<a href='/news/'>
 								<div class='image_and_description_container'>
@@ -422,8 +440,13 @@ EOF;
 											2019 ECCO Summer School
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO consortium will host a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</p>
+											<p>The ECCO consortium hosted a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school, held 19-31 May 2019 at Friday Harbor Laboratories in Friday Harbor WA, introduced tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</p>
 
+											<p>Information about the school, including the lectures, can be found at 
+											<a class='detail_link' href='https://www.eccosummerschool.org'>https://www.eccosummerschool.org</a>
+
+
+			<!-- Commented out .......
 											<p><b>Topics covered:</b> Data assimilation (global & regional); state & parameter estimation; adjoint method; sensitivity analysis; algorithmic differentiation; ocean modeling; ocean dynamics and variability; global ocean observing system; physics of sea level; sea ice physics; ice sheet-ocean interactions; ice shelf dynamics; ocean tides; cyberinfrastructure & data analytics </p>
 
 											<b>Dates:</b> May 19–31, 2019<br />
@@ -431,28 +454,15 @@ EOF;
 											<b>Application Deadline:</b> December 17, 2018<br />
 											<p>For more information, confirmed lecturers, and how to apply, please visit:
 											<a class='detail_link' href='https://www.eccosummerschool.org'>https://www.eccosummerschool.org</a>
+			Commented out ....... --> 
+											
 										</div>
 									</div>
 								</div>
 							</a>
 						</li>
+		<!-- Ichiro Fukumori 2019-12-05 Changed to passed tense END -->
 
-						<li class='slide'>
-							<a href='/news/'>
-								<div class='image_and_description_container'>
-									<div class='img'><img alt="ECCO Tutorial at Ocean Sciences 2018" title="ECCO Tutorial at Ocean Sciences 2018" src="/assets/images/home/workshop.jpg"></div>
-									<div class='list_text_content'>
-										<div class='content_title no-pad'>
-											ECCO Tutorial at Ocean Sciences 2018
-										</div>
-										<div class='article_teaser_body'>
-											<p>The ECCO project hosted a workshop during Ocean Sciences 2018 in Portland, OR.<br />
-											Title: ECCO Workshop: How to use the latest ECCO Ocean State Estimate <br />
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
 					</ul>
 				</section><!-- //.grid_gallery -->
 			</div><!-- //.grid_layout -->
