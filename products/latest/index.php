@@ -40,7 +40,10 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
                                                 <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/nctiles_monthly/SSH</strong></p>
                                                 <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
 						<br />
-						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Product</a></strong></p>
+<!-- Ou Wang 2019-12-09 -->
+						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Product (excl. daily fields) </a></strong></p>
+						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Daily Fields</a></strong></p>
+<!-- End of Ou Wang 2019-12-09 -->
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release4/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
 					<div class="grid-cell grid--1of3 margin-20">
@@ -141,7 +144,10 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 				<p><strong>Guide for reproducing V4r3 results with MITgcm</strong></p>
 					<div class="indent">
 						<p>
-							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_reproduction_howto.pdf</a><br/>
+<!-- Ou Wang 2019-12-09 -->
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_reproduction_howto.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_reproduction_howto.pdf</a><br/>
+<!-- End of Ou Wang 2019-12-09 -->
+
 						</p>
 					</div>
 						
@@ -167,7 +173,9 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 					<div class="indent">
 						<p>
 							
-							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_overview_plots.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_overview_plots.pdf</a><br/>
+<!-- Ou Wang 2019-12-09 -->
+							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_overview_plots.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_overview_plots.pdf</a><br/>
+<!-- End of Ou Wang 2019-12-09 -->
 						</p>
 					</div>
 					<p><strong>Data used in V4r3</strong></p>
