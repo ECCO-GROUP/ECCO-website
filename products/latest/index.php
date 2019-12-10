@@ -37,12 +37,14 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
                                                 <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
                                                 <h4>Command line example:</h4>
                                                 <p>To use wget to download ECCO v4r4's monthly SSH on the native grid: </p>
-                                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/nctiles_monthly/SSH</strong></p>
+<!-- Ou Wang 2019-12-09 -->
+                                                <p><strong>wget -r --no-parent --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/nctiles_monthly/SSH</strong></p>
+<!-- End of Ou Wang 2019-12-09 -->
                                                 <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
 						<br />
 <!-- Ou Wang 2019-12-09 -->
 						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Product (excl. daily fields) </a></strong></p>
-						<p><strong><a href="https://data.nas.nasa.gov/ecco/data.php?dir=/eccodata/llc_90/ECCOv4/Release4/" class="button white">Download Daily Fields</a></strong></p>
+						<p><strong><a href="https://data.nas.nasa.gov/ecco/data.php?dir=/eccodata/llc_90/ECCOv4/Release4" class="button white">Download Daily Fields</a></strong></p>
 <!-- End of Ou Wang 2019-12-09 -->
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release4/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
@@ -141,7 +143,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						</p>
 					</div>
 
-				<p><strong>Guide for reproducing V4r3 results with MITgcm</strong></p>
+				<p><strong>Guide for reproducing V4r4 results with MITgcm</strong></p>
 					<div class="indent">
 						<p>
 <!-- Ou Wang 2019-12-09 -->
@@ -169,11 +171,11 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_output_fields.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_output_fields.pdf</a><br/>
 						</p>
 					</div>
-					<p><strong>Plots of V4r3</strong></p>
+<!-- Ou Wang 2019-12-09 -->
+					<p><strong>Plots of V4r4</strong></p>
 					<div class="indent">
 						<p>
 							
-<!-- Ou Wang 2019-12-09 -->
 							<a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_overview_plots.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_overview_plots.pdf</a><br/>
 <!-- End of Ou Wang 2019-12-09 -->
 						</p>
