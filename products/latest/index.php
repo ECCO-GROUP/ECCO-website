@@ -42,7 +42,7 @@ ECCO's latest ocean state estimate. This product is an updated edition to that d
 						<br />
 <!-- Ou Wang 2019-12-09 -->
 						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Product (excl. daily fields) </a></strong></p>
-						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" class="button white">Download Daily Fields</a></strong></p>
+						<p><strong><a href="https://data.nas.nasa.gov/ecco/data.php?dir=/eccodata/llc_90/ECCOv4/Release4/" class="button white">Download Daily Fields</a></strong></p>
 <!-- End of Ou Wang 2019-12-09 -->
 						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release4/" class="button white">Download Product (mirror)</a></strong></p>
 					</div>
