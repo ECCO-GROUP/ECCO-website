@@ -405,10 +405,12 @@ Commented out: Ichiro Fukumori 12/05/19 END
 											2019 Town Hall at the AGU Fall Meeting (12/09 12:30-13:30)
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO consortium will host a town hall at the 2019 AGU Fall Meeting on Monday, 9 December, 12:30-13:30 in Moscone West, Room:2007, L2, to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).</p>
+											<p>The ECCO consortium hosted a town hall at the 2019 AGU Fall Meeting on Monday, 9 December, 12:30-13:30 in Moscone West, Room:2007, L2, to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).</p>
 											
 											<p>Release 4 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
-											
+
+                                            <p> Download a copy of the <a href="/research/presentations/2019/AGU/ECCO_2019_AGU_townhall_FINAL.pptx" target="_blank" rel="noopener noreferrer">presentation! <img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" /></a></p>
+
 										</div>
 									</div>
 								</div>
