@@ -42,7 +42,7 @@ EOF;
 						</p>
 						</div>
 					<div class="grid-cell grid--1of3 wysiwyg_content">
-						<p><img src="https://ecco-v4-python-tutorial.readthedocs.io/_images/ECCO_v4_Plotting_Tiles_27_0.png" alt="Sverdrup glacier retreat distance vs cumulative undercutting anomaly"></p>
+						<p><img src="/assets/images/knowledge/analysis_tools/eccov4py.png" alt=""></p>
 					</div>
 				</div>
 			</div><!-- //.grid_layout -->
