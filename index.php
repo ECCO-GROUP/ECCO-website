@@ -407,16 +407,11 @@ Commented out: Ichiro Fukumori 12/05/19 END
 											2019 Town Hall at the AGU Fall Meeting (12/09 12:30-13:30)
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO consortium hosted a town hall at the 2019 AGU Fall Meeting to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).
-											</p>
+											<p>The ECCO consortium hosted a town hall at the 2019 AGU Fall Meeting to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).</p>
 											
-											<p>Release 4 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992–2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.
-											</p>
+											<p>Release 4 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992–2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
 
-                                            <p>
-                                            	<a href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" target="_blank" style="color:red" rel="noopener noreferrer"> Download a copy of the presentation here!</a><img alt="powerpoint presentation icon" title="powerpoint presentation icon" src="/assets/images/icons/powerpoint_icon.png">
-                                            </p>
-
+											<p>Download the presentation here: <a href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" style="color:blue" target="_blank" rel="noopener noreferrer">as Powerpoint</a> or <a href="https://drive.google.com/file/d/15luafygxoaKilxsYjkQwv3cZGQy2JU4c/view?usp=sharing" style="color:blue" target="_blank" rel="noopener noreferrer">as PDF</a>.</p>
 										</div>
 									</div>
 								</div>

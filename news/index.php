@@ -27,31 +27,51 @@
 <p>The <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/" target="blank">new release 4</a> extends the Version 4 estimate using additional observations. The product also incorporates improvements in modeling and estimation. A <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf" target="blank">summary document</a> describes details of the changes. In addition to standard monthly mean fields, the release now includes daily mean estimates for studies of wider range of ocean variability. As in previous releases, tools are avalaible for <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/evaluating_budgets_in_eccov4r3.pdf" target="blank">evaluating property budgets</a> and <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_reproduction_howto.pdf" target="blank">rerunning the model to generate additional fields</a> </p>
 
 <!---------------------------------------------------------------------->
+<!-- IAN FENTY 2019-12-17  -->
+
 <hr />
-<h4>ECCO Town Hall at 2018 AGU Fall Meeting</h4>
+<h4>ECCO Town Hall at 2019 AGU Fall Meeting</h4>
 
-<p><b>Synopsis:</b> The ECCO consortium will host a town hall at the AGU Fall Meeting in Washington, DC.  We will introduce the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+<p>The ECCO consortium hosted a town hall at the 2019 AGU Fall Meeting to introduce the latest global ocean and sea-ice state estimate Version 4 Release 4 (ECCO V4r4).</p>
+											
+<p>Release 4 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992–2017, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
 
-<p>By design, ECCO state estimates conserve heat, salt, volume and momentum—a virtue that is critical for analyzing causal mechanisms of ocean variability, and detecting climate signals that are small residuals of large regional anomalies. Instructional material will be provided for analyzing different aspects of the state estimate, including budget analysis, along with instructions for downloading and running the ocean model to recreate the solution. In addition, a selection of recent science applications will be highlighted. Members of the ECCO Group will be available to answer questions and provide guidance on utilizing the products.</p>
-
-<b>Date & Time:</b> Monday, 10 December 2018: 12:30 - 13:30 <br/>
-<b>Location: </b><a class='detail_link' href='https://www.marriott.com/hotel-meetings/wasco-marriott-marquis-washington-dc/modules/meetings/meeting-event-space.mi'>Marriott Marquis</a>, 901 Massachusetts Avenue NW, Washington DC 20001<br>Room: Liberty L<br />
-</p>
+<p>Download the presentation here: <a class='detail_link' href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" target="_blank" rel="noopener noreferrer">as Powerpoint</a> or <a class='detail_link' href="https://drive.google.com/open?id=15luafygxoaKilxsYjkQwv3cZGQy2JU4c" target="_blank" rel="noopener noreferrer">as PDF</a>.</p>
 
 <!---------------------------------------------------------------------->
+<!-- IAN FENTY 2019-12-17  -->
 <hr />
 <h4>ECCO Summer School 2019</h4>
 
-<p><b>Synopsis:</b> The Consortium for "Estimating the Circulation and Climate of the Ocean" (ECCO) will host a summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school introduces the tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects. In doing so, the school aims to help nurture the next generation of oceanographers and climate scientists in the subject matter so that they may utilize the ECCO products and underlying modeling/estimation tools most effectively to further advance the state-of-the-art in ocean state estimation and ocean science. </p>
+<p>The ECCO consortium hosted a two-week summer school for graduate students and early career scientists on global ocean state estimation in support of climate research. The school, held 19-31 May 2019 at Friday Harbor Laboratories in Friday Harbor WA, introduced tools and mathematics of ocean state and parameter estimation and their application to ocean science through a mix of foundational lectures, hands-on tutorials, and projects.</p>
 
-<p><b>Topics covered:</b> Data assimilation (global & regional); state & parameter estimation; adjoint method; sensitivity analysis; algorithmic differentiation; ocean modeling; ocean dynamics and variability; global ocean observing system; physics of sea level; sea ice physics; ice sheet-ocean interactions; ice shelf dynamics; ocean tides; cyberinfrastructure & data analytics </p>
+<p>Information about the school, including the lectures, can be found at 
+<a class='detail_link' href='https://www.eccosummerschool.org'>https://www.eccosummerschool.org</a>
 
-<b>Dates:</b> May 19–31, 2019 <br /><br />
-<b>Location:</b> Friday Harbor Laboratories, University of Washington, Friday Harbor, WA <br /><br />
-<b>Application Deadline:</b> December 17, 2018 <br /><br />
 
-For more information, confirmed lecturers, and <b>how to apply</b>, please visit: <a href="https://www.eccosummerschool.org">https://www.eccosummerschool.org</a><br>
-</p>
+<!---------------------------------------------------------------------->
+<!-- IAN FENTY 2019-12-17  -->
+<hr />
+<h4>ECCO Town Hall at 2018 AGU Fall Meeting</h4>
+
+The ECCO consortium hosted a town hall at the 2018 AGU Fall Meeting in Washington, DC.  We introduced the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+
+<p>By design, ECCO state estimates conserve heat, salt, volume and momentum—a virtue that is critical for analyzing causal mechanisms of ocean variability, and detecting climate signals that are small residuals of large regional anomalies. Instructional material will be provided for analyzing different aspects of the state estimate, including budget analysis, along with instructions for downloading and running the ocean model to recreate the solution. In addition, a selection of recent science applications will be highlighted. Members of the ECCO Group will be available to answer questions and provide guidance on utilizing the products.</p>
+
+<p>Download the presentation here: <a class='detail_link' href="https://drive.google.com/file/d/1RYsPR4Nq832JNJNg6al3GkXYEj28C64n/view?usp=sharing" target="_blank" rel="noopener noreferrer">as Powerpoint</a> or <a class='detail_link' href="https://drive.google.com/open?id=1Nc1dDBlhrgOGvwjmkwRKY8krEWdze12B" target="_blank" rel="noopener noreferrer">as PDF</a>.</p>
+
+<!---------------------------------------------------------------------->
+<!-- IAN FENTY 2019-12-17  -->
+<hr />
+<h4>ECCO Tutorial at Ocean Sciences 2018</h4>
+
+<p>The ECCO consortium hosted a town hall at the 2018 AGU Oceans Sciences Meeting in Portland, OR.  We introduced the latest global ocean and sea-ice state estimate Version 4 Release 3 (ECCO v4 Release 3).  Release 3 of the ECCO state estimate synthesizes nearly all extant in-situ and remotely-sensed ocean and sea-ice data covering the period 1992 – 2015, with a nominal 1-degree horizontal resolution configuration of the MIT general circulation model (MITgcm) over the entire globe.</p>
+
+<p>Tutorial attendees were shown how to obtain the latest ECCO ocean state estimates and provided instructions for calculating heat, salt, and volume budget analyses, comparing the state estimates against observational data, and for re-running the open-source ECCO model for additional custom investigations.  Python and Matlab computational libraries and tutorials that facilitate ECCO analyses will be introduced.</p>
+
+<p>Finally, attendees were provided salient examples of diverse science applications that make use of ECCO ocean state estimates and the adjoint of the ECCO numerical model drawn from the recent literature.</p>
+
+<p>Download the presentation here: <a class='detail_link' href="https://drive.google.com/file/d/1IJBscHc3vVYYL6uCoZqCUseooTVt81NZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">as Powerpoint</a> or <a class='detail_link' href="https://drive.google.com/open?id=1hqLBVCZmXg1dwT1CwxD1I4bV7RRhPZzj" target="_blank" rel="noopener noreferrer">as PDF</a>.</p>
 
 <!---------------------------------------------------------------------->
 <hr />
