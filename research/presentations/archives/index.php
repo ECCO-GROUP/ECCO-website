@@ -17,17 +17,16 @@ EOF;
 			<header id='page_header'>
 				<h1 class='article_title'>Archived Presentations</h1>
 			</header>
+			<p>Table of Contents</p>
 			<div class='wysiwyg_content'>
 				<ul class="bullet_list indent">
-					<li><a href="#posters">Meeting Posters</a></li>
-					<li><a href="#posters_jpl">ECCO-JPL Group: Meeting Posters</a></li>
-					<?php /*
-						<li><a href="#posters_sio">ECCO-SIO Group: Meeting Posters</a></li>
-					*/ ?>
+					<li><a href="#woce2002/">2002 WOCE Final Conference</a></li>
+					<li><a href="#igarss2002">2002 IGARSS </a></li>
+					<li><a href="#godae2002">2002 GODAE </a></li>
+					<li><a href="#jason2002">2002 Jason-1 </a></li>					
 				</ul>
-				<hr />
-
-				<h3 class="content_title named-anchor" id="posters">MEETING POSTERS</h3>
+				<br><br>
+				<h2 class="content_title named-anchor" id="woce2002">WOCE Final Conference</h2>
 				<p>ECCO Abstracts submitted to the WOCE Final Conference:</p>
 				<ul class="bullet_list">
 					<li>
@@ -160,80 +159,35 @@ EOF;
 						<a href="../pdfs/woce_posters/woce_uwe_poster.pdf" target="_blank" rel="noopener noreferrer">(PDF of poster) <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 				</ul>
-				<hr />
-				<h3 class="content_title named-anchor" id="posters_jpl">JPL GROUP MEETING POSTERS</h3>
+				<br><br>
+				<h2 class="content_title named-anchor" id="igarss2002">2002 IGARSS</h2>
 				<section class="grid_gallery list_view">
-					<p><strong>WOCE 2002</strong></p>
 					<ul class="articles">
 						<li class="slide">
-							<a href="../pdfs/woce_posters/woce_ecco2.pdf">
+							<a href="../pdfs/jpl_posters/tmp.pdf">
 								<div class="image_and_description_container">
 									<div class="img">
-										<img class="thumb" src="/assets/images/research/presentations/woce_ecco2.jpg" alt="presentation screenshot">
+										<img class="thumb" src="/assets/images/research/presentations/tmp.jpg" alt="presentation screenshot">
 									</div>
 									<div class="list_text_content">
 										<div class="article_teaser_body">
 											<p>
-												Seasonal-to-Interannual Variability of the Ocean During WOCE, Estimated by the ECCO Routine Global Ocean Data Assimilation System<br />
-												WOCE and Beyond<br />
-												San Antonio, Texas<br />
-												November 18-22, 2002<br />
+												Mapping and Pseudo-Inverse Algorithms for Data Assimilation<br />
+												International Geoscience & Remote Sensing Symposium<br />
+												Toronto, Canada<br />
+												June 24-28, 2002
 											</p>
 											<p>
-												Overview of ECCO near real-time data assimilation system and examples of its applications. The system consists of a hierarchy of assimilation methods that assimilate satellite sea surface height and in situ temperature profiles. Anayses are sensible and provide a means to study ocean circulation. Results are also used in geodetic studies.
+												Summary: Reduced-state Kalman filters require interpolation operators from the reduced state to the fine grid and pseudo-inverse operators that map the fine grid back to the reduced state. This poster investigates a variety of approaches to computing the pseudoinverse and evaluates the mapping performance of eleven interpolation kernels.
 											</p>
 										</div>
 									</div>
 								</div>
 							</a>
 						</li>
-						<li class="slide">
-							<a href="../pdfs/woce_posters/woce_tracer_new.pdf">
-								<div class="image_and_description_container">
-									<div class="img">
-										<img class="thumb" src="/assets/images/research/presentations/woce_tracer_new.jpg" alt="presentation screenshot">
-									</div>
-									<div class="list_text_content">
-										<div class="article_teaser_body">
-											<p>
-												An Open-Circuit and a Short-Circuit in the Pacific Ocean Subtropical-Tropical Exchange<br />
-												WOCE and Beyond<br />
-												San Antonio, Texas<br />
-												November 18-22, 2002
-											</p>
-											<p>
-												Pathway of subtropical-tropical exchange in the Pacific Ocean is analyzed using a simulated passive tracer and its adjoint. Intra-seasonal variability short-circuits the meridional exchange. Contrary to the so-called "Subtropical Cell", the pathway of the exchange is an open circuit and does not close.
-											</p>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="slide">
-							<a href="../pdfs/woce_posters/MLheat.pdf">
-								<div class="image_and_description_container">
-									<div class="img">
-										<img class="thumb" src="/assets/images/research/presentations/MLheat.jpg" alt="presentation screenshot">
-									</div>
-									<div class="list_text_content">
-										<div class="article_teaser_body">
-											<p>
-												Interannual variation of mixed-layer heat balance: contrasting different climate phenomena and the roles of linear vs. nonlinear effects<br />
-												WOCE and Beyond<br />
-												San Antonio, Texas<br />
-												November 18-22, 2002
-											</p>
-											<p>
-												Interannual variation of mixed-layer heat budget associated with the climate events of El Nino, IOD, and PDO phase switch during the period of 1997-2000 are examined using ECCO assimilation product. Similarity and difference in interannual mixed-layer heat balance for these events are discussed. The role of nonlinear vs. linear advective tendencies are addressed.
-											</p>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-
-					<p><strong>Jason-1 2002</strong></p>
+					</ul>				
+					<br><br>
+					<h2 class="content_title named-anchor" id="jason2002">2002 Jason-1</h2>
 					<ul class="articles">
 						<li class="slide">
 							<a href="../pdfs/jpl_posters/jason_021021.pdf">
@@ -258,34 +212,8 @@ EOF;
 							</a>
 						</li>
 					</ul>
-
-					<p><strong>IGARSS 2002</strong></p>
-					<ul class="articles">
-						<li class="slide">
-							<a href="../pdfs/jpl_posters/tmp.pdf">
-								<div class="image_and_description_container">
-									<div class="img">
-										<img class="thumb" src="/assets/images/research/presentations/tmp.jpg" alt="presentation screenshot">
-									</div>
-									<div class="list_text_content">
-										<div class="article_teaser_body">
-											<p>
-												Mapping and Pseudo-Inverse Algorithms for Data Assimilation<br />
-												International Geoscience & Remote Sensing Symposium<br />
-												Toronto, Canada<br />
-												June 24-28, 2002
-											</p>
-											<p>
-												Summary: Reduced-state Kalman filters require interpolation operators from the reduced state to the fine grid and pseudo-inverse operators that map the fine grid back to the reduced state. This poster investigates a variety of approaches to computing the pseudoinverse and evaluates the mapping performance of eleven interpolation kernels.
-											</p>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-
-					<p><strong>GODAE 2002</strong></p>
+					<br><br>
+					<h2 class="content_title named-anchor" id="godae2002">2002 GODAE</h2>
 					<ul class="articles">
 						<li class="slide">
 							<a href="../pdfs/jpl_posters/ecco2.pdf">
@@ -376,8 +304,8 @@ EOF;
 							</a>
 						</li>
 					</ul>
-
-					<p><strong>Jason-1 2002</strong></p>
+					<br><br>
+					<h2 class="content_title named-anchor" id="jason2002">2002 Jason-1</h2>
 					<ul class="articles">
 						<li class="slide">
 							<a href="../pdfs/jpl_posters/tracer.pdf">

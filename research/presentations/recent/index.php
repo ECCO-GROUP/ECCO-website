@@ -17,15 +17,57 @@ EOF;
 			<header id='page_header'>
 				<h1 class='article_title'>Recent Presentations</h1>
 			</header>
-			<hr />
+			<p>Table of Contents</p>
 			<div class='wysiwyg_content'>
-				<h3 class="content_title named-anchor" id="posters">2017 ECCO Meeting</h3>
-				<p>Download the presentations from the November 6-8 meeting held at Caltech</p>
-
-				<h2 class="content_title named-anchor" id="posters">Latest ECCO Products</h2>
+				<ul class="bullet_list indent">
+					<li><a href="#2019FallMtg">2019 AGU Fall Meeting</a></li>
+					<li><a href="#2019SS">2019 ECCO Summer School</a></li>
+					<li><a href="#2018FallMtg">2018 AGU Fall Meeting</a></li>
+					<li><a href="#2018OSMtg">2018 AGU Ocean Sciences Meeting</a></li>
+					<li><a href="#2017ECCOMtg">2017 ECCO Meeting</a></li>
+				</ul>
+				<br><br>
+				<h2 class="content_title named-anchor" id="2019FallMtg">2019 AGU Fall Meeting</h2>
 				<ul class="bullet_list">
 					<li>
-						<a href="../pdfs/06_1030_Campin_ecco_17_jnmc.pdf" target="_blank" rel="noopener noreferrer">Jean-Michel Campin: MITgcm development <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+						<a class='detail_link' href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+					</li>
+					<li>
+						<a class='detail_link' href="https://drive.google.com/file/d/15luafygxoaKilxsYjkQwv3cZGQy2JU4c/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+					</li>
+				</ul>
+				<br><br>				
+				<h2 class="content_title named-anchor" id="2019SS">2019 ECCO Summer School</h2>
+					<p> List to be completed.  For the time being, <a class='detail_link' href="https://www.eccosummerschool.org/schedule-1" target="_blank" rel="noopener noreferrer">Please visit this page to find links to all presentations and videos</a></p>
+					<br>
+				
+				<br><br>				
+				<h2 class="content_title named-anchor" id="2018FallMtg">2018 AGU Fall Meeting</h2>
+				<ul class="bullet_list">
+					<li>
+						<a class='detail_link' href="https://drive.google.com/file/d/1RYsPR4Nq832JNJNg6al3GkXYEj28C64n/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+					</li>
+					<li>
+						<a class='detail_link' href="https://drive.google.com/file/d/1Nc1dDBlhrgOGvwjmkwRKY8krEWdze12B/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+					</li>
+				</ul>				
+				<br><br>
+				<h2 class="content_title named-anchor" id="2018OSMtg">2018 AGU Ocean Sciences Meeting</h2>
+				<ul class="bullet_list">
+					<li>
+						<a class='detail_link' href="https://drive.google.com/file/d/1IJBscHc3vVYYL6uCoZqCUseooTVt81NZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty and Gael Forget: 2018 ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+					</li>
+					<li>
+						<a class='detail_link' href="https://drive.google.com/file/d/1hqLBVCZmXg1dwT1CwxD1I4bV7RRhPZzj/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty and Gael Forget: 2018 ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+					</li>
+					
+				</ul>				
+				<br><br>
+				<h2 class="content_title named-anchor" id="2017ECCOMtg">2017 ECCO Meeting</h2>
+				<h3 class="content_title named-anchor" id="2017ECCOMtg_latest">Latest ECCO Products</h3>
+				<ul class="bullet_list">
+					<li>
+						<a href="https://drive.google.com/open?id=1pMDCzvi4oIOY_8kTg2krtKQMpLUm--gS" target="_blank" rel="noopener noreferrer">Jean-Michel Campin: MITgcm development <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 					<li>
 						<a href="../pdfs/06_1050_Forget_gf_adj_cloud_201711.pdf" target="_blank" rel="noopener noreferrer">Gael Forget: Adjoint and cloud applications of the ECCO v4 framework <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
@@ -35,7 +77,7 @@ EOF;
 					</li>
 				</ul>
 
-				<h2 class="content_title named-anchor" id="posters">Ocean Circulation</h2>
+				<h3 class="content_title named-anchor" id="2017ECCOMtg_oc">Ocean Circulation</h3>
 				<ul class="bullet_list">
 					<li>
 						<a href="../pdfs/06_1210_Liang_ECCO2017.pdf" target="_blank" rel="noopener noreferrer">Xinfeng Liang: The Global Ocean Vertical Velocities from ECCO Version 4 <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
@@ -64,7 +106,7 @@ EOF;
 				</ul>
 
 					
-				<h2 class="content_title named-anchor" id="posters">ECCO Roadmap</h2>
+				<h3 class="content_title named-anchor" id="2017ECCOMtg_roadmap">ECCO Roadmap</h3>
 				<ul class="bullet_list">	
 					<li>
 						<a href="../pdfs/06_1530_ECCO_Sea_Level_Change_20171107.pdf" target="_blank" rel="noopener noreferrer">Ichiro Fukumori: ECCO Sea Level Change <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
@@ -92,7 +134,7 @@ EOF;
 					</li>
 				</ul>
 
-				<h2 class="content_title named-anchor" id="posters">Coupling with the cryosphere</h2>
+				<h3 class="content_title named-anchor" id="2017ECCOMtg_coupling">Coupling with the cryosphere</h3>
 				<ul class="bullet_list">
 					<li>
 						<a href="../pdfs/07_0850_Carroll_ECCO_2017.pdf" target="_blank" rel="noopener noreferrer">Dustin Carroll: Ice-sheet-ocean interactions in Greenland fjords <img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
