@@ -17,7 +17,7 @@ EOF;
 			<header id='page_header'>
 				<h1 class='article_title'>Recent Presentations</h1>
 			</header>
-			<p>Table of Contents</p>
+			<p> <b>Table of Contents </b></p>
 			<div class='wysiwyg_content'>
 				<ul class="bullet_list indent">
 					<li><a href="#2019FallMtg">2019 AGU Fall Meeting</a></li>
