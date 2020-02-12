@@ -386,7 +386,7 @@ Commented out: Ichiro Fukumori 12/05/19 END
 											ECCO Town Hall at Ocean Sciences 2020 (02/20 18:30-19:30)
 										</div>
 										<div class='article_teaser_body'>
-											<p>The ECCO Consortium will host a town hall meeting at the 2020 Ocean Sciences Meeting in San Diego, CA, on Thursday, 20 February, 18:30-19:30.<br />
+											<p>The ECCO Consortium will host a town hall meeting at the 2020 Ocean Sciences Meeting in San Diego, CA, on Thursday, 20 February, 18:30-19:30 in room SDCC - 3, UL.<br />
 											Attendees will be shown how to obtain the latest ECCO ocean state estimates and provided instructions for calculating heat, salt, and volume budget analyses, comparing the state estimates against observational data, and for re-running the open-source ECCO model for additional custom investigations.  Python and Matlab computational libraries and tutorials that facilitate ECCO analyses will be introduced.   <br />
 										</div>
 									</div>
