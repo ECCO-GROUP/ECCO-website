@@ -22,6 +22,27 @@ EOF;
 		</section><!-- //section -->
 
 
+		<!-- Ou Wang 2020/02/20 Forget and Ferreira -->
+		<section class="gray-bg2 margin-20 no-left no-right">
+			<div class='grid_layout'>
+				<div class='grid'>
+					<div class="grid-cell flexit">
+						<a href="https://www.nature.com/articles/s41561-019-0333-7" target="_blank" rel="noopener noreferrer"><h2 class="content_title">ECCO Helps Debunk the <span>&#8220;</span>Ocean Conveyor Belt<span>&#8221;</span></h2></a>
+						<p><strong>May 2019</strong></p>
+						<p>Earth's climate is regulated by the exchange and storage of heat between the ocean and the atmosphere. Thus, it is important to understand the pathways of ocean heat. This includes distinguishing between heat that is exchanged with our atmosphere -- potentially warming our climate -- and heat that merely circulates within our ocean. Investigators have used ECCO's state-of-the-art, global gridded data product to provide a new perspective on ocean heat transport.</p>
+						<p>Investigators used ECCO to help identify heat pathways that are confined within the ocean. Removing such internal "ocean heat loops" reveals the ocean's net effect on Earth's heat budget. Overall, their findings show distinct differences in the net effect of heat transport for each major ocean basin. Moreover, their study concludes that effective heat transport between ocean basins is smaller than expected. This contrasts with the widely held conceptual model of heat traveling through the ocean as a semi-continuous <span>&#8220;</span>global conveyor belt.<span>&#8221;</span></p>
+						<p><a href=https://www.nature.com/articles/s41561-019-0333-7>Forget, G., and Ferreira, D., 2019, Global ocean heat transport dominated by heat export from the tropical Pacific, Nature Geoscience, 12, 351-354, doi: 10.1038/s41561-019-0333-7</a></p>
+					</div>
+					<div class="grid-cell grid--1of3 wysiwyg_content">
+						<p><img src="/assets/images/research/publication_highlights/forget_ferreira_fig_s9.png" alt="Meridional effective ocean heat transport"></p>
+						
+					</div>
+				</div>
+			</div><!-- //.grid_layout -->
+		</section> <!-- //section -->
+		<!-- end: Ou Wang 2020/02/20 Forget and Ferreira -->
+
+
 		<!-- Ian Fenty 2018/11/16 Wood et al. -->
 		<section class="gray-bg2 margin-20 no-left no-right">
 			<div class='grid_layout'>

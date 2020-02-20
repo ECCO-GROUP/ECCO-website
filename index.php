@@ -61,6 +61,26 @@ EOF;
 			</article>
 			<!-- End Slide 1 -->
 
+		  	<!-- Ou Wang 02/20/2020 -->	  
+            <article class='dark_background ms-slide slide-6' 
+            	data-delay='5' 
+            	data-fill-mode='fill'>
+              <div class='gradient_container_top'></div>
+              <img alt='slide background' data-src='/assets/images/home/thermohaline_conveyor.0900.jpeg' src='/assets/images/home/thermohaline_conveyor.0900.jpeg'>
+              <div class='bg_dark bottom_left floating_text_area ms-layer extended' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+                <a class='text_content_link' href='/research/publicationHighlights/'>
+                  <h1 class='media_feature_title'>ECCO Helps Debunk the <span>&#8220;</span>Ocean Conveyor Belt<span>&#8221;</span></h1>
+                </a>
+                <div class='description'>
+                  <a href='/research/publicationHighlights/'>Investigators have used ECCO's state-of-the-art, global gridded data product to help identify heat pathways within the ocean. These pathways are used to understand the ocean's effect on Earth's heat budget and climate.</a>
+                                  
+				  <a class='detail_link' href='/research/publicationHighlights/'>Read more</a>
+                </div>
+              </div>
+              <div class='gradient_container_bottom'></div>
+            </article>
+            <!-- End Slide  /  Thermohaline circulation from Forget and Ferreria (2019)<-->
+            
 
 		  	<!-- Ichiro Fukumori 11/07/18 -->	  
             <article class='dark_background ms-slide slide-5' 
