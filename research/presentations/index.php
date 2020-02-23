@@ -20,6 +20,7 @@ EOF;
 			<div class='wysiwyg_content'>
 				<h3><a href="recent/">Recent Presentations</a></h3>
 				<ul class="bullet_list indent">
+					<li><a href="recent/index.php#2020OSMtg">2020 AGU Ocean Sciences Meeting</a></li>
 					<li><a href="recent/index.php#2019FallMtg">2019 AGU Fall Meeting</a></li>
 					<li><a href="recent/index.php#2019SS">2019 ECCO Summer School</a></li>										
 					<li><a href="recent/index.php#2018FallMtg">2018 AGU Fall Meeting</a></li>
