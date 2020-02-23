@@ -20,20 +20,34 @@ EOF;
 			<p> <b>Table of Contents </b></p>
 			<div class='wysiwyg_content'>
 				<ul class="bullet_list indent">
+					<li><a href="#2020OSMtg">2020 AGU Ocean Sciences Meeting</a></li>
 					<li><a href="#2019FallMtg">2019 AGU Fall Meeting</a></li>
 					<li><a href="#2019SS">2019 ECCO Summer School</a></li>
 					<li><a href="#2018FallMtg">2018 AGU Fall Meeting</a></li>
 					<li><a href="#2018OSMtg">2018 AGU Ocean Sciences Meeting</a></li>
 					<li><a href="#2017ECCOMtg">2017 ECCO Meeting</a></li>
 				</ul>
+				
+				<br><br>
+				<h2 class="content_title named-anchor" id="2020OSMtg">2020 AGU Ocean Sciences Meeting</h2>
+				<ul class="bullet_list">
+					<li>
+						<a class='detail_link' href="https://drive.google.com/open?id=19Gyn-JPoibR8XBlEzB4cWYVjYcAwDXJJ" target="_blank" rel="noopener noreferrer">Ian Fenty et al.: 2020 OSM ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+					</li>
+					<li>
+						<a class='detail_link' href="https://drive.google.com/open?id=13izrGEGfdQQUBrgGsZoI_HDG6BGrKp-2" target="_blank" rel="noopener noreferrer">Ian Fenty et al.: 2020 OSM ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+					</li>
+				</ul>
+				<br><br>
+				
 				<br><br>
 				<h2 class="content_title named-anchor" id="2019FallMtg">2019 AGU Fall Meeting</h2>
 				<ul class="bullet_list">
 					<li>
-						<a class='detail_link' href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+						<a class='detail_link' href="https://drive.google.com/file/d/1FcCKC8EOKZ5H_76cUu_Irkfq7lQjlKSb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 AGU Fall Meeting ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
 					</li>
 					<li>
-						<a class='detail_link' href="https://drive.google.com/file/d/15luafygxoaKilxsYjkQwv3cZGQy2JU4c/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+						<a class='detail_link' href="https://drive.google.com/file/d/15luafygxoaKilxsYjkQwv3cZGQy2JU4c/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2019 AGU Fall Meeting ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 				</ul>
 				<br><br>				
@@ -45,10 +59,10 @@ EOF;
 				<h2 class="content_title named-anchor" id="2018FallMtg">2018 AGU Fall Meeting</h2>
 				<ul class="bullet_list">
 					<li>
-						<a class='detail_link' href="https://drive.google.com/file/d/1RYsPR4Nq832JNJNg6al3GkXYEj28C64n/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
+						<a class='detail_link' href="https://drive.google.com/file/d/1RYsPR4Nq832JNJNg6al3GkXYEj28C64n/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 AGU Fall Meeting ECCO Town Hall as Powerpoint<img src="/assets/images/icons/powerpoint_icon.png" class="img--initial" height="20" width="20" /></a>
 					</li>
 					<li>
-						<a class='detail_link' href="https://drive.google.com/file/d/1Nc1dDBlhrgOGvwjmkwRKY8krEWdze12B/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
+						<a class='detail_link' href="https://drive.google.com/file/d/1Nc1dDBlhrgOGvwjmkwRKY8krEWdze12B/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ian Fenty: 2018 AGU Fall Meeting ECCO Town Hall as PDF<img src="/assets/images/icons/acrobatlogo.gif" class="img--initial" /></a>
 					</li>
 				</ul>				
 				<br><br>
