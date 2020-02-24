@@ -20,6 +20,39 @@
 			<div class='wysiwyg_content'>
 
 <!---------------------------------------------------------------------->
+<!-- Ou Wang 2020-02-24 ECCO at Ocean Sciences 2020 -->
+<hr />
+<h4>ECCO at Ocean Sciences 2020</h4>
+
+<p>ECCO was well represented at the 2020 Ocean Sciences Meeting with more than 30 presentations, posters, and e-lightning talks. The application of ECCO spanned a wide range of fields including
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/644099" style="color:blue"> observational system design</a>,
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/641633" style="color:blue"> ocean biogeochemistry</a>,
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/654062" style="color:blue"> ocean/ice-sheet interaction</a>,
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/652657" style="color:blue"> global ocean heat and salt transport</a>, and
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Paper/655631" style="color:blue"> regional sea-level rise</a>.
+                                                                                        </p>
+
+                                                                                        <p> You can find a list of presentations that include <b>ECCO</b> in their abstracts on the Ocean Sciences
+<a href="https://agu.confex.com/agu/osm20/meetingapp.cgi/Search/0?sort=Relevance&size=10&page=1&searchterm=ecco" style="color:blue">program directory</a> and also on page 19 of the <a href="https://drive.google.com/file/d/13izrGEGfdQQUBrgGsZoI_HDG6BGrKp-2/view?usp=sharing" style="color:blue" target="_blank" rel="noopener noreferrer">ECCO Town Hall presentation</a>.
+                                                                                        </p>
+
+<!---------------------------------------------------------------------->
+<!-- Ou Wang 2020-02-24 ECCO Town Hall at Ocean Sciences 2020 -->
+<hr />
+<h4>ECCO Town Hall at Ocean Sciences 2020 (02/20 18:30-19:30)</h4>
+
+<p>The ECCO Consortium hosted a public town hall meetin
+g at the 2020 Ocean Sciences Meeting in San Diego, CA.</p>
+                                                                                        <p>The presentation included descriptions of the latest
+ ECCO "Central Production" state estimate (Version 4, Release 4), several example applications of the state estimate and adjoint tool for clima
+te studies, and a survey of some Python, Julia, and Matlab tools developed to faciliate analysis.</p>
+
+                                                                                        <p>Download the presentation here: <a href="https://dri
+ve.google.com/file/d/19Gyn-JPoibR8XBlEzB4cWYVjYcAwDXJJ/view?usp=sharing" style="color:blue" target="_blank" rel="noopener noreferrer">as Powerp
+oint</a> or <a href="https://drive.google.com/file/d/13izrGEGfdQQUBrgGsZoI_HDG6BGrKp-2/view?usp=sharing" style="color:blue" target="_blank" rel
+="noopener noreferrer">as PDF</a>.</p>
+
+<!---------------------------------------------------------------------->
 <!-- Ichiro Fukumori 2019-12-04 V4r4  -->
 <hr />
 <h4>December 2019 — ECCO version 4 release 4 (ECCO-V4r4), covering 1992-2017, now available online</h4>
