@@ -22,30 +22,63 @@ EOF;
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO-V4r3</h2>
+				<h2>ECCO Central Production Version 4 Release 4</h2>
 				<small>Authors: Fukumori, Ichiro; Wang, Ou; Fenty, Ian; Forget, Gael; Heimbach, Patrick; Ponte, Rui M.</small>
+
 
 				<div class="grid">
 					<div class="grid-cell flexit">
 						
 						<h4>Description:</h4>
 						<p>Version 4 Release 3 (V4r3) covers the period 1992-2015. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 3 edition includes improvements in time-period (1992-2015), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors). V4r3 is superseced by Release 4 (V4r4) that covers an additional two year period. 
-</p>
+						</p>
+
 						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
-                                                <h4>ECCO Drive:</h4>
-                                                <p><strong>Due to NASA's mandate to disallow the use of the ftp protocol for data access, ECCO's anonymous ftp server ftp://ecco.jpl.nasa.gov has been replaced by ECCO Drive. ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> offers a familiar interface for users to browse and download data through their browser. It also allows users to access data via a command line interface, enabling scripted data extracting. Each user must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a> in order to access the ECCO products.</strong></p>
-                                                <h4>Command line example:</h4>
-                                                <p>To use wget to download ECCO v4r3's monthly SSH on the native grid: </p>
-                                                <p><strong>wget -r --user YOUREARTHDATAUSERNAME --ask-password https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/nctiles_monthly/SSH</strong></p>
-                                                <p>When prompted for password, you need to enter your ECCO Drive's WebDAV password, not your Earthdata account's password. To get the WebDAV password, log in with your Earthdata account from a web browser to <a href="https://ecco.jpl.nasa.gov/drive">https://ecco.jpl.nasa.gov/drive</a>. Once successfully log in, you will be re-directed to the page of your WebDAV/Programmatic API credentials. Your ECCO Drive's WebDAV password is in the second box from top. This is the password that you would use for the wget command. </p>
-						<br />
-						<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/" class="button white">Download Product</a></strong></p>
-						<p><strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">Download Product (mirror)</a></strong></p>
+                                                
+				<!-- Start  of Ian Fenty 2020-04-17 -->
+				<h2>Citation</h2>
+
+					<p>As a condition of using this product, you <strong><i>must</i></strong> use the following citations:</p>
+				  
+					<div class="indent gray-bg pad-20">
+					
+						<b>ECCO Version 4 Release 3 Dataset:</b>
+						<i><p>ECCO Consortium, 2019: ECCO Central Estimate (Version 4 Release 3). Retrieved from [to be specified by user]</p></i>
+
+						<b>ECCO Version 4 Release 3 Synopsis:</b>
+						<i><p><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf">Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380 </a></p></i>
+
+						<b>ECCO Version 4 Description:</b>
+						<i><p><a href="https://www.geosci-model-dev.net/8/3071/2015/">Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</a></p></i>
 					</div>
-					<div class="grid-cell grid--1of3 margin-20">
-						<div><img src="/assets/images/home/v4r3b.jpg"></div>
-					</div>
+
+
+				<h2>Download Dataset</h2>
+
+					<p><i>Note: ECCO's anonymous ftp server ftp://ecco.jpl.nas.gov has been discontinued.</i></p>
+
+					<h4>Option 1: ECCO Drive</h4>
+
+						<p>ECCO Drive <a href="https://ecco.jpl.nasa.gov/drive/files">https://ecco.jpl.nasa.gov/drive/files</a> is a WebDAV server that offers users a familiar interface to browse and download data through a web browser. Additionaly, ECCO's WebDAV server lets you mount ECCO Drive as if it were a local disk. Users can also transfer ECCO Drive files via the command line.</p>
+
+						<p><strong>Note: To use ECCO Drive users must first register for an <a href="https://urs.earthdata.nasa.gov/documentation">Earthdata account</a> at <a href="https://urs.earthdata.nasa.gov/users/new">https://urs.earthdata.nasa.gov/users/new</a>.</strong> After creating an Earthdata account, you will be issued ECCO Drive "WebDAV/Programmaic API credentials" (login and password) which you can find at <a href="https://ecco.jpl.nasa.gov/drive/">https://ecco.jpl.nasa.gov/drive/</a>. ECCO Drive WebDAV/Programmatic API credentials are not required to browse or download files from the web portal, but they are required to mount the ECCO Drive to your local machine and to download ECCO Drive files using command line tools like <i>wget</i>. <b>Just remember that your Earthdata and ECCO Drive credentials are different!</b><br><br>
+
+						<strong><a href="https://ecco.jpl.nasa.gov/drive/files" class="button white">ECCO Drive Web Interface</a></strong><br>
+						<strong><a href="https://ecco.jpl.nasa.gov/drive/help" class="button white">ECCO Drive Mounting Instructions</a></strong><br>
+						<strong><a href="https://drive.google.com/open?id=1XqQsfV1KnEX_ejQkcJoNrv6Qxknt8Kcr" class="button white">ECCO Drive Command Line Instructions</a></strong>
+
+					<h4>Option 2: UT Austin Mirror</h4>
+
+					<p>All ECCO V4r3 files on the ECCO Drive are mirrored at UT Austin</p><br>
+
+						<strong><a href="https://web.corral.tacc.utexas.edu/OceanProjects/ECCO/ECCOv4/Release3/" class="button white">UT Austin FTP Mirror</a></strong>
+
 				</div>
+				<div class="grid-cell grid--1of3 margin-20">
+					<div><img src="/assets/images/home/v4r4/v4r4_gmsl_gmobp.png"></div>
+				</div>
+				</div>
+
 
 				<h2>Overview</h2>
 				<div>
@@ -97,20 +130,10 @@ EOF;
 					</table>
 				</div>
 
-				<h2>Citation</h2>
-				<p>As a condition of using this product, you <strong><i>must</i></strong> cite the use of this product using the following citation.</p>
-				<div class="indent gray-bg pad-20">
-					<i>
-						<p>Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2017: ECCO Version 4 Release 3, http://hdl.handle.net/1721.1/110380, doi:1721.1/110380. Available at <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf" target="_blank" rel="noopener noreferrer">https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/v4r3_estimation_synopsis.pdf</a></p>
-						<p>Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</p>
-					</i>
-				</div>
-				<p>For more information, see our <a href="https://www.jpl.nasa.gov/imagepolicy/">Use and Copyright Web page</a>.</p>
-
 				<h2>User Guide</h2>
 				<p>A detailed description of available files and their content are
-summarized in a "User Guide" in the link below.
-</p>
+summarized in a "User Guide" in the link below.</p>
+				
 				<p><strong><a href="./user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
 				<h2>Analysis Tools</h2>
