@@ -33,7 +33,9 @@ EOF;
 						<p>Version 4 Release 3 (V4r3) covers the period 1992-2015. This product is an updated edition to that described by Forget et al. (2015, Geosci. Model Dev.). Version 4 is the first multi-decadal ECCO estimate that is truly global, including the Arctic Ocean. The Release 3 edition includes improvements in time-period (1992-2015), model (e.g., sea-ice), observations (e.g., GRACE, Aquarius), and constraints (e.g., correlated errors). V4r3 is superseced by Release 4 (V4r4) that covers an additional two year period. 
 						</p>
 
-						<p>[<i>Image at right</i>] Speed (cm/s) of 1992-2015 time-mean current at 5m depth. The figure combines into a global image, V4r3's thirteen tiles, each a 90-by-90 grid delineated by white lines.</p>
+				<!-- Start  of Ou Wang 2020-04-20 -->
+						<p>[<i>Image at right</i>] ECCO v4r3 Sea Level Trend 1993-2015 [mm/yr].</p>
+				<!-- End of Ou Wang 2020-04-20 -->
                                                 
 				<!-- Start  of Ian Fenty 2020-04-17 -->
 				<h2>Citation</h2>
@@ -75,7 +77,9 @@ EOF;
 
 				</div>
 				<div class="grid-cell grid--1of3 margin-20">
-					<div><img src="/assets/images/home/v4r4/v4r4_gmsl_gmobp.png"></div>
+				<!-- Start  of Ou Wang 2020-04-20 -->
+					<div><img src="/assets/images/home/ECCO_v4r3_GMSLR.png"></div>
+				<!-- End of Ou Wang 2020-04-20 -->
 				</div>
 				</div>
 
