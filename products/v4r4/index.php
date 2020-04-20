@@ -43,10 +43,10 @@ EOF;
 					<div class="indent gray-bg pad-20">
 					
 						<b>ECCO Version 4 Release 4 Dataset:</b>
-						<i><p>ECCO Consortium, 2019: ECCO Central Estimate (Version 4 Release 4). Retrieved from [to be specified by user]</p></i>
+						<i><p>ECCO Consortium, 2019: ECCO Central Estimate Version 4 Release 4. Retrieved from [to be specified by user]</p></i>
 
 						<b>ECCO Version 4 Release 4 Synopsis:</b>
-						<i><p><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf">Fukumori, I., O. Wang, I. Fenty, G. Forget, P. Heimbach, and R. M. Ponte, 2019: ECCO Version 4 Release 4.</a></p></i>
+						<i><p><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_synopsis.pdf">ECCO Consortium, 2019: ECCO Version 4 Release 4 Synopsis.</a></p></i>
 
 						<b>ECCO Version 4 Description:</b>
 						<i><p><a href="https://www.geosci-model-dev.net/8/3071/2015/">Forget, G., J.-M. Campin, P. Heimbach, C. N. Hill, R. M. Ponte, and C. Wunsch, 2015: ECCO version 4: an integrated framework for non-linear inverse modeling and global ocean state estimation. Geoscientific Model Development, 8, 3071-3104, doi:10.5194/gmd-8-3071-2015</a></p></i>
