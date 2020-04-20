@@ -22,7 +22,7 @@ EOF;
 			</header>
 			<div class='wysiwyg_content'>
 
-				<h2>ECCO Central Production Version 4 Release 4</h2>
+				<h2>ECCO Central Production Version 4 Release 3</h2>
 				<small>Authors: Fukumori, Ichiro; Wang, Ou; Fenty, Ian; Forget, Gael; Heimbach, Patrick; Ponte, Rui M.</small>
 
 
