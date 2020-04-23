@@ -23,7 +23,7 @@ EOF;
 				<h2>ECCO-V4r3</h2>				
 
 				<div>
-					<p>This <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
+					<p>This <a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release3/doc/">directory</a> contains the 'ECCO version 4, release 3' documentation files:</p>
 					<table class="full-width gray-striped text-left one-quarter-width">
 						<thead>
 							<th>Name</th>
@@ -299,7 +299,7 @@ EOF;
 						</thead>
 						<tbody>
 							<tr>
-								<td>eccov4r4_dlw_YYYY</td>
+								<td>eccov4r3_dlw_YYYY</td>
 								<td>Yearly files for 6-hourly downward longwave (W/m2) in binary. Positive to decrease ocean temperature.</td>
 							</tr>
 							<tr>
@@ -307,7 +307,7 @@ EOF;
 								<td>Downward shortwave (W/m2). Positive to decrease ocean temperature.</td>
 							</tr>
 							<tr>
-								<td>eccov4r4_rain_YYYY</td>
+								<td>eccov4r3_rain_YYYY</td>
 								<td>Precipitation (m/s). Positive to increase sea level.</td>
 							</tr>
 							<tr>
