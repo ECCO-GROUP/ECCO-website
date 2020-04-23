@@ -134,7 +134,7 @@ EOF;
 				<h2>User Guide</h2>
 				<p>A detailed description of available files and their content are summarized in a "User Guide" in the link below. </p>
 
-				<p><strong><a href="https://ecco.jpl.nasa.gov/drive/files/Version4/Release4/doc/v4r4_overview.pdf" class="button white">Read the User Guide</a></strong></p>
+				<p><strong><a href="./user-guide/" class="button white">Read the User Guide</a></strong></p>
 				
 				<h2>Analysis Tools</h2>
 
