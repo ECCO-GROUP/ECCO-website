@@ -44,14 +44,27 @@ import re
 #%%  
     
 def make_formatted_citations_from_xml(doc):
-    records = doc['xml']['records']['record']
+    records = list(doc['xml']['records']['record'])
     
     citation_strings = dict()
-    
+   
+#    print (doc.keys())
+#    print (doc['xml'].keys())
+#    print (doc['xml']['records'].keys())
+
+    print (records)
+    print('records is a ', type(records))
+#    for r in records:
+#        print(r)
+
     for r in range(len(records)):
-        print r
+        print (r)
         record = records[r]
+      
+        print('record is a ', type(record))
+        print(record['ref-type'])
         
+
         ref_type = record['ref-type']['@name']
         item_title = record['titles']['title']
         
@@ -360,7 +373,7 @@ def make_formatted_citations_from_xml(doc):
         
         
         else:
-            print r,  ref_type
+            #print r,  ref_type
             citation_string = ''
     
         citation_strings[r] = citation_string
@@ -407,12 +420,12 @@ def get_url(record):
                 tmp = url['web-urls']['url']
                 if isinstance(tmp, six.string_types):                
                     url_string += tmp
-                else:
-                    print 'GET_URL\N'
-                    print tmp
-                    print 'is not a string'
+    #            else:
+                    #print 'GET_URL\N'
+                    #print tmp
+                    #print 'is not a string'
         
-    #print type(url_string)
+#print type(url_string)
     return url_string
 
 
@@ -440,12 +453,13 @@ def make_author_string(authors, all_first=False):
                     single_author_string = make_single_author_string(authors[i], True)
                     author_string += ', and ' + single_author_string
                         
-    elif isinstance(authors,unicode):
+    elif isinstance(authors,six.string_types):
+        # was unicode with python 2.7   unicode):
         author_string = make_single_author_string(authors, all_first)
 
-    else:
-        print 'I do not know how to handle ', authors
-        print type(authors)
+    #else:
+        #print 'I do not know how to handle ', authors
+        #print type(authors)
 
     #print author_string
     return author_string    
@@ -555,7 +569,11 @@ if __name__== "__main__":
     
     lineB =  re.sub('(' + '|'.join(chars.keys()) + ')', replace_chars, line)
     doc = xmltodict.parse(lineB, encoding='utf-8')
-   
+  
+    print (doc.keys())
+    print (doc['xml'].keys())
+    print (doc['xml']['records'].keys())
+
     #%%
 #    with open(input_fname) as fd:
 #        doc = xmltodict.parse(fd.read(), encoding='utf-8')
@@ -566,9 +584,9 @@ if __name__== "__main__":
         tmp = new_doc['xml']['records']['record'][r]['formatted-citation']
         #print tmp.encode('utf-8'), '\n'
     
-    with open(output_fname, 'w') as f:
-        f.write(xmltodict.unparse(new_doc).encode('utf-8')) 
+    with open(output_fname, 'wb') as f:
+        f.write(xmltodict.unparse(new_doc).encode('utf8')) 
 
-    with open(output_fname + '-pretty', 'w') as f:
-        f.write(xmltodict.unparse(new_doc, pretty=True).encode('utf-8')) 
+    with open(output_fname + '-pretty', 'wb') as f:
+        f.write(xmltodict.unparse(new_doc, pretty=True).encode('utf8')) 
       
