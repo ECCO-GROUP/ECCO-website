@@ -25,19 +25,21 @@ EOF;
 
 				<!-- Ian : I updated all of the icons 2018-11-16 and added
 				           publication highlights -->
+				<!-- Ou : I fixed two broken links from Topics and Teams. -->
 			 	<div class="grid-cell flexit">
-			 		<a href="analysis_tools/">
-		 				<img alt="Analysis Tools" src="/assets/images/icons/new_research_topics.jpg">
+			 		<a href="topics/">
+		 				<img alt="Topics" src="/assets/images/icons/new_research_topics.jpg">
 		 				<div class="content_title text-center">Topics</div>
 			 		</a>
 			 	</div>
 
 			 	<div class="grid-cell flexit">
-			 		<a href="faq/">
-	 					<img alt="Frequently Asked Questions (FAQ)" src="/assets/images/icons/new_teams.jpg">
+			 		<a href="teams/">
+	 					<img alt="Teams" src="/assets/images/icons/new_teams.jpg">
 		 				<div class="content_title text-center">Teams</div>
 			 		</a>
 			 	</div>
+				<!-- Ou : END "I fixed two broken links from Topics and Teams." -->
 
 			 	<?php /*
 			 	<div class="grid-cell flexit">
